@@ -51,12 +51,34 @@
     
     <section class="phpdocumentor-sidebar__category">
         <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
-                                                <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/drupal.html"><abbr title="\Drupal">Drupal</abbr></a></h4>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/drupal.html"><abbr title="\Drupal">Drupal</abbr></a></h4>
                 <ul class="phpdocumentor-list">
+                                            <li><a href="namespaces/drupal-o365-contacts.html"><abbr title="\Drupal\o365_contacts">o365_contacts</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-groups.html"><abbr title="\Drupal\o365_groups">o365_groups</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-links.html"><abbr title="\Drupal\o365_links">o365_links</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-onedrive.html"><abbr title="\Drupal\o365_onedrive">o365_onedrive</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-outlook-calendar.html"><abbr title="\Drupal\o365_outlook_calendar">o365_outlook_calendar</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-outlook-mail.html"><abbr title="\Drupal\o365_outlook_mail">o365_outlook_mail</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-profile.html"><abbr title="\Drupal\o365_profile">o365_profile</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-rest.html"><abbr title="\Drupal\o365_rest">o365_rest</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-sharepoint-field.html"><abbr title="\Drupal\o365_sharepoint_field">o365_sharepoint_field</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-sharepoint-file.html"><abbr title="\Drupal\o365_sharepoint_file">o365_sharepoint_file</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-sso.html"><abbr title="\Drupal\o365_sso">o365_sso</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-sso-user.html"><abbr title="\Drupal\o365_sso_user">o365_sso_user</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-teams.html"><abbr title="\Drupal\o365_teams">o365_teams</abbr></a></li>
                                             <li><a href="namespaces/drupal-o365.html"><abbr title="\Drupal\o365">o365</abbr></a></li>
                                     </ul>
                         </section>
 
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="packages/Default.html"><abbr title="\Default">Default</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="packages/Drupal.html"><abbr title="\Drupal">Drupal</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="packages/Drupal-o365.html"><abbr title="\Drupal\o365">o365</abbr></a></li>
+                            </ul>
+                        </section>
     
     <section class="phpdocumentor-sidebar__category">
         <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
@@ -82,6 +104,12 @@
     ConstantsService
 
     
+            <div class="phpdocumentor-element__package">
+            in package
+            <ul class="phpdocumentor-breadcrumbs">
+                                    <li class="phpdocumentor-breadcrumb"><a href="packages/Default.html">Default</a></li>
+                            </ul>
+        </div>
     
     
     </h2>
@@ -89,10 +117,10 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/ConstantsService.php"><a href="files/src-constantsservice.html"><abbr title="src/ConstantsService.php">ConstantsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">13</span>
+    <span class="phpdocumentor-element-found-in__line">11</span>
 </aside>
 
-            <p class="phpdocumentor-summary">Class ConstantsService.</p>
+            <p class="phpdocumentor-summary">Some constants we use in the code.</p>
 
     <section class="phpdocumentor-description"></section>
 
@@ -115,6 +143,13 @@
                 &nbsp;: <abbr title="\Drupal\Core\Config\ImmutableConfig">ImmutableConfig</abbr>            </span>
 </dt>
 <dd>The modules API config.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/Drupal-o365-ConstantsService.html#property_apiSettings">$apiSettings</a>
+    <span>
+                &nbsp;: array&lt;string|int, mixed&gt;            </span>
+</dt>
+<dd>The modules API settings like the Client ID.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a href="classes/Drupal-o365-ConstantsService.html#property_configFactory">$configFactory</a>
@@ -228,6 +263,13 @@
 </dt>
 <dd>Get the user temp store name.</dd>
 
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a href="classes/Drupal-o365-ConstantsService.html#method_getTenant">getTenant()</a>
+    <span>
+                        &nbsp;: array&lt;string|int, mixed&gt;|mixed|string|null    </span>
+</dt>
+<dd>Get the tenant ID.</dd>
+
         </dl>
 
 
@@ -256,7 +298,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/ConstantsService.php"><a href="files/src-constantsservice.html"><abbr title="src/ConstantsService.php">ConstantsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">27</span>
+    <span class="phpdocumentor-element-found-in__line">25</span>
 </aside>
 
         <p class="phpdocumentor-summary">The modules API config.</p>
@@ -265,6 +307,38 @@
     <span class="phpdocumentor-signature__visibility">protected</span>
         <span class="phpdocumentor-signature__type"><abbr title="\Drupal\Core\Config\ImmutableConfig">ImmutableConfig</abbr></span>
     <span class="phpdocumentor-signature__name">$apiConfig</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_apiSettings">
+        $apiSettings
+        <a href="classes/Drupal-o365-ConstantsService.html#property_apiSettings" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/ConstantsService.php"><a href="files/src-constantsservice.html"><abbr title="src/ConstantsService.php">ConstantsService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">32</span>
+</aside>
+
+        <p class="phpdocumentor-summary">The modules API settings like the Client ID.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
+    <span class="phpdocumentor-signature__name">$apiSettings</span>
     </code>
 
         <section class="phpdocumentor-description"></section>
@@ -288,7 +362,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/ConstantsService.php"><a href="files/src-constantsservice.html"><abbr title="src/ConstantsService.php">ConstantsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">20</span>
+    <span class="phpdocumentor-element-found-in__line">18</span>
 </aside>
 
         <p class="phpdocumentor-summary">The config factory interface.</p>
@@ -320,7 +394,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/ConstantsService.php"><a href="files/src-constantsservice.html"><abbr title="src/ConstantsService.php">ConstantsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">34</span>
+    <span class="phpdocumentor-element-found-in__line">39</span>
 </aside>
 
         <p class="phpdocumentor-summary">The request object.</p>
@@ -352,7 +426,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/ConstantsService.php"><a href="files/src-constantsservice.html"><abbr title="src/ConstantsService.php">ConstantsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">69</span>
+    <span class="phpdocumentor-element-found-in__line">60</span>
 </aside>
 
         <p class="phpdocumentor-summary">The authorize endpoint path.</p>
@@ -384,7 +458,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/ConstantsService.php"><a href="files/src-constantsservice.html"><abbr title="src/ConstantsService.php">ConstantsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">62</span>
+    <span class="phpdocumentor-element-found-in__line">53</span>
 </aside>
 
         <p class="phpdocumentor-summary">The authorize endpoint root.</p>
@@ -416,7 +490,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/ConstantsService.php"><a href="files/src-constantsservice.html"><abbr title="src/ConstantsService.php">ConstantsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">55</span>
+    <span class="phpdocumentor-element-found-in__line">46</span>
 </aside>
 
         <p class="phpdocumentor-summary">The url where Microsoft will redirect us too.</p>
@@ -448,7 +522,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/ConstantsService.php"><a href="files/src-constantsservice.html"><abbr title="src/ConstantsService.php">ConstantsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">83</span>
+    <span class="phpdocumentor-element-found-in__line">74</span>
 </aside>
 
         <p class="phpdocumentor-summary">The token endpoint path.</p>
@@ -480,7 +554,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/ConstantsService.php"><a href="files/src-constantsservice.html"><abbr title="src/ConstantsService.php">ConstantsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">76</span>
+    <span class="phpdocumentor-element-found-in__line">67</span>
 </aside>
 
         <p class="phpdocumentor-summary">The token endpoint root.</p>
@@ -512,7 +586,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/ConstantsService.php"><a href="files/src-constantsservice.html"><abbr title="src/ConstantsService.php">ConstantsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">97</span>
+    <span class="phpdocumentor-element-found-in__line">88</span>
 </aside>
 
         <p class="phpdocumentor-summary">The name of the data saved in the temp store.</p>
@@ -544,7 +618,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/ConstantsService.php"><a href="files/src-constantsservice.html"><abbr title="src/ConstantsService.php">ConstantsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">90</span>
+    <span class="phpdocumentor-element-found-in__line">81</span>
 </aside>
 
         <p class="phpdocumentor-summary">The name of the temp store.</p>
@@ -580,14 +654,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/ConstantsService.php"><a href="files/src-constantsservice.html"><abbr title="src/ConstantsService.php">ConstantsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">44</span>
+    <span class="phpdocumentor-element-found-in__line">100</span>
 </aside>
 
         <p class="phpdocumentor-summary">Constructs a new ConstantsService object.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Drupal\Core\Config\ConfigFactoryInterface">ConfigFactoryInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$configFactory</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\HttpFoundation\RequestStack">RequestStack</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$requestStack</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Drupal\Core\Config\ConfigFactoryInterface">ConfigFactoryInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$configFactory</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\HttpFoundation\RequestStack">RequestStack</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$requestStack</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Drupal-o365-HelperService.html"><abbr title="\Drupal\o365\HelperService">HelperService</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$helperService</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
         <section class="phpdocumentor-description"></section>
 
@@ -607,7 +681,18 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\HttpFoundation\RequestStack">RequestStack</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"><p>The request stack object.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$helperService</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Drupal-o365-HelperService.html"><abbr title="\Drupal\o365\HelperService">HelperService</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The helper service used to get the api settings.</p>
+</section>
+
             </dd>
             </dl>
 
@@ -633,7 +718,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/ConstantsService.php"><a href="files/src-constantsservice.html"><abbr title="src/ConstantsService.php">ConstantsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">115</span>
+    <span class="phpdocumentor-element-found-in__line">123</span>
 </aside>
 
         <p class="phpdocumentor-summary">Get the authorize url.</p>
@@ -668,7 +753,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/ConstantsService.php"><a href="files/src-constantsservice.html"><abbr title="src/ConstantsService.php">ConstantsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">159</span>
+    <span class="phpdocumentor-element-found-in__line">165</span>
 </aside>
 
         <p class="phpdocumentor-summary">Get the cookie expire timestamp.</p>
@@ -703,7 +788,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/ConstantsService.php"><a href="files/src-constantsservice.html"><abbr title="src/ConstantsService.php">ConstantsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">105</span>
+    <span class="phpdocumentor-element-found-in__line">113</span>
 </aside>
 
         <p class="phpdocumentor-summary">Get the redirect URL.</p>
@@ -738,7 +823,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/ConstantsService.php"><a href="files/src-constantsservice.html"><abbr title="src/ConstantsService.php">ConstantsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">127</span>
+    <span class="phpdocumentor-element-found-in__line">134</span>
 </aside>
 
         <p class="phpdocumentor-summary">Get the token url.</p>
@@ -773,7 +858,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/ConstantsService.php"><a href="files/src-constantsservice.html"><abbr title="src/ConstantsService.php">ConstantsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">149</span>
+    <span class="phpdocumentor-element-found-in__line">155</span>
 </aside>
 
         <p class="phpdocumentor-summary">Get the user temp store data name.</p>
@@ -808,7 +893,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/ConstantsService.php"><a href="files/src-constantsservice.html"><abbr title="src/ConstantsService.php">ConstantsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">139</span>
+    <span class="phpdocumentor-element-found-in__line">145</span>
 </aside>
 
         <p class="phpdocumentor-summary">Get the user temp store name.</p>
@@ -826,6 +911,41 @@
     <span class="phpdocumentor-signature__response_type">string</span>
             &mdash;
             <section class="phpdocumentor-description"><p>The user temp store name.</p>
+</section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getTenant">
+        getTenant()
+        <a href="classes/Drupal-o365-ConstantsService.html#method_getTenant" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/ConstantsService.php"><a href="files/src-constantsservice.html"><abbr title="src/ConstantsService.php">ConstantsService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">175</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Get the tenant ID.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                <span class="phpdocumentor-signature__name">getTenant</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;|mixed|string|null</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;|mixed|string|null</span>
+            &mdash;
+            <section class="phpdocumentor-description"><p>The tenant ID.</p>
 </section>
 
     

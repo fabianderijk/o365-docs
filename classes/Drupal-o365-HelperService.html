@@ -51,12 +51,34 @@
     
     <section class="phpdocumentor-sidebar__category">
         <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
-                                                <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/drupal.html"><abbr title="\Drupal">Drupal</abbr></a></h4>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/drupal.html"><abbr title="\Drupal">Drupal</abbr></a></h4>
                 <ul class="phpdocumentor-list">
+                                            <li><a href="namespaces/drupal-o365-contacts.html"><abbr title="\Drupal\o365_contacts">o365_contacts</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-groups.html"><abbr title="\Drupal\o365_groups">o365_groups</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-links.html"><abbr title="\Drupal\o365_links">o365_links</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-onedrive.html"><abbr title="\Drupal\o365_onedrive">o365_onedrive</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-outlook-calendar.html"><abbr title="\Drupal\o365_outlook_calendar">o365_outlook_calendar</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-outlook-mail.html"><abbr title="\Drupal\o365_outlook_mail">o365_outlook_mail</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-profile.html"><abbr title="\Drupal\o365_profile">o365_profile</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-rest.html"><abbr title="\Drupal\o365_rest">o365_rest</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-sharepoint-field.html"><abbr title="\Drupal\o365_sharepoint_field">o365_sharepoint_field</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-sharepoint-file.html"><abbr title="\Drupal\o365_sharepoint_file">o365_sharepoint_file</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-sso.html"><abbr title="\Drupal\o365_sso">o365_sso</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-sso-user.html"><abbr title="\Drupal\o365_sso_user">o365_sso_user</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-teams.html"><abbr title="\Drupal\o365_teams">o365_teams</abbr></a></li>
                                             <li><a href="namespaces/drupal-o365.html"><abbr title="\Drupal\o365">o365</abbr></a></li>
                                     </ul>
                         </section>
 
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="packages/Default.html"><abbr title="\Default">Default</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="packages/Drupal.html"><abbr title="\Drupal">Drupal</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="packages/Drupal-o365.html"><abbr title="\Drupal\o365">o365</abbr></a></li>
+                            </ul>
+                        </section>
     
     <section class="phpdocumentor-sidebar__category">
         <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
@@ -82,6 +104,12 @@
     HelperService
 
     
+            <div class="phpdocumentor-element__package">
+            in package
+            <ul class="phpdocumentor-breadcrumbs">
+                                    <li class="phpdocumentor-breadcrumb"><a href="packages/Default.html">Default</a></li>
+                            </ul>
+        </div>
     
     
     </h2>
@@ -89,10 +117,10 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/HelperService.php"><a href="files/src-helperservice.html"><abbr title="src/HelperService.php">HelperService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">12</span>
+    <span class="phpdocumentor-element-found-in__line">11</span>
 </aside>
 
-            <p class="phpdocumentor-summary">Class HelperService.</p>
+            <p class="phpdocumentor-summary">Service with some helpful methods that we use in different locations.</p>
 
     <section class="phpdocumentor-description"></section>
 
@@ -135,7 +163,28 @@
     <span>
                         &nbsp;: string    </span>
 </dt>
-<dd>Formate a ISO8601 date into something more readable.</dd>
+<dd>Format a ISO8601 date into something more readable.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Drupal-o365-HelperService.html#method_getApiConfig">getApiConfig()</a>
+    <span>
+                        &nbsp;: false|array&lt;string|int, mixed&gt;    </span>
+</dt>
+<dd>Retrieve the API settings from the config.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Drupal-o365-HelperService.html#method_getAuthScopes">getAuthScopes()</a>
+    <span>
+                        &nbsp;: string|array&lt;string|int, mixed&gt;    </span>
+</dt>
+<dd>Get the auth scopes string.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Drupal-o365-HelperService.html#method_getTsFromDate">getTsFromDate()</a>
+    <span>
+                        &nbsp;: string    </span>
+</dt>
+<dd>Generate a unix timestamp from a date.</dd>
 
         </dl>
 
@@ -165,7 +214,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/HelperService.php"><a href="files/src-helperservice.html"><abbr title="src/HelperService.php">HelperService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">19</span>
+    <span class="phpdocumentor-element-found-in__line">18</span>
 </aside>
 
         <p class="phpdocumentor-summary">Drupal\Core\Datetime\DateFormatterInterface definition.</p>
@@ -201,7 +250,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/HelperService.php"><a href="files/src-helperservice.html"><abbr title="src/HelperService.php">HelperService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">27</span>
+    <span class="phpdocumentor-element-found-in__line">26</span>
 </aside>
 
         <p class="phpdocumentor-summary">Constructs a new HelperService object.</p>
@@ -247,7 +296,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/HelperService.php"><a href="files/src-helperservice.html"><abbr title="src/HelperService.php">HelperService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">40</span>
+    <span class="phpdocumentor-element-found-in__line">39</span>
 </aside>
 
         <p class="phpdocumentor-summary">Create a ISO8601 timestamp that Microsoft Graph API can use.</p>
@@ -294,10 +343,10 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/HelperService.php"><a href="files/src-helperservice.html"><abbr title="src/HelperService.php">HelperService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">59</span>
+    <span class="phpdocumentor-element-found-in__line">58</span>
 </aside>
 
-        <p class="phpdocumentor-summary">Formate a ISO8601 date into something more readable.</p>
+        <p class="phpdocumentor-summary">Format a ISO8601 date into something more readable.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
@@ -357,6 +406,144 @@
     <span class="phpdocumentor-signature__response_type">string</span>
             &mdash;
             <section class="phpdocumentor-description"><p>The formatted date.</p>
+</section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getApiConfig">
+        getApiConfig()
+        <a href="classes/Drupal-o365-HelperService.html#method_getApiConfig" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/HelperService.php"><a href="files/src-helperservice.html"><abbr title="src/HelperService.php">HelperService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">71</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Retrieve the API settings from the config.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getApiConfig</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">false|array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">false|array&lt;string|int, mixed&gt;</span>
+            &mdash;
+            <section class="phpdocumentor-description"><p>The array with the settings, or FALSE.</p>
+</section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getAuthScopes">
+        getAuthScopes()
+        <a href="classes/Drupal-o365-HelperService.html#method_getAuthScopes" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/HelperService.php"><a href="files/src-helperservice.html"><abbr title="src/HelperService.php">HelperService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">85</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Get the auth scopes string.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getAuthScopes</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$asArray</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">FALSE</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$asArray</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">FALSE</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>If the returned value needs to be a array, defaults to FALSE.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string|array&lt;string|int, mixed&gt;</span>
+            &mdash;
+            <section class="phpdocumentor-description"><p>The space seperated list of auth scopes or a raw array of scopes.</p>
+</section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getTsFromDate">
+        getTsFromDate()
+        <a href="classes/Drupal-o365-HelperService.html#method_getTsFromDate" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/HelperService.php"><a href="files/src-helperservice.html"><abbr title="src/HelperService.php">HelperService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">122</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Generate a unix timestamp from a date.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getTsFromDate</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$date</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$timezone</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;UTC&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$date</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The date.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$timezone</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;UTC&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The timezone.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string</span>
+            &mdash;
+            <section class="phpdocumentor-description"><p>The unix timestamp.</p>
 </section>
 
     

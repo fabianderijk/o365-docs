@@ -51,12 +51,34 @@
     
     <section class="phpdocumentor-sidebar__category">
         <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
-                                                <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/drupal.html"><abbr title="\Drupal">Drupal</abbr></a></h4>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/drupal.html"><abbr title="\Drupal">Drupal</abbr></a></h4>
                 <ul class="phpdocumentor-list">
+                                            <li><a href="namespaces/drupal-o365-contacts.html"><abbr title="\Drupal\o365_contacts">o365_contacts</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-groups.html"><abbr title="\Drupal\o365_groups">o365_groups</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-links.html"><abbr title="\Drupal\o365_links">o365_links</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-onedrive.html"><abbr title="\Drupal\o365_onedrive">o365_onedrive</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-outlook-calendar.html"><abbr title="\Drupal\o365_outlook_calendar">o365_outlook_calendar</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-outlook-mail.html"><abbr title="\Drupal\o365_outlook_mail">o365_outlook_mail</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-profile.html"><abbr title="\Drupal\o365_profile">o365_profile</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-rest.html"><abbr title="\Drupal\o365_rest">o365_rest</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-sharepoint-field.html"><abbr title="\Drupal\o365_sharepoint_field">o365_sharepoint_field</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-sharepoint-file.html"><abbr title="\Drupal\o365_sharepoint_file">o365_sharepoint_file</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-sso.html"><abbr title="\Drupal\o365_sso">o365_sso</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-sso-user.html"><abbr title="\Drupal\o365_sso_user">o365_sso_user</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-teams.html"><abbr title="\Drupal\o365_teams">o365_teams</abbr></a></li>
                                             <li><a href="namespaces/drupal-o365.html"><abbr title="\Drupal\o365">o365</abbr></a></li>
                                     </ul>
                         </section>
 
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="packages/Default.html"><abbr title="\Default">Default</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="packages/Drupal.html"><abbr title="\Drupal">Drupal</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="packages/Drupal-o365.html"><abbr title="\Drupal\o365">o365</abbr></a></li>
+                            </ul>
+                        </section>
     
     <section class="phpdocumentor-sidebar__category">
         <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
@@ -82,6 +104,12 @@
     AuthenticationService
 
     
+            <div class="phpdocumentor-element__package">
+            in package
+            <ul class="phpdocumentor-breadcrumbs">
+                                    <li class="phpdocumentor-breadcrumb"><a href="packages/Default.html">Default</a></li>
+                            </ul>
+        </div>
     
             <span class="phpdocumentor-element__implements">
             implements
@@ -92,10 +120,10 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/AuthenticationService.php"><a href="files/src-authenticationservice.html"><abbr title="src/AuthenticationService.php">AuthenticationService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">17</span>
+    <span class="phpdocumentor-element-found-in__line">18</span>
 </aside>
 
-            <p class="phpdocumentor-summary">Class AuthenticationService.</p>
+            <p class="phpdocumentor-summary">Service used to authenticate users between Office 365 and Drupal.</p>
 
     <section class="phpdocumentor-description"></section>
 
@@ -111,7 +139,7 @@
 
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/Drupal-o365-AuthenticationServiceInterface.html"><abbr title="\Drupal\o365\AuthenticationServiceInterface">AuthenticationServiceInterface</abbr></a></dt>
-        <dd>Interface AuthenticationServiceInterface.</dd>
+        <dd>The interface for the AuthenticationService.</dd>
     
     
     </dl>
@@ -138,6 +166,20 @@
 <dd>The modules API config.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/Drupal-o365-AuthenticationService.html#property_apiSettings">$apiSettings</a>
+    <span>
+                &nbsp;: array&lt;string|int, mixed&gt;            </span>
+</dt>
+<dd>The modules API settings like the client ID.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/Drupal-o365-AuthenticationService.html#property_authmap">$authmap</a>
+    <span>
+                &nbsp;: <abbr title="\Drupal\externalauth\Authmap">Authmap</abbr>            </span>
+</dt>
+<dd>The auth map.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a href="classes/Drupal-o365-AuthenticationService.html#property_configFactory">$configFactory</a>
     <span>
                 &nbsp;: <abbr title="\Drupal\Core\Config\ConfigFactoryInterface">ConfigFactoryInterface</abbr>            </span>
@@ -150,6 +192,20 @@
                 &nbsp;: <a href="classes/Drupal-o365-ConstantsService.html"><abbr title="\Drupal\o365\ConstantsService">ConstantsService</abbr></a>            </span>
 </dt>
 <dd>The ConstantsService implementation.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/Drupal-o365-AuthenticationService.html#property_currentUser">$currentUser</a>
+    <span>
+                &nbsp;: <abbr title="\Drupal\Core\Session\AccountProxyInterface">AccountProxyInterface</abbr>            </span>
+</dt>
+<dd>The current user account.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/Drupal-o365-AuthenticationService.html#property_helperService">$helperService</a>
+    <span>
+                &nbsp;: <a href="classes/Drupal-o365-HelperService.html"><abbr title="\Drupal\o365\HelperService">HelperService</abbr></a>            </span>
+</dt>
+<dd>The o365 helper service.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a href="classes/Drupal-o365-AuthenticationService.html#property_loggerService">$loggerService</a>
@@ -208,6 +264,13 @@
 <dd>Constructs a new AuthenticationService object.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Drupal-o365-AuthenticationService.html#method_checkForOfficeLogin">checkForOfficeLogin()</a>
+    <span>
+                        &nbsp;: string|bool    </span>
+</dt>
+<dd>Check if a user is logged in via Office.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Drupal-o365-AuthenticationService.html#method_getAccessToken">getAccessToken()</a>
     <span>
                         &nbsp;: string    </span>
@@ -215,7 +278,7 @@
 <dd>Get the access token for the user.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Drupal-o365-AuthenticationService.html#method_loginUser">loginUser()</a>
+    <a href="classes/Drupal-o365-AuthenticationService.html#method_redirectToAuthorizationUrl">redirectToAuthorizationUrl()</a>
     <span>
                         &nbsp;: mixed    </span>
 </dt>
@@ -227,6 +290,13 @@
                         &nbsp;: mixed    </span>
 </dt>
 <dd>Save the auth data from the cookie in the user session storage.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Drupal-o365-AuthenticationService.html#method_saveAuthDataFromUrl">saveAuthDataFromUrl()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd>Save the auth data from the url parameters in the user session storage.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Drupal-o365-AuthenticationService.html#method_setAccessToken">setAccessToken()</a>
@@ -298,7 +368,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/AuthenticationService.php"><a href="files/src-authenticationservice.html"><abbr title="src/AuthenticationService.php">AuthenticationService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">94</span>
+    <span class="phpdocumentor-element-found-in__line">102</span>
 </aside>
 
         <p class="phpdocumentor-summary">If we want to save the auth as a cookie.</p>
@@ -330,7 +400,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/AuthenticationService.php"><a href="files/src-authenticationservice.html"><abbr title="src/AuthenticationService.php">AuthenticationService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">31</span>
+    <span class="phpdocumentor-element-found-in__line">32</span>
 </aside>
 
         <p class="phpdocumentor-summary">The modules API config.</p>
@@ -339,6 +409,70 @@
     <span class="phpdocumentor-signature__visibility">protected</span>
         <span class="phpdocumentor-signature__type"><abbr title="\Drupal\Core\Config\ImmutableConfig">ImmutableConfig</abbr></span>
     <span class="phpdocumentor-signature__name">$apiConfig</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_apiSettings">
+        $apiSettings
+        <a href="classes/Drupal-o365-AuthenticationService.html#property_apiSettings" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/AuthenticationService.php"><a href="files/src-authenticationservice.html"><abbr title="src/AuthenticationService.php">AuthenticationService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">39</span>
+</aside>
+
+        <p class="phpdocumentor-summary">The modules API settings like the client ID.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
+    <span class="phpdocumentor-signature__name">$apiSettings</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_authmap">
+        $authmap
+        <a href="classes/Drupal-o365-AuthenticationService.html#property_authmap" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/AuthenticationService.php"><a href="files/src-authenticationservice.html"><abbr title="src/AuthenticationService.php">AuthenticationService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">116</span>
+</aside>
+
+        <p class="phpdocumentor-summary">The auth map.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type"><abbr title="\Drupal\externalauth\Authmap">Authmap</abbr></span>
+    <span class="phpdocumentor-signature__name">$authmap</span>
     </code>
 
         <section class="phpdocumentor-description"></section>
@@ -362,7 +496,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/AuthenticationService.php"><a href="files/src-authenticationservice.html"><abbr title="src/AuthenticationService.php">AuthenticationService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">24</span>
+    <span class="phpdocumentor-element-found-in__line">25</span>
 </aside>
 
         <p class="phpdocumentor-summary">The config factory interface.</p>
@@ -394,7 +528,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/AuthenticationService.php"><a href="files/src-authenticationservice.html"><abbr title="src/AuthenticationService.php">AuthenticationService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">59</span>
+    <span class="phpdocumentor-element-found-in__line">67</span>
 </aside>
 
         <p class="phpdocumentor-summary">The ConstantsService implementation.</p>
@@ -403,6 +537,70 @@
     <span class="phpdocumentor-signature__visibility">protected</span>
         <span class="phpdocumentor-signature__type"><a href="classes/Drupal-o365-ConstantsService.html"><abbr title="\Drupal\o365\ConstantsService">ConstantsService</abbr></a></span>
     <span class="phpdocumentor-signature__name">$constants</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_currentUser">
+        $currentUser
+        <a href="classes/Drupal-o365-AuthenticationService.html#property_currentUser" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/AuthenticationService.php"><a href="files/src-authenticationservice.html"><abbr title="src/AuthenticationService.php">AuthenticationService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">109</span>
+</aside>
+
+        <p class="phpdocumentor-summary">The current user account.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type"><abbr title="\Drupal\Core\Session\AccountProxyInterface">AccountProxyInterface</abbr></span>
+    <span class="phpdocumentor-signature__name">$currentUser</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_helperService">
+        $helperService
+        <a href="classes/Drupal-o365-AuthenticationService.html#property_helperService" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/AuthenticationService.php"><a href="files/src-authenticationservice.html"><abbr title="src/AuthenticationService.php">AuthenticationService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">123</span>
+</aside>
+
+        <p class="phpdocumentor-summary">The o365 helper service.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type"><a href="classes/Drupal-o365-HelperService.html"><abbr title="\Drupal\o365\HelperService">HelperService</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$helperService</span>
     </code>
 
         <section class="phpdocumentor-description"></section>
@@ -426,7 +624,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/AuthenticationService.php"><a href="files/src-authenticationservice.html"><abbr title="src/AuthenticationService.php">AuthenticationService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">66</span>
+    <span class="phpdocumentor-element-found-in__line">74</span>
 </aside>
 
         <p class="phpdocumentor-summary">The logger service.</p>
@@ -458,7 +656,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/AuthenticationService.php"><a href="files/src-authenticationservice.html"><abbr title="src/AuthenticationService.php">AuthenticationService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">38</span>
+    <span class="phpdocumentor-element-found-in__line">46</span>
 </aside>
 
         <p class="phpdocumentor-summary">The modules base config.</p>
@@ -490,7 +688,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/AuthenticationService.php"><a href="files/src-authenticationservice.html"><abbr title="src/AuthenticationService.php">AuthenticationService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">52</span>
+    <span class="phpdocumentor-element-found-in__line">60</span>
 </aside>
 
         <p class="phpdocumentor-summary">A oauth provider.</p>
@@ -522,7 +720,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/AuthenticationService.php"><a href="files/src-authenticationservice.html"><abbr title="src/AuthenticationService.php">AuthenticationService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">73</span>
+    <span class="phpdocumentor-element-found-in__line">81</span>
 </aside>
 
         <p class="phpdocumentor-summary">The current request.</p>
@@ -554,7 +752,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/AuthenticationService.php"><a href="files/src-authenticationservice.html"><abbr title="src/AuthenticationService.php">AuthenticationService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">45</span>
+    <span class="phpdocumentor-element-found-in__line">53</span>
 </aside>
 
         <p class="phpdocumentor-summary">The private temp store.</p>
@@ -586,7 +784,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/AuthenticationService.php"><a href="files/src-authenticationservice.html"><abbr title="src/AuthenticationService.php">AuthenticationService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">87</span>
+    <span class="phpdocumentor-element-found-in__line">95</span>
 </aside>
 
         <p class="phpdocumentor-summary">The auth data.</p>
@@ -618,7 +816,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/AuthenticationService.php"><a href="files/src-authenticationservice.html"><abbr title="src/AuthenticationService.php">AuthenticationService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">80</span>
+    <span class="phpdocumentor-element-found-in__line">88</span>
 </aside>
 
         <p class="phpdocumentor-summary">If we want to add debug messages.</p>
@@ -654,14 +852,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/AuthenticationService.php"><a href="files/src-authenticationservice.html"><abbr title="src/AuthenticationService.php">AuthenticationService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">110</span>
+    <span class="phpdocumentor-element-found-in__line">145</span>
 </aside>
 
         <p class="phpdocumentor-summary">Constructs a new AuthenticationService object.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Drupal\Core\Config\ConfigFactoryInterface">ConfigFactoryInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$configFactory</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Drupal\Core\TempStore\PrivateTempStoreFactory">PrivateTempStoreFactory</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$tempStoreFactory</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Drupal-o365-ConstantsService.html"><abbr title="\Drupal\o365\ConstantsService">ConstantsService</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$constantsService</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Drupal-o365-O365LoggerServiceInterface.html"><abbr title="\Drupal\o365\O365LoggerServiceInterface">O365LoggerServiceInterface</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$loggerService</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\HttpFoundation\RequestStack">RequestStack</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$requestStack</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Drupal\Core\Config\ConfigFactoryInterface">ConfigFactoryInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$configFactory</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Drupal\Core\TempStore\PrivateTempStoreFactory">PrivateTempStoreFactory</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$tempStoreFactory</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Drupal-o365-ConstantsService.html"><abbr title="\Drupal\o365\ConstantsService">ConstantsService</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$constantsService</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Drupal-o365-O365LoggerServiceInterface.html"><abbr title="\Drupal\o365\O365LoggerServiceInterface">O365LoggerServiceInterface</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$loggerService</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\HttpFoundation\RequestStack">RequestStack</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$requestStack</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Drupal-o365-HelperService.html"><abbr title="\Drupal\o365\HelperService">HelperService</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$helperService</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Drupal\Core\Session\AccountProxyInterface">AccountProxyInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$accountProxy</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Drupal\externalauth\Authmap">Authmap</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$authmap</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
         <section class="phpdocumentor-description"></section>
 
@@ -712,6 +910,33 @@
 </section>
 
             </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$helperService</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Drupal-o365-HelperService.html"><abbr title="\Drupal\o365\HelperService">HelperService</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The helper service used to get the api settings.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$accountProxy</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Drupal\Core\Session\AccountProxyInterface">AccountProxyInterface</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The account proxy for the current user.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$authmap</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Drupal\externalauth\Authmap">Authmap</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The auth map.</p>
+</section>
+
+            </dd>
             </dl>
 
     
@@ -729,6 +954,41 @@
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_checkForOfficeLogin">
+        checkForOfficeLogin()
+        <a href="classes/Drupal-o365-AuthenticationService.html#method_checkForOfficeLogin" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/AuthenticationService.php"><a href="files/src-authenticationservice.html"><abbr title="src/AuthenticationService.php">AuthenticationService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">285</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Check if a user is logged in via Office.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">checkForOfficeLogin</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|bool</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string|bool</span>
+            &mdash;
+            <section class="phpdocumentor-description"><p>The users ID or FALSE if not logged in via Office.</p>
+</section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_getAccessToken">
         getAccessToken()
         <a href="classes/Drupal-o365-AuthenticationService.html#method_getAccessToken" class="headerlink"><i class="fas fa-link"></i></a>
@@ -736,7 +996,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/AuthenticationService.php"><a href="files/src-authenticationservice.html"><abbr title="src/AuthenticationService.php">AuthenticationService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">178</span>
+    <span class="phpdocumentor-element-found-in__line">229</span>
 </aside>
 
         <p class="phpdocumentor-summary">Get the access token for the user.</p>
@@ -776,21 +1036,21 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_loginUser">
-        loginUser()
-        <a href="classes/Drupal-o365-AuthenticationService.html#method_loginUser" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_redirectToAuthorizationUrl">
+        redirectToAuthorizationUrl()
+        <a href="classes/Drupal-o365-AuthenticationService.html#method_redirectToAuthorizationUrl" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/AuthenticationService.php"><a href="files/src-authenticationservice.html"><abbr title="src/AuthenticationService.php">AuthenticationService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">125</span>
+    <span class="phpdocumentor-element-found-in__line">164</span>
 </aside>
 
         <p class="phpdocumentor-summary">Redirect the user to the correct Microsoft pages for oAuth2.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">loginUser</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                <span class="phpdocumentor-signature__name">redirectToAuthorizationUrl</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
         <section class="phpdocumentor-description"></section>
 
@@ -817,7 +1077,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/AuthenticationService.php"><a href="files/src-authenticationservice.html"><abbr title="src/AuthenticationService.php">AuthenticationService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">207</span>
+    <span class="phpdocumentor-element-found-in__line">258</span>
 </aside>
 
         <p class="phpdocumentor-summary">Save the auth data from the cookie in the user session storage.</p>
@@ -844,6 +1104,40 @@
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_saveAuthDataFromUrl">
+        saveAuthDataFromUrl()
+        <a href="classes/Drupal-o365-AuthenticationService.html#method_saveAuthDataFromUrl" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/AuthenticationService.php"><a href="files/src-authenticationservice.html"><abbr title="src/AuthenticationService.php">AuthenticationService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">272</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Save the auth data from the url parameters in the user session storage.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">saveAuthDataFromUrl</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_setAccessToken">
         setAccessToken()
         <a href="classes/Drupal-o365-AuthenticationService.html#method_setAccessToken" class="headerlink"><i class="fas fa-link"></i></a>
@@ -851,7 +1145,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/AuthenticationService.php"><a href="files/src-authenticationservice.html"><abbr title="src/AuthenticationService.php">AuthenticationService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">149</span>
+    <span class="phpdocumentor-element-found-in__line">197</span>
 </aside>
 
         <p class="phpdocumentor-summary">Generate and save the accessToken.</p>
@@ -878,7 +1172,7 @@
                 : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
                  = <span class="phpdocumentor-signature__argument__default-value">FALSE</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><p>Either FALSE or a url where to redirect to.</p>
+                    <section class="phpdocumentor-description"><p>Either FALSE or an url where to redirect to.</p>
 </section>
 
             </dd>
@@ -906,7 +1200,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/AuthenticationService.php"><a href="files/src-authenticationservice.html"><abbr title="src/AuthenticationService.php">AuthenticationService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">245</span>
+    <span class="phpdocumentor-element-found-in__line">316</span>
 </aside>
 
         <p class="phpdocumentor-summary">Generate a basic oAuth2 provider.</p>
@@ -940,7 +1234,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/AuthenticationService.php"><a href="files/src-authenticationservice.html"><abbr title="src/AuthenticationService.php">AuthenticationService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">273</span>
+    <span class="phpdocumentor-element-found-in__line">344</span>
 </aside>
 
         <p class="phpdocumentor-summary">Get the auth data from temp store or cookie.</p>
@@ -975,7 +1269,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/AuthenticationService.php"><a href="files/src-authenticationservice.html"><abbr title="src/AuthenticationService.php">AuthenticationService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">230</span>
+    <span class="phpdocumentor-element-found-in__line">301</span>
 </aside>
 
         <p class="phpdocumentor-summary">Generate a new access token based on the refresh token.</p>
@@ -1046,7 +1340,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/AuthenticationService.php"><a href="files/src-authenticationservice.html"><abbr title="src/AuthenticationService.php">AuthenticationService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">291</span>
+    <span class="phpdocumentor-element-found-in__line">362</span>
 </aside>
 
         <p class="phpdocumentor-summary">Save the auth data to the temp store.</p>
@@ -1107,7 +1401,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/AuthenticationService.php"><a href="files/src-authenticationservice.html"><abbr title="src/AuthenticationService.php">AuthenticationService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">317</span>
+    <span class="phpdocumentor-element-found-in__line">388</span>
 </aside>
 
         <p class="phpdocumentor-summary">Save data to the tempstore.</p>

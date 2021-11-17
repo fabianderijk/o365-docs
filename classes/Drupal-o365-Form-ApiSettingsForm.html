@@ -51,12 +51,34 @@
     
     <section class="phpdocumentor-sidebar__category">
         <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
-                                                <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/drupal.html"><abbr title="\Drupal">Drupal</abbr></a></h4>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/drupal.html"><abbr title="\Drupal">Drupal</abbr></a></h4>
                 <ul class="phpdocumentor-list">
+                                            <li><a href="namespaces/drupal-o365-contacts.html"><abbr title="\Drupal\o365_contacts">o365_contacts</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-groups.html"><abbr title="\Drupal\o365_groups">o365_groups</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-links.html"><abbr title="\Drupal\o365_links">o365_links</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-onedrive.html"><abbr title="\Drupal\o365_onedrive">o365_onedrive</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-outlook-calendar.html"><abbr title="\Drupal\o365_outlook_calendar">o365_outlook_calendar</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-outlook-mail.html"><abbr title="\Drupal\o365_outlook_mail">o365_outlook_mail</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-profile.html"><abbr title="\Drupal\o365_profile">o365_profile</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-rest.html"><abbr title="\Drupal\o365_rest">o365_rest</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-sharepoint-field.html"><abbr title="\Drupal\o365_sharepoint_field">o365_sharepoint_field</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-sharepoint-file.html"><abbr title="\Drupal\o365_sharepoint_file">o365_sharepoint_file</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-sso.html"><abbr title="\Drupal\o365_sso">o365_sso</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-sso-user.html"><abbr title="\Drupal\o365_sso_user">o365_sso_user</abbr></a></li>
+                                            <li><a href="namespaces/drupal-o365-teams.html"><abbr title="\Drupal\o365_teams">o365_teams</abbr></a></li>
                                             <li><a href="namespaces/drupal-o365.html"><abbr title="\Drupal\o365">o365</abbr></a></li>
                                     </ul>
                         </section>
 
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="packages/Default.html"><abbr title="\Default">Default</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="packages/Drupal.html"><abbr title="\Drupal">Drupal</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="packages/Drupal-o365.html"><abbr title="\Drupal\o365">o365</abbr></a></li>
+                            </ul>
+                        </section>
     
     <section class="phpdocumentor-sidebar__category">
         <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
@@ -86,6 +108,12 @@
         extends <abbr title="\Drupal\Core\Form\ConfigFormBase">ConfigFormBase</abbr>
     </span>
     
+            <div class="phpdocumentor-element__package">
+            in package
+            <ul class="phpdocumentor-breadcrumbs">
+                                    <li class="phpdocumentor-breadcrumb"><a href="packages/Default.html">Default</a></li>
+                            </ul>
+        </div>
     
     
     </h2>
@@ -93,10 +121,10 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Form/ApiSettingsForm.php"><a href="files/src-form-apisettingsform.html"><abbr title="src/Form/ApiSettingsForm.php">ApiSettingsForm.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">12</span>
+    <span class="phpdocumentor-element-found-in__line">14</span>
 </aside>
 
-            <p class="phpdocumentor-summary">Class ApiSettingsForm.</p>
+            <p class="phpdocumentor-summary">Settings form, used to set the API settings like client_id.</p>
 
     <section class="phpdocumentor-description"></section>
 
@@ -113,8 +141,22 @@
 </h3>
 
 <dl class="phpdocumentor-table-of-contents">
-                    <dt class="phpdocumentor-table-of-contents__entry -method -public">
+                <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/Drupal-o365-Form-ApiSettingsForm.html#property_helperService">$helperService</a>
+    <span>
+                &nbsp;: <a href="classes/Drupal-o365-HelperService.html"><abbr title="\Drupal\o365\HelperService">HelperService</abbr></a>            </span>
+</dt>
+<dd>The o365 helper service.</dd>
+
+                <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Drupal-o365-Form-ApiSettingsForm.html#method_buildForm">buildForm()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd>{@inheritdoc}</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Drupal-o365-Form-ApiSettingsForm.html#method_create">create()</a>
     <span>
                         &nbsp;: mixed    </span>
 </dt>
@@ -148,6 +190,44 @@
         
 
         
+    <section class="phpdocumentor-properties">
+        <h3 class="phpdocumentor-elements__header" id="properties">
+            Properties
+            <a href="classes/Drupal-o365-Form-ApiSettingsForm.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_helperService">
+        $helperService
+        <a href="classes/Drupal-o365-Form-ApiSettingsForm.html#property_helperService" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Form/ApiSettingsForm.php"><a href="files/src-form-apisettingsform.html"><abbr title="src/Form/ApiSettingsForm.php">ApiSettingsForm.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">21</span>
+</aside>
+
+        <p class="phpdocumentor-summary">The o365 helper service.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type"><a href="classes/Drupal-o365-HelperService.html"><abbr title="\Drupal\o365\HelperService">HelperService</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$helperService</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+            </section>
 
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
@@ -167,7 +247,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Form/ApiSettingsForm.php"><a href="files/src-form-apisettingsform.html"><abbr title="src/Form/ApiSettingsForm.php">ApiSettingsForm.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">33</span>
+    <span class="phpdocumentor-element-found-in__line">52</span>
 </aside>
 
         <p class="phpdocumentor-summary">{@inheritdoc}</p>
@@ -209,6 +289,50 @@
         class="phpdocumentor-element
             -method
             -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_create">
+        create()
+        <a href="classes/Drupal-o365-Form-ApiSettingsForm.html#method_create" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Form/ApiSettingsForm.php"><a href="files/src-form-apisettingsform.html"><abbr title="src/Form/ApiSettingsForm.php">ApiSettingsForm.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">26</span>
+</aside>
+
+        <p class="phpdocumentor-summary">{@inheritdoc}</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">create</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\DependencyInjection\ContainerInterface">ContainerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$container</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$container</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\DependencyInjection\ContainerInterface">ContainerInterface</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
                                                         "
 >
     <h4 class="phpdocumentor-element__name" id="method_getFormId">
@@ -218,7 +342,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Form/ApiSettingsForm.php"><a href="files/src-form-apisettingsform.html"><abbr title="src/Form/ApiSettingsForm.php">ApiSettingsForm.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">26</span>
+    <span class="phpdocumentor-element-found-in__line">45</span>
 </aside>
 
         <p class="phpdocumentor-summary">{@inheritdoc}</p>
@@ -252,7 +376,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Form/ApiSettingsForm.php"><a href="files/src-form-apisettingsform.html"><abbr title="src/Form/ApiSettingsForm.php">ApiSettingsForm.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">92</span>
+    <span class="phpdocumentor-element-found-in__line">89</span>
 </aside>
 
         <p class="phpdocumentor-summary">{@inheritdoc}</p>
@@ -303,7 +427,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Form/ApiSettingsForm.php"><a href="files/src-form-apisettingsform.html"><abbr title="src/Form/ApiSettingsForm.php">ApiSettingsForm.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">17</span>
+    <span class="phpdocumentor-element-found-in__line">36</span>
 </aside>
 
         <p class="phpdocumentor-summary">{@inheritdoc}</p>
