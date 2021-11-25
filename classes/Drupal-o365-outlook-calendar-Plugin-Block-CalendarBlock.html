@@ -125,7 +125,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="modules/o365_outlook_calendar/src/Plugin/Block/CalendarBlock.php"><a href="files/modules-o365-outlook-calendar-src-plugin-block-calendarblock.html"><abbr title="modules/o365_outlook_calendar/src/Plugin/Block/CalendarBlock.php">CalendarBlock.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">25</span>
+    <span class="phpdocumentor-element-found-in__line">26</span>
 </aside>
 
             <p class="phpdocumentor-summary">Provides a &#039;Upcoming Appointments&#039; block.</p>
@@ -145,7 +145,7 @@
                                                                                 
                                                  <section class="phpdocumentor-description"><p>(
 id = &quot;o365_outlook_calendar&quot;,
-admin_label = @Translation(&quot;Office 365 - Upcoming Appointments&quot;),
+admin_label = @Translation(&quot;Upcoming Appointments&quot;),
 category = @Translation(&quot;Office 365&quot;)
 )</p>
 </section>
@@ -218,6 +218,20 @@ category = @Translation(&quot;Office 365&quot;)
 <dd>{@inheritdoc}</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Drupal-o365-outlook-calendar-Plugin-Block-CalendarBlock.html#method_blockForm">blockForm()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd>{@inheritdoc}</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Drupal-o365-outlook-calendar-Plugin-Block-CalendarBlock.html#method_blockSubmit">blockSubmit()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd>{@inheritdoc}</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Drupal-o365-outlook-calendar-Plugin-Block-CalendarBlock.html#method_build">build()</a>
     <span>
                         &nbsp;: mixed    </span>
@@ -266,7 +280,7 @@ category = @Translation(&quot;Office 365&quot;)
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="modules/o365_outlook_calendar/src/Plugin/Block/CalendarBlock.php"><a href="files/modules-o365-outlook-calendar-src-plugin-block-calendarblock.html"><abbr title="modules/o365_outlook_calendar/src/Plugin/Block/CalendarBlock.php">CalendarBlock.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">46</span>
+    <span class="phpdocumentor-element-found-in__line">47</span>
 </aside>
 
         <p class="phpdocumentor-summary">Drupal\Core\Datetime\DateFormatter definition.</p>
@@ -298,7 +312,7 @@ category = @Translation(&quot;Office 365&quot;)
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="modules/o365_outlook_calendar/src/Plugin/Block/CalendarBlock.php"><a href="files/modules-o365-outlook-calendar-src-plugin-block-calendarblock.html"><abbr title="modules/o365_outlook_calendar/src/Plugin/Block/CalendarBlock.php">CalendarBlock.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">39</span>
+    <span class="phpdocumentor-element-found-in__line">40</span>
 </aside>
 
         <p class="phpdocumentor-summary">Drupal\o365\HelperService definition.</p>
@@ -330,7 +344,7 @@ category = @Translation(&quot;Office 365&quot;)
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="modules/o365_outlook_calendar/src/Plugin/Block/CalendarBlock.php"><a href="files/modules-o365-outlook-calendar-src-plugin-block-calendarblock.html"><abbr title="modules/o365_outlook_calendar/src/Plugin/Block/CalendarBlock.php">CalendarBlock.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">32</span>
+    <span class="phpdocumentor-element-found-in__line">33</span>
 </aside>
 
         <p class="phpdocumentor-summary">Drupal\o365\GraphService definition.</p>
@@ -362,7 +376,7 @@ category = @Translation(&quot;Office 365&quot;)
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="modules/o365_outlook_calendar/src/Plugin/Block/CalendarBlock.php"><a href="files/modules-o365-outlook-calendar-src-plugin-block-calendarblock.html"><abbr title="modules/o365_outlook_calendar/src/Plugin/Block/CalendarBlock.php">CalendarBlock.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">53</span>
+    <span class="phpdocumentor-element-found-in__line">54</span>
 </aside>
 
         <p class="phpdocumentor-summary">The persona render service.</p>
@@ -398,7 +412,7 @@ category = @Translation(&quot;Office 365&quot;)
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="modules/o365_outlook_calendar/src/Plugin/Block/CalendarBlock.php"><a href="files/modules-o365-outlook-calendar-src-plugin-block-calendarblock.html"><abbr title="modules/o365_outlook_calendar/src/Plugin/Block/CalendarBlock.php">CalendarBlock.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">73</span>
+    <span class="phpdocumentor-element-found-in__line">74</span>
 </aside>
 
         <p class="phpdocumentor-summary">Constructs a new CalendarBlock object.</p>
@@ -542,6 +556,108 @@ category = @Translation(&quot;Office 365&quot;)
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_blockForm">
+        blockForm()
+        <a href="classes/Drupal-o365-outlook-calendar-Plugin-Block-CalendarBlock.html#method_blockForm" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="modules/o365_outlook_calendar/src/Plugin/Block/CalendarBlock.php"><a href="files/modules-o365-outlook-calendar-src-plugin-block-calendarblock.html"><abbr title="modules/o365_outlook_calendar/src/Plugin/Block/CalendarBlock.php">CalendarBlock.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">92</span>
+</aside>
+
+        <p class="phpdocumentor-summary">{@inheritdoc}</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">blockForm</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$form</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Drupal\Core\Form\FormStateInterface">FormStateInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$form_state</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$form</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$form_state</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Drupal\Core\Form\FormStateInterface">FormStateInterface</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_blockSubmit">
+        blockSubmit()
+        <a href="classes/Drupal-o365-outlook-calendar-Plugin-Block-CalendarBlock.html#method_blockSubmit" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="modules/o365_outlook_calendar/src/Plugin/Block/CalendarBlock.php"><a href="files/modules-o365-outlook-calendar-src-plugin-block-calendarblock.html"><abbr title="modules/o365_outlook_calendar/src/Plugin/Block/CalendarBlock.php">CalendarBlock.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">110</span>
+</aside>
+
+        <p class="phpdocumentor-summary">{@inheritdoc}</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">blockSubmit</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$form</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Drupal\Core\Form\FormStateInterface">FormStateInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$form_state</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$form</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$form_state</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Drupal\Core\Form\FormStateInterface">FormStateInterface</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_build">
         build()
         <a href="classes/Drupal-o365-outlook-calendar-Plugin-Block-CalendarBlock.html#method_build" class="headerlink"><i class="fas fa-link"></i></a>
@@ -549,7 +665,7 @@ category = @Translation(&quot;Office 365&quot;)
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="modules/o365_outlook_calendar/src/Plugin/Block/CalendarBlock.php"><a href="files/modules-o365-outlook-calendar-src-plugin-block-calendarblock.html"><abbr title="modules/o365_outlook_calendar/src/Plugin/Block/CalendarBlock.php">CalendarBlock.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">95</span>
+    <span class="phpdocumentor-element-found-in__line">122</span>
 </aside>
 
         <p class="phpdocumentor-summary">{@inheritdoc}</p>
@@ -616,7 +732,7 @@ category = @Translation(&quot;Office 365&quot;)
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="modules/o365_outlook_calendar/src/Plugin/Block/CalendarBlock.php"><a href="files/modules-o365-outlook-calendar-src-plugin-block-calendarblock.html"><abbr title="modules/o365_outlook_calendar/src/Plugin/Block/CalendarBlock.php">CalendarBlock.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">84</span>
+    <span class="phpdocumentor-element-found-in__line">85</span>
 </aside>
 
         <p class="phpdocumentor-summary">{@inheritdoc}</p>
@@ -681,7 +797,7 @@ category = @Translation(&quot;Office 365&quot;)
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="modules/o365_outlook_calendar/src/Plugin/Block/CalendarBlock.php"><a href="files/modules-o365-outlook-calendar-src-plugin-block-calendarblock.html"><abbr title="modules/o365_outlook_calendar/src/Plugin/Block/CalendarBlock.php">CalendarBlock.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">184</span>
+    <span class="phpdocumentor-element-found-in__line">213</span>
 </aside>
 
         <p class="phpdocumentor-summary">Get the attendees for a event.</p>

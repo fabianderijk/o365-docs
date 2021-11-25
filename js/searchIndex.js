@@ -666,6 +666,16 @@ Search.appendIndex(
             "summary": "\u007B\u0040inheritdoc\u007D",
             "url": "classes/Drupal-o365-outlook-calendar-Plugin-Block-CalendarBlock.html#method_create"
         },                {
+            "fqsen": "\\Drupal\\o365_outlook_calendar\\Plugin\\Block\\CalendarBlock\u003A\u003AblockForm\u0028\u0029",
+            "name": "blockForm",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-outlook-calendar-Plugin-Block-CalendarBlock.html#method_blockForm"
+        },                {
+            "fqsen": "\\Drupal\\o365_outlook_calendar\\Plugin\\Block\\CalendarBlock\u003A\u003AblockSubmit\u0028\u0029",
+            "name": "blockSubmit",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-outlook-calendar-Plugin-Block-CalendarBlock.html#method_blockSubmit"
+        },                {
             "fqsen": "\\Drupal\\o365_outlook_calendar\\Plugin\\Block\\CalendarBlock\u003A\u003Abuild\u0028\u0029",
             "name": "build",
             "summary": "\u007B\u0040inheritdoc\u007D",
@@ -933,7 +943,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Drupal\\o365_profile\\Plugin\\Block\\PersonaBlock\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "Constructs\u0020a\u0020new\u0020ProfileBlock\u0020object.",
+            "summary": "Constructs\u0020a\u0020new\u0020PersonaBlock\u0020object.",
             "url": "classes/Drupal-o365-profile-Plugin-Block-PersonaBlock.html#method___construct"
         },                {
             "fqsen": "\\Drupal\\o365_profile\\Plugin\\Block\\PersonaBlock\u003A\u003Acreate\u0028\u0029",
@@ -2115,6 +2125,11 @@ Search.appendIndex(
             "name": "cacheBackend",
             "summary": "The\u0020cache\u0020baclend\u0020service.",
             "url": "classes/Drupal-o365-GraphService.html#property_cacheBackend"
+        },                {
+            "fqsen": "\\Drupal\\o365\\GraphService\u003A\u003A\u0024logger",
+            "name": "logger",
+            "summary": "The\u0020modules\u0020logger.",
+            "url": "classes/Drupal-o365-GraphService.html#property_logger"
         },                {
             "fqsen": "\\Drupal\\o365\\HelperService",
             "name": "HelperService",

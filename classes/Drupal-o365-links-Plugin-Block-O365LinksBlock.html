@@ -106,7 +106,7 @@
     O365LinksBlock
 
         <span class="phpdocumentor-element__extends">
-        extends <a href="classes/Drupal-o365-Block-O365UncachedBlockBase.html"><abbr title="\Drupal\o365\Block\O365UncachedBlockBase">O365UncachedBlockBase</abbr></a>
+        extends <abbr title="\Drupal\Core\Block\BlockBase">BlockBase</abbr>
     </span>
     
             <div class="phpdocumentor-element__package">
@@ -120,12 +120,15 @@
             implements
                             <abbr title="\Drupal\Core\Plugin\ContainerFactoryPluginInterface">ContainerFactoryPluginInterface</abbr>                    </span>
     
+            <span class="phpdocumentor-element__extends">
+            Uses
+                            <abbr title="\Drupal\Core\Cache\UncacheableDependencyTrait">UncacheableDependencyTrait</abbr>                    </span>
     </h2>
 
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="modules/o365_links/src/Plugin/Block/O365LinksBlock.php"><a href="files/modules-o365-links-src-plugin-block-o365linksblock.html"><abbr title="modules/o365_links/src/Plugin/Block/O365LinksBlock.php">O365LinksBlock.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">23</span>
 </aside>
 
             <p class="phpdocumentor-summary">Provides a &#039;Office 365 Application Links&#039; block.</p>
@@ -145,7 +148,7 @@
                                                                                 
                                                  <section class="phpdocumentor-description"><p>(
 id = &quot;o365_links&quot;,
-admin_label = @Translation(&quot;Office 365 - Application Links&quot;),
+admin_label = @Translation(&quot;Application Links&quot;),
 category = @Translation(&quot;Office 365&quot;)
 )</p>
 </section>
@@ -197,13 +200,6 @@ category = @Translation(&quot;Office 365&quot;)
 <dd>Constructs a new O365LinksBlock instance.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Drupal-o365-Block-O365BlockBase.html#method_access">access()</a>
-    <span>
-                        &nbsp;: mixed    </span>
-</dt>
-<dd>{@inheritdoc}</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Drupal-o365-links-Plugin-Block-O365LinksBlock.html#method_build">build()</a>
     <span>
                         &nbsp;: mixed    </span>
@@ -245,7 +241,7 @@ category = @Translation(&quot;Office 365&quot;)
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="modules/o365_links/src/Plugin/Block/O365LinksBlock.php"><a href="files/modules-o365-links-src-plugin-block-o365linksblock.html"><abbr title="modules/o365_links/src/Plugin/Block/O365LinksBlock.php">O365LinksBlock.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">29</span>
+    <span class="phpdocumentor-element-found-in__line">33</span>
 </aside>
 
         <p class="phpdocumentor-summary">The config factory.</p>
@@ -277,7 +273,7 @@ category = @Translation(&quot;Office 365&quot;)
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="modules/o365_links/src/Plugin/Block/O365LinksBlock.php"><a href="files/modules-o365-links-src-plugin-block-o365linksblock.html"><abbr title="modules/o365_links/src/Plugin/Block/O365LinksBlock.php">O365LinksBlock.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">36</span>
+    <span class="phpdocumentor-element-found-in__line">40</span>
 </aside>
 
         <p class="phpdocumentor-summary">The o365_links.constants service.</p>
@@ -313,7 +309,7 @@ category = @Translation(&quot;Office 365&quot;)
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="modules/o365_links/src/Plugin/Block/O365LinksBlock.php"><a href="files/modules-o365-links-src-plugin-block-o365linksblock.html"><abbr title="modules/o365_links/src/Plugin/Block/O365LinksBlock.php">O365LinksBlock.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">55</span>
+    <span class="phpdocumentor-element-found-in__line">59</span>
 </aside>
 
         <p class="phpdocumentor-summary">Constructs a new O365LinksBlock instance.</p>
@@ -391,57 +387,6 @@ values keyed by context names.</p>
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_access">
-        access()
-        <a href="classes/Drupal-o365-Block-O365BlockBase.html#method_access" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Block/O365BlockBase.php"><a href="files/src-block-o365blockbase.html"><abbr title="src/Block/O365BlockBase.php">O365BlockBase.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">24</span>
-</aside>
-
-        <p class="phpdocumentor-summary">{@inheritdoc}</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">access</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Drupal\Core\Session\AccountInterface">AccountInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$account</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$return_as_object</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">FALSE</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
-
-        <section class="phpdocumentor-description"></section>
-
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$account</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Drupal\Core\Session\AccountInterface">AccountInterface</abbr></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$return_as_object</span>
-                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
-                 = <span class="phpdocumentor-signature__argument__default-value">FALSE</span>            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-            <section class="phpdocumentor-description"></section>
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
     <h4 class="phpdocumentor-element__name" id="method_build">
         build()
         <a href="classes/Drupal-o365-links-Plugin-Block-O365LinksBlock.html#method_build" class="headerlink"><i class="fas fa-link"></i></a>
@@ -449,7 +394,7 @@ values keyed by context names.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="modules/o365_links/src/Plugin/Block/O365LinksBlock.php"><a href="files/modules-o365-links-src-plugin-block-o365linksblock.html"><abbr title="modules/o365_links/src/Plugin/Block/O365LinksBlock.php">O365LinksBlock.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">71</span>
+    <span class="phpdocumentor-element-found-in__line">75</span>
 </aside>
 
         <p class="phpdocumentor-summary">{@inheritdoc}</p>
@@ -483,7 +428,7 @@ values keyed by context names.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="modules/o365_links/src/Plugin/Block/O365LinksBlock.php"><a href="files/modules-o365-links-src-plugin-block-o365linksblock.html"><abbr title="modules/o365_links/src/Plugin/Block/O365LinksBlock.php">O365LinksBlock.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">64</span>
+    <span class="phpdocumentor-element-found-in__line">68</span>
 </aside>
 
         <p class="phpdocumentor-summary">{@inheritdoc}</p>
