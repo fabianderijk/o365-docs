@@ -60,6 +60,58 @@
 </h4>
     <ul class="phpdocumentor-list">
                     <li>
+                <a href="namespaces/drupal-o365-contacts.html" class="">o365_contacts</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/drupal-o365-groups.html" class="">o365_groups</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/drupal-o365-links.html" class="">o365_links</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/drupal-o365-onedrive.html" class="">o365_onedrive</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/drupal-o365-outlook-calendar.html" class="">o365_outlook_calendar</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/drupal-o365-outlook-mail.html" class="">o365_outlook_mail</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/drupal-o365-profile.html" class="">o365_profile</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/drupal-o365-rest.html" class="">o365_rest</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/drupal-o365-sharepoint-field.html" class="">o365_sharepoint_field</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/drupal-o365-sharepoint-file.html" class="">o365_sharepoint_file</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/drupal-o365-sso.html" class="">o365_sso</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/drupal-o365-sso-user.html" class="">o365_sso_user</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/drupal-o365-teams.html" class="">o365_teams</a>
+                
+            </li>
+                    <li>
                 <a href="namespaces/drupal-o365.html" class="">o365</a>
                 
             </li>
@@ -116,6 +168,10 @@
         <dd>The interface for the AuthenticationService.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/Drupal-o365-O365LoggerServiceInterface.html"><abbr title="\Drupal\o365\O365LoggerServiceInterface">O365LoggerServiceInterface</abbr></a></dt>
         <dd>The interface for the O365LoggerService service.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/Drupal-o365-onedrive-GetFilesAndFoldersServiceInterface.html"><abbr title="\Drupal\o365_onedrive\GetFilesAndFoldersServiceInterface">GetFilesAndFoldersServiceInterface</abbr></a></dt>
+        <dd>Interface for GetFilesAndFoldersService class.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/Drupal-o365-outlook-mail-GetMailServiceInterface.html"><abbr title="\Drupal\o365_outlook_mail\GetMailServiceInterface">GetMailServiceInterface</abbr></a></dt>
+        <dd>Interface for the GetMailService class.</dd>
     
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-AuthenticationService.html"><abbr title="\Drupal\o365\AuthenticationService">AuthenticationService</abbr></a></dt>
         <dd>Service used to authenticate users between Office 365 and Drupal.</dd>
@@ -139,15 +195,175 @@
         <dd>Our custom Logger service.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-Plugin-Oauth2Client-O365OAuth2Client.html"><abbr title="\Drupal\o365\Plugin\Oauth2Client\O365OAuth2Client">O365OAuth2Client</abbr></a></dt>
         <dd>OAuth2 Client to authenticate with Office 365.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-contacts-Controller-O365ContactsController.html"><abbr title="\Drupal\o365_contacts\Controller\O365ContactsController">O365ContactsController</abbr></a></dt>
+        <dd>Returns responses for o365_contacts routes.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-contacts-Form-SearchContactForm.html"><abbr title="\Drupal\o365_contacts\Form\SearchContactForm">SearchContactForm</abbr></a></dt>
+        <dd>Provides a o365_contacts form.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-contacts-Plugin-Block-SearchContactBlock.html"><abbr title="\Drupal\o365_contacts\Plugin\Block\SearchContactBlock">SearchContactBlock</abbr></a></dt>
+        <dd>Provides a &#039;Contact Search&#039; block.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-groups-Access-O365GroupsFilesControllerAccessCheck.html"><abbr title="\Drupal\o365_groups\Access\O365GroupsFilesControllerAccessCheck">O365GroupsFilesControllerAccessCheck</abbr></a></dt>
+        <dd>Access check class for the files controller.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-groups-Controller-O365GroupsFilesController.html"><abbr title="\Drupal\o365_groups\Controller\O365GroupsFilesController">O365GroupsFilesController</abbr></a></dt>
+        <dd>Returns responses for Office 365 - Groups routes.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-groups-GroupFilesService.html"><abbr title="\Drupal\o365_groups\GroupFilesService">GroupFilesService</abbr></a></dt>
+        <dd>Service that returns the list of files.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-groups-GroupsService.html"><abbr title="\Drupal\o365_groups\GroupsService">GroupsService</abbr></a></dt>
+        <dd>Service used to do all kinds of stuff with groups and teams.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-links-Form-SettingsForm.html"><abbr title="\Drupal\o365_links\Form\SettingsForm">SettingsForm</abbr></a></dt>
+        <dd>Configure o365_links settings for this site.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-links-O365CacheInvalidator.html"><abbr title="\Drupal\o365_links\O365CacheInvalidator">O365CacheInvalidator</abbr></a></dt>
+        <dd>Create a custom cache invalidator.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-links-O365LinksConstants.html"><abbr title="\Drupal\o365_links\O365LinksConstants">O365LinksConstants</abbr></a></dt>
+        <dd>Some constants we need in the links module.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-links-Plugin-Block-O365LinksBlock.html"><abbr title="\Drupal\o365_links\Plugin\Block\O365LinksBlock">O365LinksBlock</abbr></a></dt>
+        <dd>Provides a &#039;Office 365 Application Links&#039; block.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-onedrive-Controller-OneDriveListController.html"><abbr title="\Drupal\o365_onedrive\Controller\OneDriveListController">OneDriveListController</abbr></a></dt>
+        <dd>Class OndeDriveListController.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-onedrive-GetFilesAndFoldersService.html"><abbr title="\Drupal\o365_onedrive\GetFilesAndFoldersService">GetFilesAndFoldersService</abbr></a></dt>
+        <dd>Class used to retrieve folder listings from onedrive.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-onedrive-Plugin-Block-RecentFilesBlock.html"><abbr title="\Drupal\o365_onedrive\Plugin\Block\RecentFilesBlock">RecentFilesBlock</abbr></a></dt>
+        <dd>Provides a &#039;Recent Files&#039; block.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-onedrive-Plugin-Block-SharedFilesBlock.html"><abbr title="\Drupal\o365_onedrive\Plugin\Block\SharedFilesBlock">SharedFilesBlock</abbr></a></dt>
+        <dd>Provides a &#039;Shared Files&#039; block.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-outlook-calendar-Controller-OutlookCalendarSaveAjaxController.html"><abbr title="\Drupal\o365_outlook_calendar\Controller\OutlookCalendarSaveAjaxController">OutlookCalendarSaveAjaxController</abbr></a></dt>
+        <dd>Returns responses for Office 365 - Outlook Calendar routes.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-outlook-calendar-Form-OutlookCalendarSettingsForm.html"><abbr title="\Drupal\o365_outlook_calendar\Form\OutlookCalendarSettingsForm">OutlookCalendarSettingsForm</abbr></a></dt>
+        <dd>Configure Office 365 - Outlook Calendar settings for this site.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-outlook-calendar-OutlookCalendarSaveEventService.html"><abbr title="\Drupal\o365_outlook_calendar\OutlookCalendarSaveEventService">OutlookCalendarSaveEventService</abbr></a></dt>
+        <dd>OutlookCalendarSaveEventService service.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-outlook-calendar-Plugin-Block-AddToCalendarBlock.html"><abbr title="\Drupal\o365_outlook_calendar\Plugin\Block\AddToCalendarBlock">AddToCalendarBlock</abbr></a></dt>
+        <dd>Provides an add node to calendar block.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-outlook-calendar-Plugin-Block-CalendarBlock.html"><abbr title="\Drupal\o365_outlook_calendar\Plugin\Block\CalendarBlock">CalendarBlock</abbr></a></dt>
+        <dd>Provides a &#039;Upcoming Appointments&#039; block.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-outlook-mail-Controller-MyMailController.html"><abbr title="\Drupal\o365_outlook_mail\Controller\MyMailController">MyMailController</abbr></a></dt>
+        <dd>Controller that renders a list of emails belonging to the logged in user.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-outlook-mail-GetMailService.html"><abbr title="\Drupal\o365_outlook_mail\GetMailService">GetMailService</abbr></a></dt>
+        <dd>This service retrieves emails for the currently logged in user.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-outlook-mail-Plugin-Block-LatestMailBlock.html"><abbr title="\Drupal\o365_outlook_mail\Plugin\Block\LatestMailBlock">LatestMailBlock</abbr></a></dt>
+        <dd>Provides a &#039;Latest Mail&#039; block.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-outlook-mail-Plugin-Block-LatestUnreadMailBlock.html"><abbr title="\Drupal\o365_outlook_mail\Plugin\Block\LatestUnreadMailBlock">LatestUnreadMailBlock</abbr></a></dt>
+        <dd>Provides a &#039;Latest Unread Mail&#039; block.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-profile-Controller-O365ProfileAjaxController.html"><abbr title="\Drupal\o365_profile\Controller\O365ProfileAjaxController">O365ProfileAjaxController</abbr></a></dt>
+        <dd>Returns responses for Office 365 - Profiles and Personas routes.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-profile-Form-O365ProfileTeamsLinksConfigForm.html"><abbr title="\Drupal\o365_profile\Form\O365ProfileTeamsLinksConfigForm">O365ProfileTeamsLinksConfigForm</abbr></a></dt>
+        <dd>Configure Office 365 - Profiles and personas settings for this site.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-profile-O365ProfileGetDataService.html"><abbr title="\Drupal\o365_profile\O365ProfileGetDataService">O365ProfileGetDataService</abbr></a></dt>
+        <dd>O365ProfileGetDataService service gives basic information about the user.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-profile-O365ProfileTeamsService.html"><abbr title="\Drupal\o365_profile\O365ProfileTeamsService">O365ProfileTeamsService</abbr></a></dt>
+        <dd>The service too connect Teams with profiles.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-profile-Plugin-Block-PersonaBlock.html"><abbr title="\Drupal\o365_profile\Plugin\Block\PersonaBlock">PersonaBlock</abbr></a></dt>
+        <dd>Provides a &#039;Persona&#039; block.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-profile-Plugin-Block-TeamsLinksBlock.html"><abbr title="\Drupal\o365_profile\Plugin\Block\TeamsLinksBlock">TeamsLinksBlock</abbr></a></dt>
+        <dd>Provides a &#039;Teams Links&#039; block.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-rest-Plugin-rest-resource-GetAccessTokenResource.html"><abbr title="\Drupal\o365_rest\Plugin\rest\resource\GetAccessTokenResource">GetAccessTokenResource</abbr></a></dt>
+        <dd>Provides a resource to get view modes by entity and bundle.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-sharepoint-field-Controller-O365SharepointFieldController.html"><abbr title="\Drupal\o365_sharepoint_field\Controller\O365SharepointFieldController">O365SharepointFieldController</abbr></a></dt>
+        <dd>Returns responses for Office 365 - SharePoint Search Field routes.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-sharepoint-field-Form-CkEditorDialog.html"><abbr title="\Drupal\o365_sharepoint_field\Form\CkEditorDialog">CkEditorDialog</abbr></a></dt>
+        <dd>Our custom form used in the ckeditor plugin.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-sharepoint-field-Plugin-CKEditorPlugin-SharePoint.html"><abbr title="\Drupal\o365_sharepoint_field\Plugin\CKEditorPlugin\SharePoint">SharePoint</abbr></a></dt>
+        <dd>Defines the &quot;SharePoint File Search&quot; plugin, with a CKEditor.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-sharepoint-field-Plugin-Field-FieldFormatter-SharePointSearchDefaultFormatter.html"><abbr title="\Drupal\o365_sharepoint_field\Plugin\Field\FieldFormatter\SharePointSearchDefaultFormatter">SharePointSearchDefaultFormatter</abbr></a></dt>
+        <dd>Plugin implementation &#039;sharepoint_search_link&#039; formatter.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-sharepoint-field-Plugin-Field-FieldType-SharePointSearchItem.html"><abbr title="\Drupal\o365_sharepoint_field\Plugin\Field\FieldType\SharePointSearchItem">SharePointSearchItem</abbr></a></dt>
+        <dd>Defines the &#039;sharepoint_search_link&#039; field type.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-sharepoint-field-Plugin-Field-FieldWidget-SharePointSearchWidget.html"><abbr title="\Drupal\o365_sharepoint_field\Plugin\Field\FieldWidget\SharePointSearchWidget">SharePointSearchWidget</abbr></a></dt>
+        <dd>Defines the &#039;field_sharepoint_search_link&#039; field widget.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html"><abbr title="\Drupal\o365_sharepoint_file\Controller\O365SharepointController">O365SharepointController</abbr></a></dt>
+        <dd>Returns responses for o365_sharepoint_file routes.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-sharepoint-file-Form-SearchSharepointForm.html"><abbr title="\Drupal\o365_sharepoint_file\Form\SearchSharepointForm">SearchSharepointForm</abbr></a></dt>
+        <dd>Provides a o365_files form.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-sharepoint-file-Plugin-Block-SharepointSearchBlock.html"><abbr title="\Drupal\o365_sharepoint_file\Plugin\Block\SharepointSearchBlock">SharepointSearchBlock</abbr></a></dt>
+        <dd>Provides a &#039;Sharepoint File Search&#039; block.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-sso-Controller-LoginCallbackController.html"><abbr title="\Drupal\o365_sso\Controller\LoginCallbackController">LoginCallbackController</abbr></a></dt>
+        <dd>LoginCallbackController. Call when returning from the o365 service.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-sso-Controller-LoginController.html"><abbr title="\Drupal\o365_sso\Controller\LoginController">LoginController</abbr></a></dt>
+        <dd>Login controller, let the user actually login.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-sso-Controller-UserLoginController.html"><abbr title="\Drupal\o365_sso\Controller\UserLoginController">UserLoginController</abbr></a></dt>
+        <dd>UserLoginController. Used when returned from the callback.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-sso-Form-SettingsForm.html"><abbr title="\Drupal\o365_sso\Form\SettingsForm">SettingsForm</abbr></a></dt>
+        <dd>Settings form for the SSO module.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-sso-Routing-UserLoginFormRouteSubscriber.html"><abbr title="\Drupal\o365_sso\Routing\UserLoginFormRouteSubscriber">UserLoginFormRouteSubscriber</abbr></a></dt>
+        <dd>Auto redirect users when the auto redirect option is enabled.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-sso-user-Form-SettingsForm.html"><abbr title="\Drupal\o365_sso_user\Form\SettingsForm">SettingsForm</abbr></a></dt>
+        <dd>Settings form for the o365_sso_user module.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-sso-user-SsoUserSync.html"><abbr title="\Drupal\o365_sso_user\SsoUserSync">SsoUserSync</abbr></a></dt>
+        <dd>User sync service that syncs data from Graph API to entities.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-teams-Controller-TeamsRecipientAutocompleteController.html"><abbr title="\Drupal\o365_teams\Controller\TeamsRecipientAutocompleteController">TeamsRecipientAutocompleteController</abbr></a></dt>
+        <dd>Custom controller for the autocomplete callback.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-teams-Form-O365TeamsSendMessageForm.html"><abbr title="\Drupal\o365_teams\Form\O365TeamsSendMessageForm">O365TeamsSendMessageForm</abbr></a></dt>
+        <dd>Provides an Office 365 - Teams integration form.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Drupal-o365-teams-O365TeamsSendMessageService.html"><abbr title="\Drupal\o365_teams\O365TeamsSendMessageService">O365TeamsSendMessageService</abbr></a></dt>
+        <dd>This service is used to send messages to users / channels.</dd>
     
     
     </dl>
 
 
+<h3 id="toc">
+    Table of Contents
+    <a href="#toc" class="headerlink"><i class="fas fa-link"></i></a>
+</h3>
+
+<dl class="phpdocumentor-table-of-contents">
+                            <dt class="phpdocumentor-table-of-contents__entry -function -">
+    <a href="namespaces/default.html#function_hook_o365_auth_scopes">hook_o365_auth_scopes()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Create a list of authorization scopes.</dd>
+
+    </dl>
 
         
 
+            <section class="phpdocumentor-functions">
+        <h3 class="phpdocumentor-elements__header" id="functions">
+            Functions
+            <a href="packages/Application.html#functions" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_hook_o365_auth_scopes">
+        hook_o365_auth_scopes()
+        <a href="namespaces/default.html#function_hook_o365_auth_scopes" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="o365.api.php"><a href="files/o365-api.html"><abbr title="o365.api.php">o365.api.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">18</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Create a list of authorization scopes.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">hook_o365_auth_scopes</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__reference-operator">&amp;</span><span class="phpdocumentor-signature__argument__name">$scopes</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$scopes</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>An array of authorization scopes.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash;
         
+    
+</article>
+            </section>
+
     </article>
                 <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
     <section class="phpdocumentor-search-results__dialog">
