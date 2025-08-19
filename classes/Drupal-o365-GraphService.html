@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-            <title>Documentation</title>
+            <title>Microsoft 365 Connector</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <base href="../">
@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
             <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/template.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
@@ -19,12 +19,13 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.css">
                 <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
         <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+        <script src="js/template.js"></script>
         <script src="js/search.js"></script>
         <script defer src="js/searchIndex.js"></script>
     </head>
 <body id="top">
     <header class="phpdocumentor-header phpdocumentor-section">
-    <h1 class="phpdocumentor-title"><a href="" class="phpdocumentor-title__link">Documentation</a></h1>
+    <h1 class="phpdocumentor-title"><a href="" class="phpdocumentor-title__link">Microsoft 365 Connector</a></h1>
     <input class="phpdocumentor-header__menu-button" type="checkbox" id="menu-button" name="menu-button" />
     <label class="phpdocumentor-header__menu-icon" for="menu-button">
         <i class="fas fa-bars"></i>
@@ -52,8 +53,8 @@
 <label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
     Menu
 </label>
-<aside class="phpdocumentor-column -four phpdocumentor-sidebar">
-                    <section class="phpdocumentor-sidebar__category">
+<aside class="phpdocumentor-column -three phpdocumentor-sidebar">
+                    <section class="phpdocumentor-sidebar__category -namespaces">
             <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
     <a href="namespaces/drupal.html" class="">Drupal</a>
@@ -88,6 +89,10 @@
                 
             </li>
                     <li>
+                <a href="namespaces/drupal-o365-profile-rest.html" class="">o365_profile_rest</a>
+                
+            </li>
+                    <li>
                 <a href="namespaces/drupal-o365-rest.html" class="">o365_rest</a>
                 
             </li>
@@ -115,10 +120,14 @@
                 <a href="namespaces/drupal-o365.html" class="">o365</a>
                 
             </li>
+                    <li>
+                <a href="namespaces/drupal-tests.html" class="">Tests</a>
+                
+            </li>
             </ul>
 
                         </section>
-                <section class="phpdocumentor-sidebar__category">
+                <section class="phpdocumentor-sidebar__category -packages">
             <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
     <a href="packages/Application.html" class="">Application</a>
@@ -136,21 +145,22 @@
 
                         </section>
             
-    <section class="phpdocumentor-sidebar__category">
+    <section class="phpdocumentor-sidebar__category -reports">
         <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
                 <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
     </section>
 
-    <section class="phpdocumentor-sidebar__category">
+    <section class="phpdocumentor-sidebar__category -indices">
         <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
     </section>
 </aside>
 
-            <div class="phpdocumentor-column -eight phpdocumentor-content">
-                    <ul class="phpdocumentor-breadcrumbs">
+            <div class="phpdocumentor-column -nine phpdocumentor-content">
+                                <section>
+                                        <ul class="phpdocumentor-breadcrumbs">
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/drupal.html">Drupal</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/drupal-o365.html">o365</a></li>
     </ul>
@@ -170,18 +180,23 @@
     
     </h2>
 
+<div class="phpdocumentor-label-line">
+
+
+</div>
+
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/GraphService.php"><a href="files/src-graphservice.html"><abbr title="src/GraphService.php">GraphService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">15</span>
+    <span class="phpdocumentor-element-found-in__line">19</span>
 
     </aside>
 
             <p class="phpdocumentor-summary">This is the GraphService.</p>
 
-    <section class="phpdocumentor-description"><p>The main service that gets and sets data in Office 365.</p>
-</section>
 
+    <section class="phpdocumentor-description"><p>The main service that gets and sets data in Microsoft 365.</p>
+</section>
 
 
 
@@ -191,81 +206,138 @@
 
 <h3 id="toc">
     Table of Contents
-    <a href="#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/Drupal-o365-GraphService.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+
 </h3>
 
+
+
+
+
+
+
+
+
+<h4 id="toc-properties">
+    Properties
+    <a href="classes/Drupal-o365-GraphService.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
 <dl class="phpdocumentor-table-of-contents">
-                    <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a href="classes/Drupal-o365-GraphService.html#property_authService">$authService</a>
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/Drupal-o365-GraphService.html#property_authmap">$authmap</a>
+    <span>
+                        &nbsp;: <abbr title="\Drupal\externalauth\AuthmapInterface">AuthmapInterface</abbr>            </span>
+</dt>
+<dd>The externalauth authmap service.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/Drupal-o365-GraphService.html#property_authService">$authService</a>
     <span>
                         &nbsp;: <a href="classes/Drupal-o365-AuthenticationServiceInterface.html"><abbr title="\Drupal\o365\AuthenticationServiceInterface">AuthenticationServiceInterface</abbr></a>            </span>
 </dt>
 <dd>Drupal\o365\AuthenticationServiceInterface definition.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a href="classes/Drupal-o365-GraphService.html#property_cacheBackend">$cacheBackend</a>
+    <a class="" href="classes/Drupal-o365-GraphService.html#property_cacheBackend">$cacheBackend</a>
     <span>
                         &nbsp;: <abbr title="\Drupal\Core\Cache\CacheBackendInterface">CacheBackendInterface</abbr>            </span>
 </dt>
-<dd>The cache baclend service.</dd>
+<dd>The cache backend service.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a href="classes/Drupal-o365-GraphService.html#property_logger">$logger</a>
+    <a class="" href="classes/Drupal-o365-GraphService.html#property_currentUser">$currentUser</a>
+    <span>
+                        &nbsp;: <abbr title="\Drupal\Core\Session\AccountProxyInterface">AccountProxyInterface</abbr>            </span>
+</dt>
+<dd>The current user account.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/Drupal-o365-GraphService.html#property_logger">$logger</a>
     <span>
                         &nbsp;: <abbr title="\Drupal\Core\Logger\LoggerChannelInterface">LoggerChannelInterface</abbr>            </span>
 </dt>
 <dd>The modules logger.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a href="classes/Drupal-o365-GraphService.html#property_messenger">$messenger</a>
+    <a class="" href="classes/Drupal-o365-GraphService.html#property_messenger">$messenger</a>
     <span>
                         &nbsp;: <a href="classes/Drupal-o365-O365LoggerServiceInterface.html"><abbr title="\Drupal\o365\O365LoggerServiceInterface">O365LoggerServiceInterface</abbr></a>            </span>
 </dt>
 <dd>The logger service.</dd>
 
-                <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Drupal-o365-GraphService.html#method___construct">__construct()</a>
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/Drupal-o365-GraphService.html#property_timeout">$timeout</a>
+    <span>
+                        &nbsp;: int            </span>
+</dt>
+<dd>The timeout used in calls to the Graph API.</dd>
+
+    </dl>
+
+<h4 id="toc-methods">
+    Methods
+    <a href="classes/Drupal-o365-GraphService.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Drupal-o365-GraphService.html#method___construct">__construct()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
 <dd>Constructs a new GraphService object.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Drupal-o365-GraphService.html#method_getCollectionData">getCollectionData()</a>
+    <a class="" href="classes/Drupal-o365-GraphService.html#method_getCollectionData">getCollectionData()</a>
     <span>
                                 &nbsp;: false|<abbr title="\Microsoft\Graph\Http\GraphCollectionRequest">GraphCollectionRequest</abbr>    </span>
 </dt>
 <dd>Get a collection of data.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Drupal-o365-GraphService.html#method_getCurrentUserId">getCurrentUserId()</a>
+    <a class="" href="classes/Drupal-o365-GraphService.html#method_getCurrentUserId">getCurrentUserId()</a>
     <span>
                                 &nbsp;: bool|string    </span>
 </dt>
 <dd>Determine the office user ID.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Drupal-o365-GraphService.html#method_getGraphData">getGraphData()</a>
+    <a class="" href="classes/Drupal-o365-GraphService.html#method_getGraphData">getGraphData()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
 <dd>Get data from the MS GraphAPI.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Drupal-o365-GraphService.html#method_sendGraphData">sendGraphData()</a>
+    <a class="" href="classes/Drupal-o365-GraphService.html#method_getTimeout">getTimeout()</a>
+    <span>
+                                &nbsp;: int    </span>
+</dt>
+<dd>Get the Graph API timeout.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Drupal-o365-GraphService.html#method_sendGraphData">sendGraphData()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
 <dd>Send data to the MS GraphAPI.</dd>
 
-            <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a href="classes/Drupal-o365-GraphService.html#method_getData">getData()</a>
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Drupal-o365-GraphService.html#method_setTimeout">setTimeout()</a>
     <span>
-                                &nbsp;: array&lt;string|int, mixed&gt;|false|string|null    </span>
+                                &nbsp;: void    </span>
+</dt>
+<dd>Set the Graph API timeout.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/Drupal-o365-GraphService.html#method_getData">getData()</a>
+    <span>
+                                &nbsp;: mixed    </span>
 </dt>
 <dd>Generic method to get or send data to the Graph endpoints.</dd>
 
-        </dl>
+    </dl>
 
 
 
@@ -276,37 +348,44 @@
         <h3 class="phpdocumentor-elements__header" id="properties">
             Properties
             <a href="classes/Drupal-o365-GraphService.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+
         </h3>
                     <article
         class="
             phpdocumentor-element
             -property
             -protected
-                                                        "
+                                                                    "
 >
-    <h4 class="phpdocumentor-element__name" id="property_authService">
-        $authService
-        <a href="classes/Drupal-o365-GraphService.html#property_authService" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_authmap">
+        $authmap
+        <a href="classes/Drupal-o365-GraphService.html#property_authmap" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/GraphService.php"><a href="files/src-graphservice.html"><abbr title="src/GraphService.php">GraphService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">50</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Drupal\o365\AuthenticationServiceInterface definition.</p>
+        <p class="phpdocumentor-summary">The externalauth authmap service.</p>
 
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type"><a href="classes/Drupal-o365-AuthenticationServiceInterface.html"><abbr title="\Drupal\o365\AuthenticationServiceInterface">AuthenticationServiceInterface</abbr></a></span>
-    <span class="phpdocumentor-signature__name">$authService</span>
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type"><abbr title="\Drupal\externalauth\AuthmapInterface">AuthmapInterface</abbr></span>
+    <span class="phpdocumentor-signature__name">$authmap</span>
     </code>
 
     
     
+    
+
+    
+
     
 
 </article>
@@ -315,13 +394,53 @@
             phpdocumentor-element
             -property
             -protected
-                                                        "
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_authService">
+        $authService
+        <a href="classes/Drupal-o365-GraphService.html#property_authService" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/GraphService.php"><a href="files/src-graphservice.html"><abbr title="src/GraphService.php">GraphService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">24</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Drupal\o365\AuthenticationServiceInterface definition.</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/Drupal-o365-AuthenticationServiceInterface.html"><abbr title="\Drupal\o365\AuthenticationServiceInterface">AuthenticationServiceInterface</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$authService</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_cacheBackend">
         $cacheBackend
         <a href="classes/Drupal-o365-GraphService.html#property_cacheBackend" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/GraphService.php"><a href="files/src-graphservice.html"><abbr title="src/GraphService.php">GraphService.php</abbr></a></abbr>
@@ -330,16 +449,21 @@
 
     </aside>
 
-        <p class="phpdocumentor-summary">The cache baclend service.</p>
+        <p class="phpdocumentor-summary">The cache backend service.</p>
 
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type"><abbr title="\Drupal\Core\Cache\CacheBackendInterface">CacheBackendInterface</abbr></span>
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type"><abbr title="\Drupal\Core\Cache\CacheBackendInterface">CacheBackendInterface</abbr></span>
     <span class="phpdocumentor-signature__name">$cacheBackend</span>
     </code>
 
     
     
+    
+
+    
+
     
 
 </article>
@@ -348,13 +472,53 @@
             phpdocumentor-element
             -property
             -protected
-                                                        "
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_currentUser">
+        $currentUser
+        <a href="classes/Drupal-o365-GraphService.html#property_currentUser" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/GraphService.php"><a href="files/src-graphservice.html"><abbr title="src/GraphService.php">GraphService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">55</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">The current user account.</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type"><abbr title="\Drupal\Core\Session\AccountProxyInterface">AccountProxyInterface</abbr></span>
+    <span class="phpdocumentor-signature__name">$currentUser</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_logger">
         $logger
         <a href="classes/Drupal-o365-GraphService.html#property_logger" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/GraphService.php"><a href="files/src-graphservice.html"><abbr title="src/GraphService.php">GraphService.php</abbr></a></abbr>
@@ -365,14 +529,19 @@
 
         <p class="phpdocumentor-summary">The modules logger.</p>
 
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type"><abbr title="\Drupal\Core\Logger\LoggerChannelInterface">LoggerChannelInterface</abbr></span>
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type"><abbr title="\Drupal\Core\Logger\LoggerChannelInterface">LoggerChannelInterface</abbr></span>
     <span class="phpdocumentor-signature__name">$logger</span>
     </code>
 
     
     
+    
+
+    
+
     
 
 </article>
@@ -381,13 +550,14 @@
             phpdocumentor-element
             -property
             -protected
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_messenger">
         $messenger
         <a href="classes/Drupal-o365-GraphService.html#property_messenger" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/GraphService.php"><a href="files/src-graphservice.html"><abbr title="src/GraphService.php">GraphService.php</abbr></a></abbr>
@@ -398,14 +568,58 @@
 
         <p class="phpdocumentor-summary">The logger service.</p>
 
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type"><a href="classes/Drupal-o365-O365LoggerServiceInterface.html"><abbr title="\Drupal\o365\O365LoggerServiceInterface">O365LoggerServiceInterface</abbr></a></span>
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/Drupal-o365-O365LoggerServiceInterface.html"><abbr title="\Drupal\o365\O365LoggerServiceInterface">O365LoggerServiceInterface</abbr></a></span>
     <span class="phpdocumentor-signature__name">$messenger</span>
     </code>
 
     
     
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_timeout">
+        $timeout
+        <a href="classes/Drupal-o365-GraphService.html#property_timeout" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/GraphService.php"><a href="files/src-graphservice.html"><abbr title="src/GraphService.php">GraphService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">62</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">The timeout used in calls to the Graph API.</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">int</span>
+    <span class="phpdocumentor-signature__name">$timeout</span>
+     = <span class="phpdocumentor-signature__default-value">1000</span></code>
+
+    
+    
+    
+
+    
+
     
 
 </article>
@@ -415,6 +629,7 @@
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
             <a href="classes/Drupal-o365-GraphService.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+
         </h3>
                     <article
         class="phpdocumentor-element
@@ -425,11 +640,12 @@
     <h4 class="phpdocumentor-element__name" id="method___construct">
         __construct()
         <a href="classes/Drupal-o365-GraphService.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/GraphService.php"><a href="files/src-graphservice.html"><abbr title="src/GraphService.php">GraphService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">57</span>
+    <span class="phpdocumentor-element-found-in__line">80</span>
 
     </aside>
 
@@ -437,8 +653,11 @@
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Drupal-o365-AuthenticationServiceInterface.html"><abbr title="\Drupal\o365\AuthenticationServiceInterface">AuthenticationServiceInterface</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$authenticationService</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Drupal-o365-O365LoggerServiceInterface.html"><abbr title="\Drupal\o365\O365LoggerServiceInterface">O365LoggerServiceInterface</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messenger</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Drupal\Core\Cache\CacheBackendInterface">CacheBackendInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cacheBackend</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Drupal\Core\Logger\LoggerChannelFactoryInterface">LoggerChannelFactoryInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$loggerChannelFactory</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Drupal-o365-AuthenticationServiceInterface.html"><abbr title="\Drupal\o365\AuthenticationServiceInterface">AuthenticationServiceInterface</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$authenticationService</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Drupal-o365-O365LoggerServiceInterface.html"><abbr title="\Drupal\o365\O365LoggerServiceInterface">O365LoggerServiceInterface</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messenger</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Drupal\Core\Cache\CacheBackendInterface">CacheBackendInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cacheBackend</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Drupal\Core\Logger\LoggerChannelFactoryInterface">LoggerChannelFactoryInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$loggerChannelFactory</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Drupal\externalauth\AuthmapInterface">AuthmapInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$authmap</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Drupal\Core\Session\AccountProxyInterface">AccountProxyInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$currentUser</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
+    
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -478,14 +697,30 @@
 </section>
 
             </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$authmap</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Drupal\externalauth\AuthmapInterface">AuthmapInterface</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The externalauth authmap service.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$currentUser</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Drupal\Core\Session\AccountProxyInterface">AccountProxyInterface</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The current user account.</p>
+</section>
+
+            </dd>
             </dl>
 
     
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
+    
+
     
 </article>
                     <article
@@ -497,11 +732,12 @@
     <h4 class="phpdocumentor-element__name" id="method_getCollectionData">
         getCollectionData()
         <a href="classes/Drupal-o365-GraphService.html#method_getCollectionData" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/GraphService.php"><a href="files/src-graphservice.html"><abbr title="src/GraphService.php">GraphService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">197</span>
+    <span class="phpdocumentor-element-found-in__line">265</span>
 
     </aside>
 
@@ -509,8 +745,11 @@
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getCollectionData</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$endpoint</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">false|string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$returnType</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">FALSE</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">false|string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$version</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">FALSE</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">false|<abbr title="\Microsoft\Graph\Http\GraphCollectionRequest">GraphCollectionRequest</abbr></span></code>
+                    <span class="phpdocumentor-signature__name">getCollectionData</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$endpoint</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool|string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$returnType</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">FALSE</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool|string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$version</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">FALSE</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">false|<abbr title="\Microsoft\Graph\Http\GraphCollectionRequest">GraphCollectionRequest</abbr></span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
+    
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -525,7 +764,7 @@
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$returnType</span>
-                : <span class="phpdocumentor-signature__argument__return-type">false|string</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool|string</span>
                  = <span class="phpdocumentor-signature__argument__default-value">FALSE</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                     <section class="phpdocumentor-description"><p>The return type we want to get.</p>
@@ -534,7 +773,7 @@
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$version</span>
-                : <span class="phpdocumentor-signature__argument__return-type">false|string</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool|string</span>
                  = <span class="phpdocumentor-signature__argument__default-value">FALSE</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                     <section class="phpdocumentor-description"><p>The version of the graph api that is used.</p>
@@ -546,7 +785,8 @@
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Drupal-o365-GraphService.html#method_getCollectionData#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h5>
     <dl class="phpdocumentor-tag-list">
                                     <dt class="phpdocumentor-tag-list__entry">
@@ -573,15 +813,19 @@
                                                             
                                              
                                     </dd>
-                        </dl>
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">false|<abbr title="\Microsoft\Graph\Http\GraphCollectionRequest">GraphCollectionRequest</abbr></span>
-            &mdash;
-            <section class="phpdocumentor-description"><p>The collection request.</p>
-</section>
+                                            </dl>
 
     
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">false|<abbr title="\Microsoft\Graph\Http\GraphCollectionRequest">GraphCollectionRequest</abbr></span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>The collection request.</p>
+</section>
+
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -592,11 +836,12 @@
     <h4 class="phpdocumentor-element__name" id="method_getCurrentUserId">
         getCurrentUserId()
         <a href="classes/Drupal-o365-GraphService.html#method_getCurrentUserId" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/GraphService.php"><a href="files/src-graphservice.html"><abbr title="src/GraphService.php">GraphService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">228</span>
+    <span class="phpdocumentor-element-found-in__line">296</span>
 
     </aside>
 
@@ -604,19 +849,26 @@
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getCurrentUserId</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool|string</span></code>
+                    <span class="phpdocumentor-signature__name">getCurrentUserId</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool|string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
 
     
-    
-    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">bool|string</span>
-            &mdash;
-            <section class="phpdocumentor-description"><p>The ID or FALSE if not logged in via Office.</p>
+        <span class="phpdocumentor-signature__response_type">bool|string</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>The ID or FALSE if not logged in via Office.</p>
 </section>
 
-    
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -627,11 +879,12 @@
     <h4 class="phpdocumentor-element__name" id="method_getGraphData">
         getGraphData()
         <a href="classes/Drupal-o365-GraphService.html#method_getGraphData" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/GraphService.php"><a href="files/src-graphservice.html"><abbr title="src/GraphService.php">GraphService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">84</span>
+    <span class="phpdocumentor-element-found-in__line">111</span>
 
     </aside>
 
@@ -639,8 +892,11 @@
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getGraphData</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$endpoint</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$type</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;GET&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$raw</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">FALSE</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string|bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$version</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">FALSE</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string|bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$returnType</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">FALSE</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">getGraphData</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$endpoint</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$type</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;GET&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$raw</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">FALSE</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool|string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$version</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">FALSE</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool|string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$returnType</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">FALSE</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$headers</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">[]</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
+    
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -673,7 +929,7 @@
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$version</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string|bool</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool|string</span>
                  = <span class="phpdocumentor-signature__argument__default-value">FALSE</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                     <section class="phpdocumentor-description"><p>The version of the graph api that is used.</p>
@@ -682,10 +938,19 @@
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$returnType</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string|bool</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool|string</span>
                  = <span class="phpdocumentor-signature__argument__default-value">FALSE</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                     <section class="phpdocumentor-description"><p>The return type we want to get.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$headers</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">[]</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>An array of headers to send.</p>
 </section>
 
             </dd>
@@ -694,7 +959,8 @@
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Drupal-o365-GraphService.html#method_getGraphData#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h5>
     <dl class="phpdocumentor-tag-list">
                                     <dt class="phpdocumentor-tag-list__entry">
@@ -709,19 +975,66 @@
                     <span class="phpdocumentor-tag__name">throws</span>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
-                                                                <span class="phpdocumentor-tag-link"><abbr title="\League\OAuth2\Client\Provider\Exception\IdentityProviderException">IdentityProviderException</abbr>|<abbr title="\GuzzleHttp\Exception\GuzzleException">GuzzleException</abbr></span>
+                                                                <span class="phpdocumentor-tag-link"><abbr title="\League\OAuth2\Client\Provider\Exception\IdentityProviderException">IdentityProviderException</abbr>|<abbr title="\GuzzleHttp\Exception\GuzzleException">GuzzleException</abbr>|<abbr title="\Microsoft\Graph\Exception\GraphException">GraphException</abbr></span>
                                                             
                                              
                                     </dd>
-                        </dl>
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-            <section class="phpdocumentor-description"><p>The data retrieved from the Graph API.</p>
-</section>
+                                            </dl>
 
     
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">mixed</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>The data retrieved from the Graph API.</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getTimeout">
+        getTimeout()
+        <a href="classes/Drupal-o365-GraphService.html#method_getTimeout" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/GraphService.php"><a href="files/src-graphservice.html"><abbr title="src/GraphService.php">GraphService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">306</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Get the Graph API timeout.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getTimeout</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">int</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>The timeout in seconds.</p>
+</section>
+
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -732,11 +1045,12 @@
     <h4 class="phpdocumentor-element__name" id="method_sendGraphData">
         sendGraphData()
         <a href="classes/Drupal-o365-GraphService.html#method_sendGraphData" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/GraphService.php"><a href="files/src-graphservice.html"><abbr title="src/GraphService.php">GraphService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">108</span>
+    <span class="phpdocumentor-element-found-in__line">146</span>
 
     </aside>
 
@@ -744,8 +1058,11 @@
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">sendGraphData</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$endpoint</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$data</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">[]</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$type</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;POST&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$raw</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">FALSE</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string|bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$version</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">FALSE</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">sendGraphData</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$endpoint</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$data</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">[]</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$type</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;POST&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$raw</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">FALSE</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool|string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$version</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">FALSE</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool|string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$returnType</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">FALSE</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$headers</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">[]</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
+    
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -760,7 +1077,7 @@
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$data</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
                  = <span class="phpdocumentor-signature__argument__default-value">[]</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                     <section class="phpdocumentor-description"><p>Sent data.</p>
@@ -787,10 +1104,28 @@
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$version</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string|bool</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool|string</span>
                  = <span class="phpdocumentor-signature__argument__default-value">FALSE</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                     <section class="phpdocumentor-description"><p>The version of the graph api that is used.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$returnType</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool|string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">FALSE</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The return type we want to get.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$headers</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">[]</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>An array of headers to send.</p>
 </section>
 
             </dd>
@@ -799,7 +1134,8 @@
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Drupal-o365-GraphService.html#method_sendGraphData#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h5>
     <dl class="phpdocumentor-tag-list">
                                     <dt class="phpdocumentor-tag-list__entry">
@@ -818,13 +1154,72 @@
                                                             
                                              
                                     </dd>
-                        </dl>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">throws</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><abbr title="\Microsoft\Graph\Exception\GraphException">GraphException</abbr></span>
+                                                            
+                                             
+                                    </dd>
+                                            </dl>
 
+    
+
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-            <section class="phpdocumentor-description"><p>The data retrieved from the Graph API.</p>
+        <span class="phpdocumentor-signature__response_type">mixed</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>The data retrieved from the Graph API.</p>
 </section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setTimeout">
+        setTimeout()
+        <a href="classes/Drupal-o365-GraphService.html#method_setTimeout" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/GraphService.php"><a href="files/src-graphservice.html"><abbr title="src/GraphService.php">GraphService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">316</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Set the Graph API timeout.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">setTimeout</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$timeout</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$timeout</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The timeout amount in seconds.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
 
     
 </article>
@@ -837,11 +1232,12 @@
     <h4 class="phpdocumentor-element__name" id="method_getData">
         getData()
         <a href="classes/Drupal-o365-GraphService.html#method_getData" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/GraphService.php"><a href="files/src-graphservice.html"><abbr title="src/GraphService.php">GraphService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">135</span>
+    <span class="phpdocumentor-element-found-in__line">181</span>
 
     </aside>
 
@@ -849,8 +1245,11 @@
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-                <span class="phpdocumentor-signature__name">getData</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$endpoint</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$type</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;GET&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$raw</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">FALSE</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string|bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$version</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">FALSE</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$data</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">[]</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string|bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$returnType</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">FALSE</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;|false|string|null</span></code>
+                    <span class="phpdocumentor-signature__name">getData</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$endpoint</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$type</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;GET&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$raw</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">FALSE</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool|string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$version</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">FALSE</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$data</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">[]</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool|string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$returnType</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">FALSE</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$headers</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">[]</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
+    
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -883,7 +1282,7 @@
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$version</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string|bool</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool|string</span>
                  = <span class="phpdocumentor-signature__argument__default-value">FALSE</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                     <section class="phpdocumentor-description"><p>The version of the graph api that is used.</p>
@@ -892,7 +1291,7 @@
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$data</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
                  = <span class="phpdocumentor-signature__argument__default-value">[]</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                     <section class="phpdocumentor-description"><p>Sent data.</p>
@@ -901,10 +1300,19 @@
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$returnType</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string|bool</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool|string</span>
                  = <span class="phpdocumentor-signature__argument__default-value">FALSE</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                     <section class="phpdocumentor-description"><p>The return type we want to get.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$headers</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">[]</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>An array of headers to send.</p>
 </section>
 
             </dd>
@@ -913,7 +1321,8 @@
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Drupal-o365-GraphService.html#method_getData#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h5>
     <dl class="phpdocumentor-tag-list">
                                     <dt class="phpdocumentor-tag-list__entry">
@@ -936,86 +1345,168 @@
                     <span class="phpdocumentor-tag__name">throws</span>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
-                                                                <span class="phpdocumentor-tag-link"><abbr title="\League\OAuth2\Client\Provider\Exception\IdentityProviderException">IdentityProviderException</abbr></span>
+                                                                <span class="phpdocumentor-tag-link"><abbr title="\League\OAuth2\Client\Provider\Exception\IdentityProviderException">IdentityProviderException</abbr>|<abbr title="\Microsoft\Graph\Exception\GraphException">GraphException</abbr></span>
                                                             
                                              
                                     </dd>
-                        </dl>
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;|false|string|null</span>
-            &mdash;
-            <section class="phpdocumentor-description"><p>The retrieved data from the GRAPH API.</p>
-</section>
+                                            </dl>
 
     
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">mixed</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>The retrieved data from the GRAPH API.</p>
+</section>
+
+            </section>
+
 </article>
             </section>
 
-        
+        <div class="phpdocumentor-modal" id="source-view">
+    <div class="phpdocumentor-modal-bg" data-exit-button></div>
+    <div class="phpdocumentor-modal-container">
+        <div class="phpdocumentor-modal-content">
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/GraphService.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+        </div>
+        <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
+    </div>
+</div>
+
     <script type="text/javascript">
-        function loadExternalCodeSnippets(line) {
-            Array.prototype.slice.call(document.querySelectorAll('pre[data-src]')).forEach((pre) => {
-                var src = pre.getAttribute('data-src').replace( /\\/g, '/');
-                var extension = (src.match(/\.(\w+)$/) || [, ''])[1];
-                var language = 'php';
+        (function () {
+            function loadExternalCodeSnippet(el, url, line) {
+                Array.prototype.slice.call(el.querySelectorAll('pre[data-src]')).forEach((pre) => {
+                    const src = url || pre.getAttribute('data-src').replace(/\\/g, '/');
+                    const language = 'php';
 
-                var code = document.createElement('code');
-                code.className = 'language-' + language;
+                    const code = document.createElement('code');
+                    code.className = 'language-' + language;
+                    pre.textContent = '';
+                    pre.setAttribute('data-line', line)
+                    code.textContent = 'Loading…';
+                    pre.appendChild(code);
 
-                pre.textContent = '';
+                    var xhr = new XMLHttpRequest();
 
-                pre.setAttribute('data-line', line)
-                code.textContent = 'Loading…';
+                    xhr.open('GET', src, true);
 
-                pre.appendChild(code);
-
-                var xhr = new XMLHttpRequest();
-
-                xhr.open('GET', src, true);
-
-                xhr.onreadystatechange = function () {
-                    if (xhr.readyState == 4) {
+                    xhr.onreadystatechange = function () {
+                        if (xhr.readyState !== 4) {
+                            return;
+                        }
 
                         if (xhr.status < 400 && xhr.responseText) {
                             code.textContent = xhr.responseText;
-
                             Prism.highlightElement(code);
+                            d=document.getElementsByClassName("line-numbers");
+                            d[0].scrollTop = d[0].children[1].offsetTop;
+                            return;
                         }
-                        else if (xhr.status >= 400) {
+
+                        if (xhr.status === 404) {
+                            code.textContent = '✖ Error: File could not be found';
+                            return;
+                        }
+
+                        if (xhr.status >= 400) {
                             code.textContent = '✖ Error ' + xhr.status + ' while fetching file: ' + xhr.statusText;
+                            return;
                         }
-                        else {
-                            code.textContent = '✖ Error: File does not exist, is empty or trying to view from localhost';
-                        }
+
+                        code.textContent = '✖ Error: An unknown error occurred';
+                    };
+
+                    xhr.send(null);
+                });
+            }
+
+            const modalButtons = document.querySelectorAll("[data-modal]");
+            const openedAsLocalFile = window.location.protocol === 'file:';
+            if (modalButtons.length > 0 && openedAsLocalFile) {
+                console.warn(
+                    'Viewing the source code is unavailable because you are opening this page from the file:// scheme; ' +
+                    'browsers block XHR requests when a page is opened this way'
+                );
+            }
+
+            modalButtons.forEach(function (trigger) {
+                if (openedAsLocalFile) {
+                    trigger.setAttribute("hidden", "hidden");
+                }
+
+                trigger.addEventListener("click", function (event) {
+                    event.preventDefault();
+                    const modal = document.getElementById(trigger.dataset.modal);
+                    if (!modal) {
+                        console.error(`Modal with id "${trigger.dataset.modal}" could not be found`);
+                        return;
                     }
-                };
+                    modal.classList.add("phpdocumentor-modal__open");
 
-                xhr.send(null);
-            });
-        }
-
-        var modals = document.querySelectorAll("[data-modal]");
-
-        modals.forEach(function (trigger) {
-            trigger.addEventListener("click", function (event) {
-                //event.preventDefault();
-                const modal = document.getElementById(trigger.dataset.modal);
-                modal.classList.add("phpdocumentor-modal__open");
-                loadExternalCodeSnippets(trigger.dataset.line)
-                const exits = modal.querySelectorAll("[data-exit-button]");
-                exits.forEach(function (exit) {
-                    exit.addEventListener("click", function (event) {
-                        event.preventDefault();
-                        modal.classList.remove("phpdocumentor-modal__open");
+                    loadExternalCodeSnippet(modal, trigger.dataset.src || null, trigger.dataset.line)
+                    const exits = modal.querySelectorAll("[data-exit-button]");
+                    exits.forEach(function (exit) {
+                        exit.addEventListener("click", function (event) {
+                            event.preventDefault();
+                            modal.classList.remove("phpdocumentor-modal__open");
+                        });
                     });
                 });
             });
-        });
+        })();
     </script>
 
     </article>
-                <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+                                </section>
+                <section class="phpdocumentor-on-this-page__sidebar">
+                                
+    <section class="phpdocumentor-on-this-page__content">
+        <strong class="phpdocumentor-on-this-page__title">On this page</strong>
+
+        <ul class="phpdocumentor-list -clean">
+            <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                                            <li><a href="classes/Drupal-o365-GraphService.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/Drupal-o365-GraphService.html#toc-methods">Methods</a></li>
+                                    </ul>
+            </li>
+            
+                            <li class="phpdocumentor-on-this-page-section__title">Properties</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/Drupal-o365-GraphService.html#property_authmap">$authmap</a></li>
+                                                    <li class=""><a href="classes/Drupal-o365-GraphService.html#property_authService">$authService</a></li>
+                                                    <li class=""><a href="classes/Drupal-o365-GraphService.html#property_cacheBackend">$cacheBackend</a></li>
+                                                    <li class=""><a href="classes/Drupal-o365-GraphService.html#property_currentUser">$currentUser</a></li>
+                                                    <li class=""><a href="classes/Drupal-o365-GraphService.html#property_logger">$logger</a></li>
+                                                    <li class=""><a href="classes/Drupal-o365-GraphService.html#property_messenger">$messenger</a></li>
+                                                    <li class=""><a href="classes/Drupal-o365-GraphService.html#property_timeout">$timeout</a></li>
+                                            </ul>
+                </li>
+            
+                        <li class="phpdocumentor-on-this-page-section__title">Methods</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                            <li class=""><a href="classes/Drupal-o365-GraphService.html#method___construct">__construct()</a></li>
+                                            <li class=""><a href="classes/Drupal-o365-GraphService.html#method_getCollectionData">getCollectionData()</a></li>
+                                            <li class=""><a href="classes/Drupal-o365-GraphService.html#method_getCurrentUserId">getCurrentUserId()</a></li>
+                                            <li class=""><a href="classes/Drupal-o365-GraphService.html#method_getGraphData">getGraphData()</a></li>
+                                            <li class=""><a href="classes/Drupal-o365-GraphService.html#method_getTimeout">getTimeout()</a></li>
+                                            <li class=""><a href="classes/Drupal-o365-GraphService.html#method_sendGraphData">sendGraphData()</a></li>
+                                            <li class=""><a href="classes/Drupal-o365-GraphService.html#method_setTimeout">setTimeout()</a></li>
+                                            <li class=""><a href="classes/Drupal-o365-GraphService.html#method_getData">getData()</a></li>
+                                    </ul>
+            </li>
+                    </ul>
+    </section>
+
+                </section>
+                            </div>
+            <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
     <section class="phpdocumentor-search-results__dialog">
         <header class="phpdocumentor-search-results__header">
             <h2 class="phpdocumentor-search-results__title">Search results</h2>
@@ -1026,7 +1517,6 @@
         </section>
     </section>
 </section>
-            </div>
         </div>
         <a href="classes/Drupal-o365-GraphService.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 

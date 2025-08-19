@@ -1,566 +1,6 @@
 Search.appendIndex(
     [
                 {
-            "fqsen": "\\Drupal\\o365\\AuthenticationService",
-            "name": "AuthenticationService",
-            "summary": "Service\u0020used\u0020to\u0020authenticate\u0020users\u0020between\u0020Office\u0020365\u0020and\u0020Drupal.",
-            "url": "classes/Drupal-o365-AuthenticationService.html"
-        },                {
-            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "Constructs\u0020a\u0020new\u0020AuthenticationService\u0020object.",
-            "url": "classes/Drupal-o365-AuthenticationService.html#method___construct"
-        },                {
-            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003AredirectToAuthorizationUrl\u0028\u0029",
-            "name": "redirectToAuthorizationUrl",
-            "summary": "Redirect\u0020the\u0020user\u0020to\u0020the\u0020correct\u0020Microsoft\u0020pages\u0020for\u0020oAuth2.",
-            "url": "classes/Drupal-o365-AuthenticationService.html#method_redirectToAuthorizationUrl"
-        },                {
-            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003AsetAccessToken\u0028\u0029",
-            "name": "setAccessToken",
-            "summary": "Generate\u0020and\u0020save\u0020the\u0020accessToken.",
-            "url": "classes/Drupal-o365-AuthenticationService.html#method_setAccessToken"
-        },                {
-            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003AgetAccessToken\u0028\u0029",
-            "name": "getAccessToken",
-            "summary": "Get\u0020the\u0020access\u0020token\u0020for\u0020the\u0020user.",
-            "url": "classes/Drupal-o365-AuthenticationService.html#method_getAccessToken"
-        },                {
-            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003AsaveAuthDataFromUrl\u0028\u0029",
-            "name": "saveAuthDataFromUrl",
-            "summary": "Save\u0020the\u0020auth\u0020data\u0020from\u0020the\u0020url\u0020parameters\u0020in\u0020the\u0020user\u0020session\u0020storage.",
-            "url": "classes/Drupal-o365-AuthenticationService.html#method_saveAuthDataFromUrl"
-        },                {
-            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003AcheckForOfficeLogin\u0028\u0029",
-            "name": "checkForOfficeLogin",
-            "summary": "Check\u0020if\u0020a\u0020user\u0020is\u0020logged\u0020in\u0020via\u0020Office.",
-            "url": "classes/Drupal-o365-AuthenticationService.html#method_checkForOfficeLogin"
-        },                {
-            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003ArefreshToken\u0028\u0029",
-            "name": "refreshToken",
-            "summary": "Generate\u0020a\u0020new\u0020access\u0020token\u0020based\u0020on\u0020the\u0020refresh\u0020token.",
-            "url": "classes/Drupal-o365-AuthenticationService.html#method_refreshToken"
-        },                {
-            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003AgenerateProvider\u0028\u0029",
-            "name": "generateProvider",
-            "summary": "Generate\u0020a\u0020basic\u0020oAuth2\u0020provider.",
-            "url": "classes/Drupal-o365-AuthenticationService.html#method_generateProvider"
-        },                {
-            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003AgetAuthData\u0028\u0029",
-            "name": "getAuthData",
-            "summary": "Get\u0020the\u0020auth\u0020data\u0020from\u0020temp\u0020store\u0020or\u0020cookie.",
-            "url": "classes/Drupal-o365-AuthenticationService.html#method_getAuthData"
-        },                {
-            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003AsaveAuthData\u0028\u0029",
-            "name": "saveAuthData",
-            "summary": "Save\u0020the\u0020auth\u0020data\u0020to\u0020the\u0020temp\u0020store.",
-            "url": "classes/Drupal-o365-AuthenticationService.html#method_saveAuthData"
-        },                {
-            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003AsaveDataToTempStore\u0028\u0029",
-            "name": "saveDataToTempStore",
-            "summary": "Save\u0020data\u0020to\u0020the\u0020tempstore.",
-            "url": "classes/Drupal-o365-AuthenticationService.html#method_saveDataToTempStore"
-        },                {
-            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003A\u0024configFactory",
-            "name": "configFactory",
-            "summary": "The\u0020config\u0020factory\u0020interface.",
-            "url": "classes/Drupal-o365-AuthenticationService.html#property_configFactory"
-        },                {
-            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003A\u0024apiConfig",
-            "name": "apiConfig",
-            "summary": "The\u0020modules\u0020API\u0020config.",
-            "url": "classes/Drupal-o365-AuthenticationService.html#property_apiConfig"
-        },                {
-            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003A\u0024apiSettings",
-            "name": "apiSettings",
-            "summary": "The\u0020modules\u0020API\u0020settings\u0020like\u0020the\u0020client\u0020ID.",
-            "url": "classes/Drupal-o365-AuthenticationService.html#property_apiSettings"
-        },                {
-            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003A\u0024moduleConfig",
-            "name": "moduleConfig",
-            "summary": "The\u0020modules\u0020base\u0020config.",
-            "url": "classes/Drupal-o365-AuthenticationService.html#property_moduleConfig"
-        },                {
-            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003A\u0024tempStore",
-            "name": "tempStore",
-            "summary": "The\u0020private\u0020temp\u0020store.",
-            "url": "classes/Drupal-o365-AuthenticationService.html#property_tempStore"
-        },                {
-            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003A\u0024oauthClient",
-            "name": "oauthClient",
-            "summary": "A\u0020oauth\u0020provider.",
-            "url": "classes/Drupal-o365-AuthenticationService.html#property_oauthClient"
-        },                {
-            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003A\u0024constants",
-            "name": "constants",
-            "summary": "The\u0020ConstantsService\u0020implementation.",
-            "url": "classes/Drupal-o365-AuthenticationService.html#property_constants"
-        },                {
-            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003A\u0024loggerService",
-            "name": "loggerService",
-            "summary": "The\u0020logger\u0020service.",
-            "url": "classes/Drupal-o365-AuthenticationService.html#property_loggerService"
-        },                {
-            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003A\u0024request",
-            "name": "request",
-            "summary": "The\u0020current\u0020request.",
-            "url": "classes/Drupal-o365-AuthenticationService.html#property_request"
-        },                {
-            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003A\u0024debug",
-            "name": "debug",
-            "summary": "If\u0020we\u0020want\u0020to\u0020add\u0020debug\u0020messages.",
-            "url": "classes/Drupal-o365-AuthenticationService.html#property_debug"
-        },                {
-            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003A\u0024authValues",
-            "name": "authValues",
-            "summary": "The\u0020auth\u0020data.",
-            "url": "classes/Drupal-o365-AuthenticationService.html#property_authValues"
-        },                {
-            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003A\u0024currentUser",
-            "name": "currentUser",
-            "summary": "The\u0020current\u0020user\u0020account.",
-            "url": "classes/Drupal-o365-AuthenticationService.html#property_currentUser"
-        },                {
-            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003A\u0024authmap",
-            "name": "authmap",
-            "summary": "The\u0020auth\u0020map.",
-            "url": "classes/Drupal-o365-AuthenticationService.html#property_authmap"
-        },                {
-            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003A\u0024helperService",
-            "name": "helperService",
-            "summary": "The\u0020o365\u0020helper\u0020service.",
-            "url": "classes/Drupal-o365-AuthenticationService.html#property_helperService"
-        },                {
-            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003A\u0024messenger",
-            "name": "messenger",
-            "summary": "The\u0020messenger.",
-            "url": "classes/Drupal-o365-AuthenticationService.html#property_messenger"
-        },                {
-            "fqsen": "\\Drupal\\o365\\AuthenticationServiceInterface",
-            "name": "AuthenticationServiceInterface",
-            "summary": "The\u0020interface\u0020for\u0020the\u0020AuthenticationService.",
-            "url": "classes/Drupal-o365-AuthenticationServiceInterface.html"
-        },                {
-            "fqsen": "\\Drupal\\o365\\AuthenticationServiceInterface\u003A\u003AredirectToAuthorizationUrl\u0028\u0029",
-            "name": "redirectToAuthorizationUrl",
-            "summary": "Redirect\u0020the\u0020user\u0020to\u0020the\u0020correct\u0020Microsoft\u0020pages\u0020for\u0020oAuth2.",
-            "url": "classes/Drupal-o365-AuthenticationServiceInterface.html#method_redirectToAuthorizationUrl"
-        },                {
-            "fqsen": "\\Drupal\\o365\\AuthenticationServiceInterface\u003A\u003AsetAccessToken\u0028\u0029",
-            "name": "setAccessToken",
-            "summary": "Generate\u0020and\u0020save\u0020the\u0020accessToken.",
-            "url": "classes/Drupal-o365-AuthenticationServiceInterface.html#method_setAccessToken"
-        },                {
-            "fqsen": "\\Drupal\\o365\\AuthenticationServiceInterface\u003A\u003AgetAccessToken\u0028\u0029",
-            "name": "getAccessToken",
-            "summary": "Get\u0020the\u0020access\u0020token\u0020for\u0020the\u0020user.",
-            "url": "classes/Drupal-o365-AuthenticationServiceInterface.html#method_getAccessToken"
-        },                {
-            "fqsen": "\\Drupal\\o365\\AuthenticationServiceInterface\u003A\u003AsaveAuthDataFromUrl\u0028\u0029",
-            "name": "saveAuthDataFromUrl",
-            "summary": "Save\u0020the\u0020auth\u0020data\u0020from\u0020the\u0020url\u0020parameters\u0020in\u0020the\u0020user\u0020session\u0020storage.",
-            "url": "classes/Drupal-o365-AuthenticationServiceInterface.html#method_saveAuthDataFromUrl"
-        },                {
-            "fqsen": "\\Drupal\\o365\\AuthenticationServiceInterface\u003A\u003AcheckForOfficeLogin\u0028\u0029",
-            "name": "checkForOfficeLogin",
-            "summary": "Check\u0020if\u0020a\u0020user\u0020is\u0020logged\u0020in\u0020via\u0020Office.",
-            "url": "classes/Drupal-o365-AuthenticationServiceInterface.html#method_checkForOfficeLogin"
-        },                {
-            "fqsen": "\\Drupal\\o365\\Block\\O365BlockBase",
-            "name": "O365BlockBase",
-            "summary": "Custom\u0020block\u0020base\u0020for\u0020o365\u0020for\u0020access\u0020checking.",
-            "url": "classes/Drupal-o365-Block-O365BlockBase.html"
-        },                {
-            "fqsen": "\\Drupal\\o365\\Block\\O365BlockBase\u003A\u003Abuild\u0028\u0029",
-            "name": "build",
-            "summary": "\u007B\u0040inheritdoc\u007D",
-            "url": "classes/Drupal-o365-Block-O365BlockBase.html#method_build"
-        },                {
-            "fqsen": "\\Drupal\\o365\\Block\\O365BlockBase\u003A\u003Aaccess\u0028\u0029",
-            "name": "access",
-            "summary": "\u007B\u0040inheritdoc\u007D",
-            "url": "classes/Drupal-o365-Block-O365BlockBase.html#method_access"
-        },                {
-            "fqsen": "\\Drupal\\o365\\Block\\O365UncachedBlockBase",
-            "name": "O365UncachedBlockBase",
-            "summary": "Extending\u0020the\u0020O365BlockBase\u0020with\u0020a\u0020non\u002Dcachable\u0020dependency.",
-            "url": "classes/Drupal-o365-Block-O365UncachedBlockBase.html"
-        },                {
-            "fqsen": "\\Drupal\\o365\\ConstantsService",
-            "name": "ConstantsService",
-            "summary": "Some\u0020constants\u0020we\u0020use\u0020in\u0020the\u0020code.",
-            "url": "classes/Drupal-o365-ConstantsService.html"
-        },                {
-            "fqsen": "\\Drupal\\o365\\ConstantsService\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "Constructs\u0020a\u0020new\u0020ConstantsService\u0020object.",
-            "url": "classes/Drupal-o365-ConstantsService.html#method___construct"
-        },                {
-            "fqsen": "\\Drupal\\o365\\ConstantsService\u003A\u003AgetRedirectUrl\u0028\u0029",
-            "name": "getRedirectUrl",
-            "summary": "Get\u0020the\u0020redirect\u0020URL.",
-            "url": "classes/Drupal-o365-ConstantsService.html#method_getRedirectUrl"
-        },                {
-            "fqsen": "\\Drupal\\o365\\ConstantsService\u003A\u003AgetAuthorizeUrl\u0028\u0029",
-            "name": "getAuthorizeUrl",
-            "summary": "Get\u0020the\u0020authorize\u0020url.",
-            "url": "classes/Drupal-o365-ConstantsService.html#method_getAuthorizeUrl"
-        },                {
-            "fqsen": "\\Drupal\\o365\\ConstantsService\u003A\u003AgetTokenUrl\u0028\u0029",
-            "name": "getTokenUrl",
-            "summary": "Get\u0020the\u0020token\u0020url.",
-            "url": "classes/Drupal-o365-ConstantsService.html#method_getTokenUrl"
-        },                {
-            "fqsen": "\\Drupal\\o365\\ConstantsService\u003A\u003AgetUserTempStoreName\u0028\u0029",
-            "name": "getUserTempStoreName",
-            "summary": "Get\u0020the\u0020user\u0020temp\u0020store\u0020name.",
-            "url": "classes/Drupal-o365-ConstantsService.html#method_getUserTempStoreName"
-        },                {
-            "fqsen": "\\Drupal\\o365\\ConstantsService\u003A\u003AgetUserTempStoreDataName\u0028\u0029",
-            "name": "getUserTempStoreDataName",
-            "summary": "Get\u0020the\u0020user\u0020temp\u0020store\u0020data\u0020name.",
-            "url": "classes/Drupal-o365-ConstantsService.html#method_getUserTempStoreDataName"
-        },                {
-            "fqsen": "\\Drupal\\o365\\ConstantsService\u003A\u003AgetTenant\u0028\u0029",
-            "name": "getTenant",
-            "summary": "Get\u0020the\u0020tenant\u0020ID.",
-            "url": "classes/Drupal-o365-ConstantsService.html#method_getTenant"
-        },                {
-            "fqsen": "\\Drupal\\o365\\ConstantsService\u003A\u003A\u0024configFactory",
-            "name": "configFactory",
-            "summary": "The\u0020config\u0020factory\u0020interface.",
-            "url": "classes/Drupal-o365-ConstantsService.html#property_configFactory"
-        },                {
-            "fqsen": "\\Drupal\\o365\\ConstantsService\u003A\u003A\u0024apiConfig",
-            "name": "apiConfig",
-            "summary": "The\u0020modules\u0020API\u0020config.",
-            "url": "classes/Drupal-o365-ConstantsService.html#property_apiConfig"
-        },                {
-            "fqsen": "\\Drupal\\o365\\ConstantsService\u003A\u003A\u0024apiSettings",
-            "name": "apiSettings",
-            "summary": "The\u0020modules\u0020API\u0020settings\u0020like\u0020the\u0020Client\u0020ID.",
-            "url": "classes/Drupal-o365-ConstantsService.html#property_apiSettings"
-        },                {
-            "fqsen": "\\Drupal\\o365\\ConstantsService\u003A\u003A\u0024request",
-            "name": "request",
-            "summary": "The\u0020request\u0020object.",
-            "url": "classes/Drupal-o365-ConstantsService.html#property_request"
-        },                {
-            "fqsen": "\\Drupal\\o365\\ConstantsService\u003A\u003A\u0024redirectUrl",
-            "name": "redirectUrl",
-            "summary": "The\u0020url\u0020where\u0020Microsoft\u0020will\u0020redirect\u0020us\u0020too.",
-            "url": "classes/Drupal-o365-ConstantsService.html#property_redirectUrl"
-        },                {
-            "fqsen": "\\Drupal\\o365\\ConstantsService\u003A\u003A\u0024authorizeRoot",
-            "name": "authorizeRoot",
-            "summary": "The\u0020authorize\u0020endpoint\u0020root.",
-            "url": "classes/Drupal-o365-ConstantsService.html#property_authorizeRoot"
-        },                {
-            "fqsen": "\\Drupal\\o365\\ConstantsService\u003A\u003A\u0024authorizePath",
-            "name": "authorizePath",
-            "summary": "The\u0020authorize\u0020endpoint\u0020path.",
-            "url": "classes/Drupal-o365-ConstantsService.html#property_authorizePath"
-        },                {
-            "fqsen": "\\Drupal\\o365\\ConstantsService\u003A\u003A\u0024tokenRoot",
-            "name": "tokenRoot",
-            "summary": "The\u0020token\u0020endpoint\u0020root.",
-            "url": "classes/Drupal-o365-ConstantsService.html#property_tokenRoot"
-        },                {
-            "fqsen": "\\Drupal\\o365\\ConstantsService\u003A\u003A\u0024tokenPath",
-            "name": "tokenPath",
-            "summary": "The\u0020token\u0020endpoint\u0020path.",
-            "url": "classes/Drupal-o365-ConstantsService.html#property_tokenPath"
-        },                {
-            "fqsen": "\\Drupal\\o365\\ConstantsService\u003A\u003A\u0024userTempStoreName",
-            "name": "userTempStoreName",
-            "summary": "The\u0020name\u0020of\u0020the\u0020temp\u0020store.",
-            "url": "classes/Drupal-o365-ConstantsService.html#property_userTempStoreName"
-        },                {
-            "fqsen": "\\Drupal\\o365\\ConstantsService\u003A\u003A\u0024userTempStoreDataName",
-            "name": "userTempStoreDataName",
-            "summary": "The\u0020name\u0020of\u0020the\u0020data\u0020saved\u0020in\u0020the\u0020temp\u0020store.",
-            "url": "classes/Drupal-o365-ConstantsService.html#property_userTempStoreDataName"
-        },                {
-            "fqsen": "\\Drupal\\o365\\Controller\\O365AuthScopesController",
-            "name": "O365AuthScopesController",
-            "summary": "Returns\u0020responses\u0020for\u0020Office\u0020365\u0020Connector\u0020routes.",
-            "url": "classes/Drupal-o365-Controller-O365AuthScopesController.html"
-        },                {
-            "fqsen": "\\Drupal\\o365\\Controller\\O365AuthScopesController\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "The\u0020controller\u0020constructor.",
-            "url": "classes/Drupal-o365-Controller-O365AuthScopesController.html#method___construct"
-        },                {
-            "fqsen": "\\Drupal\\o365\\Controller\\O365AuthScopesController\u003A\u003Acreate\u0028\u0029",
-            "name": "create",
-            "summary": "\u007B\u0040inheritdoc\u007D",
-            "url": "classes/Drupal-o365-Controller-O365AuthScopesController.html#method_create"
-        },                {
-            "fqsen": "\\Drupal\\o365\\Controller\\O365AuthScopesController\u003A\u003Abuild\u0028\u0029",
-            "name": "build",
-            "summary": "Builds\u0020the\u0020response.",
-            "url": "classes/Drupal-o365-Controller-O365AuthScopesController.html#method_build"
-        },                {
-            "fqsen": "\\Drupal\\o365\\Controller\\O365AuthScopesController\u003A\u003A\u0024helperService",
-            "name": "helperService",
-            "summary": "The\u0020o365.helpers\u0020service.",
-            "url": "classes/Drupal-o365-Controller-O365AuthScopesController.html#property_helperService"
-        },                {
-            "fqsen": "\\Drupal\\o365\\Form\\ApiSettingsForm",
-            "name": "ApiSettingsForm",
-            "summary": "Settings\u0020form,\u0020used\u0020to\u0020set\u0020the\u0020API\u0020settings\u0020like\u0020client_id.",
-            "url": "classes/Drupal-o365-Form-ApiSettingsForm.html"
-        },                {
-            "fqsen": "\\Drupal\\o365\\Form\\ApiSettingsForm\u003A\u003Acreate\u0028\u0029",
-            "name": "create",
-            "summary": "\u007B\u0040inheritdoc\u007D",
-            "url": "classes/Drupal-o365-Form-ApiSettingsForm.html#method_create"
-        },                {
-            "fqsen": "\\Drupal\\o365\\Form\\ApiSettingsForm\u003A\u003AgetEditableConfigNames\u0028\u0029",
-            "name": "getEditableConfigNames",
-            "summary": "\u007B\u0040inheritdoc\u007D",
-            "url": "classes/Drupal-o365-Form-ApiSettingsForm.html#method_getEditableConfigNames"
-        },                {
-            "fqsen": "\\Drupal\\o365\\Form\\ApiSettingsForm\u003A\u003AgetFormId\u0028\u0029",
-            "name": "getFormId",
-            "summary": "\u007B\u0040inheritdoc\u007D",
-            "url": "classes/Drupal-o365-Form-ApiSettingsForm.html#method_getFormId"
-        },                {
-            "fqsen": "\\Drupal\\o365\\Form\\ApiSettingsForm\u003A\u003AbuildForm\u0028\u0029",
-            "name": "buildForm",
-            "summary": "\u007B\u0040inheritdoc\u007D",
-            "url": "classes/Drupal-o365-Form-ApiSettingsForm.html#method_buildForm"
-        },                {
-            "fqsen": "\\Drupal\\o365\\Form\\ApiSettingsForm\u003A\u003AsubmitForm\u0028\u0029",
-            "name": "submitForm",
-            "summary": "\u007B\u0040inheritdoc\u007D",
-            "url": "classes/Drupal-o365-Form-ApiSettingsForm.html#method_submitForm"
-        },                {
-            "fqsen": "\\Drupal\\o365\\Form\\ApiSettingsForm\u003A\u003A\u0024helperService",
-            "name": "helperService",
-            "summary": "The\u0020o365\u0020helper\u0020service.",
-            "url": "classes/Drupal-o365-Form-ApiSettingsForm.html#property_helperService"
-        },                {
-            "fqsen": "\\Drupal\\o365\\Form\\SettingsForm",
-            "name": "SettingsForm",
-            "summary": "Settings\u0020form\u0020for\u0020the\u0020o365\u0020module.",
-            "url": "classes/Drupal-o365-Form-SettingsForm.html"
-        },                {
-            "fqsen": "\\Drupal\\o365\\Form\\SettingsForm\u003A\u003AgetEditableConfigNames\u0028\u0029",
-            "name": "getEditableConfigNames",
-            "summary": "\u007B\u0040inheritdoc\u007D",
-            "url": "classes/Drupal-o365-Form-SettingsForm.html#method_getEditableConfigNames"
-        },                {
-            "fqsen": "\\Drupal\\o365\\Form\\SettingsForm\u003A\u003AgetFormId\u0028\u0029",
-            "name": "getFormId",
-            "summary": "\u007B\u0040inheritdoc\u007D",
-            "url": "classes/Drupal-o365-Form-SettingsForm.html#method_getFormId"
-        },                {
-            "fqsen": "\\Drupal\\o365\\Form\\SettingsForm\u003A\u003AbuildForm\u0028\u0029",
-            "name": "buildForm",
-            "summary": "\u007B\u0040inheritdoc\u007D",
-            "url": "classes/Drupal-o365-Form-SettingsForm.html#method_buildForm"
-        },                {
-            "fqsen": "\\Drupal\\o365\\Form\\SettingsForm\u003A\u003AsubmitForm\u0028\u0029",
-            "name": "submitForm",
-            "summary": "\u007B\u0040inheritdoc\u007D",
-            "url": "classes/Drupal-o365-Form-SettingsForm.html#method_submitForm"
-        },                {
-            "fqsen": "\\Drupal\\o365\\GraphService",
-            "name": "GraphService",
-            "summary": "This\u0020is\u0020the\u0020GraphService.",
-            "url": "classes/Drupal-o365-GraphService.html"
-        },                {
-            "fqsen": "\\Drupal\\o365\\GraphService\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "Constructs\u0020a\u0020new\u0020GraphService\u0020object.",
-            "url": "classes/Drupal-o365-GraphService.html#method___construct"
-        },                {
-            "fqsen": "\\Drupal\\o365\\GraphService\u003A\u003AgetGraphData\u0028\u0029",
-            "name": "getGraphData",
-            "summary": "Get\u0020data\u0020from\u0020the\u0020MS\u0020GraphAPI.",
-            "url": "classes/Drupal-o365-GraphService.html#method_getGraphData"
-        },                {
-            "fqsen": "\\Drupal\\o365\\GraphService\u003A\u003AsendGraphData\u0028\u0029",
-            "name": "sendGraphData",
-            "summary": "Send\u0020data\u0020to\u0020the\u0020MS\u0020GraphAPI.",
-            "url": "classes/Drupal-o365-GraphService.html#method_sendGraphData"
-        },                {
-            "fqsen": "\\Drupal\\o365\\GraphService\u003A\u003AgetData\u0028\u0029",
-            "name": "getData",
-            "summary": "Generic\u0020method\u0020to\u0020get\u0020or\u0020send\u0020data\u0020to\u0020the\u0020Graph\u0020endpoints.",
-            "url": "classes/Drupal-o365-GraphService.html#method_getData"
-        },                {
-            "fqsen": "\\Drupal\\o365\\GraphService\u003A\u003AgetCollectionData\u0028\u0029",
-            "name": "getCollectionData",
-            "summary": "Get\u0020a\u0020collection\u0020of\u0020data.",
-            "url": "classes/Drupal-o365-GraphService.html#method_getCollectionData"
-        },                {
-            "fqsen": "\\Drupal\\o365\\GraphService\u003A\u003AgetCurrentUserId\u0028\u0029",
-            "name": "getCurrentUserId",
-            "summary": "Determine\u0020the\u0020office\u0020user\u0020ID.",
-            "url": "classes/Drupal-o365-GraphService.html#method_getCurrentUserId"
-        },                {
-            "fqsen": "\\Drupal\\o365\\GraphService\u003A\u003A\u0024authService",
-            "name": "authService",
-            "summary": "Drupal\\o365\\AuthenticationServiceInterface\u0020definition.",
-            "url": "classes/Drupal-o365-GraphService.html#property_authService"
-        },                {
-            "fqsen": "\\Drupal\\o365\\GraphService\u003A\u003A\u0024messenger",
-            "name": "messenger",
-            "summary": "The\u0020logger\u0020service.",
-            "url": "classes/Drupal-o365-GraphService.html#property_messenger"
-        },                {
-            "fqsen": "\\Drupal\\o365\\GraphService\u003A\u003A\u0024cacheBackend",
-            "name": "cacheBackend",
-            "summary": "The\u0020cache\u0020baclend\u0020service.",
-            "url": "classes/Drupal-o365-GraphService.html#property_cacheBackend"
-        },                {
-            "fqsen": "\\Drupal\\o365\\GraphService\u003A\u003A\u0024logger",
-            "name": "logger",
-            "summary": "The\u0020modules\u0020logger.",
-            "url": "classes/Drupal-o365-GraphService.html#property_logger"
-        },                {
-            "fqsen": "\\Drupal\\o365\\HelperService",
-            "name": "HelperService",
-            "summary": "Service\u0020with\u0020some\u0020helpful\u0020methods\u0020that\u0020we\u0020use\u0020in\u0020different\u0020locations.",
-            "url": "classes/Drupal-o365-HelperService.html"
-        },                {
-            "fqsen": "\\Drupal\\o365\\HelperService\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "Constructs\u0020a\u0020new\u0020HelperService\u0020object.",
-            "url": "classes/Drupal-o365-HelperService.html#method___construct"
-        },                {
-            "fqsen": "\\Drupal\\o365\\HelperService\u003A\u003AcreateIsoDate\u0028\u0029",
-            "name": "createIsoDate",
-            "summary": "Create\u0020a\u0020ISO8601\u0020timestamp\u0020that\u0020Microsoft\u0020Graph\u0020API\u0020can\u0020use.",
-            "url": "classes/Drupal-o365-HelperService.html#method_createIsoDate"
-        },                {
-            "fqsen": "\\Drupal\\o365\\HelperService\u003A\u003AformatDate\u0028\u0029",
-            "name": "formatDate",
-            "summary": "Format\u0020a\u0020ISO8601\u0020date\u0020into\u0020something\u0020more\u0020readable.",
-            "url": "classes/Drupal-o365-HelperService.html#method_formatDate"
-        },                {
-            "fqsen": "\\Drupal\\o365\\HelperService\u003A\u003AgetApiConfig\u0028\u0029",
-            "name": "getApiConfig",
-            "summary": "Retrieve\u0020the\u0020API\u0020settings\u0020from\u0020the\u0020config.",
-            "url": "classes/Drupal-o365-HelperService.html#method_getApiConfig"
-        },                {
-            "fqsen": "\\Drupal\\o365\\HelperService\u003A\u003AgetAuthScopes\u0028\u0029",
-            "name": "getAuthScopes",
-            "summary": "Get\u0020the\u0020auth\u0020scopes\u0020string.",
-            "url": "classes/Drupal-o365-HelperService.html#method_getAuthScopes"
-        },                {
-            "fqsen": "\\Drupal\\o365\\HelperService\u003A\u003AgetTsFromDate\u0028\u0029",
-            "name": "getTsFromDate",
-            "summary": "Generate\u0020a\u0020unix\u0020timestamp\u0020from\u0020a\u0020date.",
-            "url": "classes/Drupal-o365-HelperService.html#method_getTsFromDate"
-        },                {
-            "fqsen": "\\Drupal\\o365\\HelperService\u003A\u003A\u0024dateFormatter",
-            "name": "dateFormatter",
-            "summary": "Drupal\\Core\\Datetime\\DateFormatterInterface\u0020definition.",
-            "url": "classes/Drupal-o365-HelperService.html#property_dateFormatter"
-        },                {
-            "fqsen": "\\Drupal\\o365\\O365LoggerService",
-            "name": "O365LoggerService",
-            "summary": "Our\u0020custom\u0020Logger\u0020service.",
-            "url": "classes/Drupal-o365-O365LoggerService.html"
-        },                {
-            "fqsen": "\\Drupal\\o365\\O365LoggerService\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "Constructs\u0020a\u0020new\u0020O365LoggerService\u0020object.",
-            "url": "classes/Drupal-o365-O365LoggerService.html#method___construct"
-        },                {
-            "fqsen": "\\Drupal\\o365\\O365LoggerService\u003A\u003Alog\u0028\u0029",
-            "name": "log",
-            "summary": "Log\u0020a\u0020message\u0020into\u0020the\u0020watchdog.",
-            "url": "classes/Drupal-o365-O365LoggerService.html#method_log"
-        },                {
-            "fqsen": "\\Drupal\\o365\\O365LoggerService\u003A\u003Adebug\u0028\u0029",
-            "name": "debug",
-            "summary": "Log\u0020a\u0020debug\u0020message\u0020into\u0020the\u0020watchdog.",
-            "url": "classes/Drupal-o365-O365LoggerService.html#method_debug"
-        },                {
-            "fqsen": "\\Drupal\\o365\\O365LoggerService\u003A\u003AshowDrupalMessage\u0028\u0029",
-            "name": "showDrupalMessage",
-            "summary": "Render\u0020a\u0020drupal\u0020message.",
-            "url": "classes/Drupal-o365-O365LoggerService.html#method_showDrupalMessage"
-        },                {
-            "fqsen": "\\Drupal\\o365\\O365LoggerService\u003A\u003A\u0024loggerFactory",
-            "name": "loggerFactory",
-            "summary": "Drupal\\Core\\Logger\\LoggerChannelFactoryInterface\u0020definition.",
-            "url": "classes/Drupal-o365-O365LoggerService.html#property_loggerFactory"
-        },                {
-            "fqsen": "\\Drupal\\o365\\O365LoggerService\u003A\u003A\u0024logger",
-            "name": "logger",
-            "summary": "The\u0020logger\u0020channel.",
-            "url": "classes/Drupal-o365-O365LoggerService.html#property_logger"
-        },                {
-            "fqsen": "\\Drupal\\o365\\O365LoggerService\u003A\u003A\u0024messenger",
-            "name": "messenger",
-            "summary": "The\u0020drupal\u0020messenger.",
-            "url": "classes/Drupal-o365-O365LoggerService.html#property_messenger"
-        },                {
-            "fqsen": "\\Drupal\\o365\\O365LoggerServiceInterface",
-            "name": "O365LoggerServiceInterface",
-            "summary": "The\u0020interface\u0020for\u0020the\u0020O365LoggerService\u0020service.",
-            "url": "classes/Drupal-o365-O365LoggerServiceInterface.html"
-        },                {
-            "fqsen": "\\Drupal\\o365\\O365LoggerServiceInterface\u003A\u003Alog\u0028\u0029",
-            "name": "log",
-            "summary": "Log\u0020a\u0020message\u0020into\u0020the\u0020watchdog.",
-            "url": "classes/Drupal-o365-O365LoggerServiceInterface.html#method_log"
-        },                {
-            "fqsen": "\\Drupal\\o365\\O365LoggerServiceInterface\u003A\u003Adebug\u0028\u0029",
-            "name": "debug",
-            "summary": "Log\u0020a\u0020debug\u0020message\u0020into\u0020the\u0020watchdog.",
-            "url": "classes/Drupal-o365-O365LoggerServiceInterface.html#method_debug"
-        },                {
-            "fqsen": "\\Drupal\\o365\\PersonaRenderService",
-            "name": "PersonaRenderService",
-            "summary": "Service\u0020that\u0020renders\u0020persona\u0020information\u0020based\u0020on\u0020the\u0020type.",
-            "url": "classes/Drupal-o365-PersonaRenderService.html"
-        },                {
-            "fqsen": "\\Drupal\\o365\\PersonaRenderService\u003A\u003ArenderPersona\u0028\u0029",
-            "name": "renderPersona",
-            "summary": "Render\u0020the\u0020persona\u0020based\u0020on\u0020a\u0020type\u0020\u0028small,\u0020medium,\u0020large\u0029",
-            "url": "classes/Drupal-o365-PersonaRenderService.html#method_renderPersona"
-        },                {
-            "fqsen": "\\Drupal\\o365\\PersonaRenderService\u003A\u003AgetRandomPersonaColor\u0028\u0029",
-            "name": "getRandomPersonaColor",
-            "summary": "Return\u0020a\u0020\u0028random\u0029\u0020color.",
-            "url": "classes/Drupal-o365-PersonaRenderService.html#method_getRandomPersonaColor"
-        },                {
-            "fqsen": "\\Drupal\\o365\\Plugin\\Oauth2Client\\O365OAuth2Client",
-            "name": "O365OAuth2Client",
-            "summary": "OAuth2\u0020Client\u0020to\u0020authenticate\u0020with\u0020Office\u0020365.",
-            "url": "classes/Drupal-o365-Plugin-Oauth2Client-O365OAuth2Client.html"
-        },                {
-            "fqsen": "\\Drupal\\o365\\Plugin\\Oauth2Client\\O365OAuth2Client\u003A\u003AgetClientId\u0028\u0029",
-            "name": "getClientId",
-            "summary": "\u007B\u0040inheritdoc\u007D",
-            "url": "classes/Drupal-o365-Plugin-Oauth2Client-O365OAuth2Client.html#method_getClientId"
-        },                {
-            "fqsen": "\\Drupal\\o365\\Plugin\\Oauth2Client\\O365OAuth2Client\u003A\u003AgetClientSecret\u0028\u0029",
-            "name": "getClientSecret",
-            "summary": "\u007B\u0040inheritdoc\u007D",
-            "url": "classes/Drupal-o365-Plugin-Oauth2Client-O365OAuth2Client.html#method_getClientSecret"
-        },                {
-            "fqsen": "\\Drupal\\o365\\Plugin\\Oauth2Client\\O365OAuth2Client\u003A\u003AstoreAccessToken\u0028\u0029",
-            "name": "storeAccessToken",
-            "summary": "\u007B\u0040inheritdoc\u007D",
-            "url": "classes/Drupal-o365-Plugin-Oauth2Client-O365OAuth2Client.html#method_storeAccessToken"
-        },                {
-            "fqsen": "\\Drupal\\o365\\Plugin\\Oauth2Client\\O365OAuth2Client\u003A\u003AretrieveAccessToken\u0028\u0029",
-            "name": "retrieveAccessToken",
-            "summary": "\u007B\u0040inheritdoc\u007D",
-            "url": "classes/Drupal-o365-Plugin-Oauth2Client-O365OAuth2Client.html#method_retrieveAccessToken"
-        },                {
-            "fqsen": "\\Drupal\\o365\\Plugin\\Oauth2Client\\O365OAuth2Client\u003A\u003AclearAccessToken\u0028\u0029",
-            "name": "clearAccessToken",
-            "summary": "\u007B\u0040inheritdoc\u007D",
-            "url": "classes/Drupal-o365-Plugin-Oauth2Client-O365OAuth2Client.html#method_clearAccessToken"
-        },                {
             "fqsen": "\\Drupal\\o365_contacts\\Controller\\O365ContactsController",
             "name": "O365ContactsController",
             "summary": "Returns\u0020responses\u0020for\u0020o365_contacts\u0020routes.",
@@ -611,11 +51,6 @@ Search.appendIndex(
             "summary": "\u007B\u0040inheritdoc\u007D",
             "url": "classes/Drupal-o365-contacts-Form-SearchContactForm.html#method_buildForm"
         },                {
-            "fqsen": "\\Drupal\\o365_contacts\\Form\\SearchContactForm\u003A\u003AvalidateForm\u0028\u0029",
-            "name": "validateForm",
-            "summary": "\u007B\u0040inheritdoc\u007D",
-            "url": "classes/Drupal-o365-contacts-Form-SearchContactForm.html#method_validateForm"
-        },                {
             "fqsen": "\\Drupal\\o365_contacts\\Form\\SearchContactForm\u003A\u003AsubmitForm\u0028\u0029",
             "name": "submitForm",
             "summary": "\u007B\u0040inheritdoc\u007D",
@@ -630,6 +65,11 @@ Search.appendIndex(
             "name": "build",
             "summary": "\u007B\u0040inheritdoc\u007D",
             "url": "classes/Drupal-o365-contacts-Plugin-Block-SearchContactBlock.html#method_build"
+        },                {
+            "fqsen": "\\Drupal\\o365_contacts\\Plugin\\Block\\SearchContactBlock\u003A\u003A\u0024formBuilder",
+            "name": "formBuilder",
+            "summary": "The\u0020form\u0020builder.",
+            "url": "classes/Drupal-o365-contacts-Plugin-Block-SearchContactBlock.html#property_formBuilder"
         },                {
             "fqsen": "\\Drupal\\o365_groups\\Access\\O365GroupsFilesControllerAccessCheck",
             "name": "O365GroupsFilesControllerAccessCheck",
@@ -651,9 +91,14 @@ Search.appendIndex(
             "summary": "The\u0020current\u0020request.",
             "url": "classes/Drupal-o365-groups-Access-O365GroupsFilesControllerAccessCheck.html#property_request"
         },                {
+            "fqsen": "\\Drupal\\o365_groups\\Access\\O365GroupsFilesControllerAccessCheck\u003A\u003A\u0024groupsService",
+            "name": "groupsService",
+            "summary": "The\u0020groups\u0020service.",
+            "url": "classes/Drupal-o365-groups-Access-O365GroupsFilesControllerAccessCheck.html#property_groupsService"
+        },                {
             "fqsen": "\\Drupal\\o365_groups\\Controller\\O365GroupsFilesController",
             "name": "O365GroupsFilesController",
-            "summary": "Returns\u0020responses\u0020for\u0020Office\u0020365\u0020\u002D\u0020Groups\u0020routes.",
+            "summary": "Returns\u0020responses\u0020for\u0020Microsoft\u0020365\u0020\u002D\u0020Groups\u0020routes.",
             "url": "classes/Drupal-o365-groups-Controller-O365GroupsFilesController.html"
         },                {
             "fqsen": "\\Drupal\\o365_groups\\Controller\\O365GroupsFilesController\u003A\u003A__construct\u0028\u0029",
@@ -671,6 +116,11 @@ Search.appendIndex(
             "summary": "Builds\u0020the\u0020response.",
             "url": "classes/Drupal-o365-groups-Controller-O365GroupsFilesController.html#method_build"
         },                {
+            "fqsen": "\\Drupal\\o365_groups\\Controller\\O365GroupsFilesController\u003A\u003Atitle\u0028\u0029",
+            "name": "title",
+            "summary": "Generate\u0020the\u0020documents\u0020page\u0020title.",
+            "url": "classes/Drupal-o365-groups-Controller-O365GroupsFilesController.html#method_title"
+        },                {
             "fqsen": "\\Drupal\\o365_groups\\Controller\\O365GroupsFilesController\u003A\u003A\u0024dateFormatter",
             "name": "dateFormatter",
             "summary": "The\u0020date\u0020formatter.",
@@ -681,15 +131,80 @@ Search.appendIndex(
             "summary": "The\u0020current\u0020request.",
             "url": "classes/Drupal-o365-groups-Controller-O365GroupsFilesController.html#property_request"
         },                {
-            "fqsen": "\\Drupal\\o365_groups\\Controller\\O365GroupsFilesController\u003A\u003A\u0024extensionService",
-            "name": "extensionService",
-            "summary": "Our\u0020extension\u0020service\u0020to\u0020convert\u0020mime\u0020types.",
-            "url": "classes/Drupal-o365-groups-Controller-O365GroupsFilesController.html#property_extensionService"
-        },                {
             "fqsen": "\\Drupal\\o365_groups\\Controller\\O365GroupsFilesController\u003A\u003A\u0024groupFilesService",
             "name": "groupFilesService",
             "summary": "The\u0020group\u0020file\u0020service.",
             "url": "classes/Drupal-o365-groups-Controller-O365GroupsFilesController.html#property_groupFilesService"
+        },                {
+            "fqsen": "\\Drupal\\o365_groups\\Controller\\O365GroupsFilesController\u003A\u003A\u0024mimey",
+            "name": "mimey",
+            "summary": "The\u0020mimey\u0020mimetypes.",
+            "url": "classes/Drupal-o365-groups-Controller-O365GroupsFilesController.html#property_mimey"
+        },                {
+            "fqsen": "\\Drupal\\o365_groups\\Controller\\O365GroupsFilesController\u003A\u003A\u0024groupsService",
+            "name": "groupsService",
+            "summary": "The\u0020groups\u0020service.",
+            "url": "classes/Drupal-o365-groups-Controller-O365GroupsFilesController.html#property_groupsService"
+        },                {
+            "fqsen": "\\Drupal\\o365_groups\\Form\\O365GroupsTeamsConnectForm",
+            "name": "O365GroupsTeamsConnectForm",
+            "summary": "Create\u0020the\u0020form\u0020where\u0020we\u0020connect\u0020groups\u0020to\u0020MS\u0020Teams.",
+            "url": "classes/Drupal-o365-groups-Form-O365GroupsTeamsConnectForm.html"
+        },                {
+            "fqsen": "\\Drupal\\o365_groups\\Form\\O365GroupsTeamsConnectForm\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "Constructs\u0020a\u0020new\u0020O365GroupsTeamsConnectForm\u0020form.",
+            "url": "classes/Drupal-o365-groups-Form-O365GroupsTeamsConnectForm.html#method___construct"
+        },                {
+            "fqsen": "\\Drupal\\o365_groups\\Form\\O365GroupsTeamsConnectForm\u003A\u003Acreate\u0028\u0029",
+            "name": "create",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-groups-Form-O365GroupsTeamsConnectForm.html#method_create"
+        },                {
+            "fqsen": "\\Drupal\\o365_groups\\Form\\O365GroupsTeamsConnectForm\u003A\u003AgetFormId\u0028\u0029",
+            "name": "getFormId",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-groups-Form-O365GroupsTeamsConnectForm.html#method_getFormId"
+        },                {
+            "fqsen": "\\Drupal\\o365_groups\\Form\\O365GroupsTeamsConnectForm\u003A\u003AbuildForm\u0028\u0029",
+            "name": "buildForm",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-groups-Form-O365GroupsTeamsConnectForm.html#method_buildForm"
+        },                {
+            "fqsen": "\\Drupal\\o365_groups\\Form\\O365GroupsTeamsConnectForm\u003A\u003AsubmitForm\u0028\u0029",
+            "name": "submitForm",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-groups-Form-O365GroupsTeamsConnectForm.html#method_submitForm"
+        },                {
+            "fqsen": "\\Drupal\\o365_groups\\Form\\O365GroupsTeamsConnectForm\u003A\u003AgetGroups\u0028\u0029",
+            "name": "getGroups",
+            "summary": "Get\u0020all\u0020the\u0020allowed\u0020groups\u0020from\u0020the\u0020graph\u0020service.",
+            "url": "classes/Drupal-o365-groups-Form-O365GroupsTeamsConnectForm.html#method_getGroups"
+        },                {
+            "fqsen": "\\Drupal\\o365_groups\\Form\\O365GroupsTeamsConnectForm\u003A\u003A\u0024graphService",
+            "name": "graphService",
+            "summary": "The\u0020graph\u0020service.",
+            "url": "classes/Drupal-o365-groups-Form-O365GroupsTeamsConnectForm.html#property_graphService"
+        },                {
+            "fqsen": "\\Drupal\\o365_groups\\Form\\O365GroupsTeamsConnectForm\u003A\u003A\u0024groupsService",
+            "name": "groupsService",
+            "summary": "The\u0020group\u0020service.",
+            "url": "classes/Drupal-o365-groups-Form-O365GroupsTeamsConnectForm.html#property_groupsService"
+        },                {
+            "fqsen": "\\Drupal\\o365_groups\\Form\\O365GroupsTeamsConnectForm\u003A\u003A\u0024routeMatch",
+            "name": "routeMatch",
+            "summary": "The\u0020route\u0020match.",
+            "url": "classes/Drupal-o365-groups-Form-O365GroupsTeamsConnectForm.html#property_routeMatch"
+        },                {
+            "fqsen": "\\Drupal\\o365_groups\\Form\\O365GroupsTeamsConnectForm\u003A\u003A\u0024group",
+            "name": "group",
+            "summary": "Group.",
+            "url": "classes/Drupal-o365-groups-Form-O365GroupsTeamsConnectForm.html#property_group"
+        },                {
+            "fqsen": "\\Drupal\\o365_groups\\Form\\O365GroupsTeamsConnectForm\u003A\u003A\u0024connection",
+            "name": "connection",
+            "summary": "The\u0020database\u0020connection.",
+            "url": "classes/Drupal-o365-groups-Form-O365GroupsTeamsConnectForm.html#property_connection"
         },                {
             "fqsen": "\\Drupal\\o365_groups\\GroupFilesService",
             "name": "GroupFilesService",
@@ -726,10 +241,10 @@ Search.appendIndex(
             "summary": "The\u0020o365\u0020graph\u0020service.",
             "url": "classes/Drupal-o365-groups-GroupFilesService.html#property_graphService"
         },                {
-            "fqsen": "\\Drupal\\o365_groups\\GroupFilesService\u003A\u003A\u0024extensionService",
-            "name": "extensionService",
-            "summary": "The\u0020extension\u0020service.",
-            "url": "classes/Drupal-o365-groups-GroupFilesService.html#property_extensionService"
+            "fqsen": "\\Drupal\\o365_groups\\GroupFilesService\u003A\u003A\u0024mimey",
+            "name": "mimey",
+            "summary": "The\u0020mimey\u0020mimetypes.",
+            "url": "classes/Drupal-o365-groups-GroupFilesService.html#property_mimey"
         },                {
             "fqsen": "\\Drupal\\o365_groups\\GroupsService",
             "name": "GroupsService",
@@ -748,8 +263,23 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Drupal\\o365_groups\\GroupsService\u003A\u003AgetTeamsFromGraph\u0028\u0029",
             "name": "getTeamsFromGraph",
-            "summary": "Get\u0020a\u0020list\u0020of\u0020all\u0020groups\u0020in\u0020Office\u0020365.",
+            "summary": "Get\u0020a\u0020list\u0020of\u0020all\u0020groups\u0020in\u0020Microsoft\u0020365.",
             "url": "classes/Drupal-o365-groups-GroupsService.html#method_getTeamsFromGraph"
+        },                {
+            "fqsen": "\\Drupal\\o365_groups\\GroupsService\u003A\u003AgenerateTeamChannelLink\u0028\u0029",
+            "name": "generateTeamChannelLink",
+            "summary": "Generate\u0020a\u0020link\u0020to\u0020a\u0020team\u0020channel\u0020based\u0020on\u0020the\u0020ID.",
+            "url": "classes/Drupal-o365-groups-GroupsService.html#method_generateTeamChannelLink"
+        },                {
+            "fqsen": "\\Drupal\\o365_groups\\GroupsService\u003A\u003AgetTeamsUuidForGroup\u0028\u0029",
+            "name": "getTeamsUuidForGroup",
+            "summary": "Get\u0020the\u0020saved\u0020teams\u0020UUID\u0020from\u0020the\u0020database,\u0020or\u0020FALSE.",
+            "url": "classes/Drupal-o365-groups-GroupsService.html#method_getTeamsUuidForGroup"
+        },                {
+            "fqsen": "\\Drupal\\o365_groups\\GroupsService\u003A\u003AsaveTeamsUuidForGroup\u0028\u0029",
+            "name": "saveTeamsUuidForGroup",
+            "summary": "Save\u0020the\u0020teams\u0020UUID\u0020in\u0020the\u0020database.",
+            "url": "classes/Drupal-o365-groups-GroupsService.html#method_saveTeamsUuidForGroup"
         },                {
             "fqsen": "\\Drupal\\o365_groups\\GroupsService\u003A\u003A\u0024o365Graph",
             "name": "o365Graph",
@@ -770,6 +300,11 @@ Search.appendIndex(
             "name": "teams",
             "summary": "List\u0020of\u0020all\u0020teams.",
             "url": "classes/Drupal-o365-groups-GroupsService.html#property_teams"
+        },                {
+            "fqsen": "\\Drupal\\o365_groups\\GroupsService\u003A\u003A\u0024connection",
+            "name": "connection",
+            "summary": "The\u0020database\u0020connection.",
+            "url": "classes/Drupal-o365-groups-GroupsService.html#property_connection"
         },                {
             "fqsen": "\\Drupal\\o365_groups\\GroupsService\u003A\u003A\u0024getTeamsEndpoint",
             "name": "getTeamsEndpoint",
@@ -801,11 +336,6 @@ Search.appendIndex(
             "summary": "\u007B\u0040inheritdoc\u007D",
             "url": "classes/Drupal-o365-links-Form-SettingsForm.html#method_buildForm"
         },                {
-            "fqsen": "\\Drupal\\o365_links\\Form\\SettingsForm\u003A\u003AvalidateForm\u0028\u0029",
-            "name": "validateForm",
-            "summary": "\u007B\u0040inheritdoc\u007D",
-            "url": "classes/Drupal-o365-links-Form-SettingsForm.html#method_validateForm"
-        },                {
             "fqsen": "\\Drupal\\o365_links\\Form\\SettingsForm\u003A\u003AsubmitForm\u0028\u0029",
             "name": "submitForm",
             "summary": "\u007B\u0040inheritdoc\u007D",
@@ -813,7 +343,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Drupal\\o365_links\\Form\\SettingsForm\u003A\u003A\u0024officeLinks",
             "name": "officeLinks",
-            "summary": "The\u0020list\u0020of\u0020office\u0020365\u0020applications.",
+            "summary": "The\u0020list\u0020of\u0020Microsoft\u0020365\u0020applications.",
             "url": "classes/Drupal-o365-links-Form-SettingsForm.html#property_officeLinks"
         },                {
             "fqsen": "\\Drupal\\o365_links\\Form\\SettingsForm\u003A\u003A\u0024cacheInvalidator",
@@ -858,7 +388,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Drupal\\o365_links\\Plugin\\Block\\O365LinksBlock",
             "name": "O365LinksBlock",
-            "summary": "Provides\u0020a\u0020\u0027Office\u0020365\u0020Application\u0020Links\u0027\u0020block.",
+            "summary": "Provides\u0020a\u0020\u0027Microsoft\u0020365\u0020Application\u0020Links\u0027\u0020block.",
             "url": "classes/Drupal-o365-links-Plugin-Block-O365LinksBlock.html"
         },                {
             "fqsen": "\\Drupal\\o365_links\\Plugin\\Block\\O365LinksBlock\u003A\u003A__construct\u0028\u0029",
@@ -951,6 +481,11 @@ Search.appendIndex(
             "summary": "Render\u0020the\u0020list\u0020of\u0020files\u0020and\u0020folders.",
             "url": "classes/Drupal-o365-onedrive-GetFilesAndFoldersService.html#method_renderFileList"
         },                {
+            "fqsen": "\\Drupal\\o365_onedrive\\GetFilesAndFoldersService\u003A\u003AgetType\u0028\u0029",
+            "name": "getType",
+            "summary": "Get\u0020the\u0020type\u0020of\u0020mime\u0020used\u0020for\u0020styling.",
+            "url": "classes/Drupal-o365-onedrive-GetFilesAndFoldersService.html#method_getType"
+        },                {
             "fqsen": "\\Drupal\\o365_onedrive\\GetFilesAndFoldersService\u003A\u003A\u0024graphService",
             "name": "graphService",
             "summary": "Drupal\\o365\\GraphService\u0020definition.",
@@ -988,7 +523,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Drupal\\o365_onedrive\\Plugin\\Block\\RecentFilesBlock\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "Constructs\u0020a\u0020new\u0020RecentFilesBlock\u0020object.",
+            "summary": "Construct\u0020a\u0020O365BlockBase.",
             "url": "classes/Drupal-o365-onedrive-Plugin-Block-RecentFilesBlock.html#method___construct"
         },                {
             "fqsen": "\\Drupal\\o365_onedrive\\Plugin\\Block\\RecentFilesBlock\u003A\u003Acreate\u0028\u0029",
@@ -1001,9 +536,24 @@ Search.appendIndex(
             "summary": "\u007B\u0040inheritdoc\u007D",
             "url": "classes/Drupal-o365-onedrive-Plugin-Block-RecentFilesBlock.html#method_build"
         },                {
+            "fqsen": "\\Drupal\\o365_onedrive\\Plugin\\Block\\RecentFilesBlock\u003A\u003AblockForm\u0028\u0029",
+            "name": "blockForm",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-onedrive-Plugin-Block-RecentFilesBlock.html#method_blockForm"
+        },                {
+            "fqsen": "\\Drupal\\o365_onedrive\\Plugin\\Block\\RecentFilesBlock\u003A\u003AblockSubmit\u0028\u0029",
+            "name": "blockSubmit",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-onedrive-Plugin-Block-RecentFilesBlock.html#method_blockSubmit"
+        },                {
+            "fqsen": "\\Drupal\\o365_onedrive\\Plugin\\Block\\RecentFilesBlock\u003A\u003A\u0024graphService",
+            "name": "graphService",
+            "summary": "",
+            "url": "classes/Drupal-o365-onedrive-Plugin-Block-RecentFilesBlock.html#property_graphService"
+        },                {
             "fqsen": "\\Drupal\\o365_onedrive\\Plugin\\Block\\RecentFilesBlock\u003A\u003A\u0024getFilesAndFoldersService",
             "name": "getFilesAndFoldersService",
-            "summary": "Drupal\\o365_onedrive\\GetFilesAndFoldersServiceInterface\u0020definition.",
+            "summary": "",
             "url": "classes/Drupal-o365-onedrive-Plugin-Block-RecentFilesBlock.html#property_getFilesAndFoldersService"
         },                {
             "fqsen": "\\Drupal\\o365_onedrive\\Plugin\\Block\\SharedFilesBlock",
@@ -1013,7 +563,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Drupal\\o365_onedrive\\Plugin\\Block\\SharedFilesBlock\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "Constructs\u0020a\u0020new\u0020SharedFilesBlock\u0020object.",
+            "summary": "Construct\u0020a\u0020O365BlockBase.",
             "url": "classes/Drupal-o365-onedrive-Plugin-Block-SharedFilesBlock.html#method___construct"
         },                {
             "fqsen": "\\Drupal\\o365_onedrive\\Plugin\\Block\\SharedFilesBlock\u003A\u003Acreate\u0028\u0029",
@@ -1026,14 +576,29 @@ Search.appendIndex(
             "summary": "\u007B\u0040inheritdoc\u007D",
             "url": "classes/Drupal-o365-onedrive-Plugin-Block-SharedFilesBlock.html#method_build"
         },                {
+            "fqsen": "\\Drupal\\o365_onedrive\\Plugin\\Block\\SharedFilesBlock\u003A\u003AblockForm\u0028\u0029",
+            "name": "blockForm",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-onedrive-Plugin-Block-SharedFilesBlock.html#method_blockForm"
+        },                {
+            "fqsen": "\\Drupal\\o365_onedrive\\Plugin\\Block\\SharedFilesBlock\u003A\u003AblockSubmit\u0028\u0029",
+            "name": "blockSubmit",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-onedrive-Plugin-Block-SharedFilesBlock.html#method_blockSubmit"
+        },                {
+            "fqsen": "\\Drupal\\o365_onedrive\\Plugin\\Block\\SharedFilesBlock\u003A\u003A\u0024graphService",
+            "name": "graphService",
+            "summary": "",
+            "url": "classes/Drupal-o365-onedrive-Plugin-Block-SharedFilesBlock.html#property_graphService"
+        },                {
             "fqsen": "\\Drupal\\o365_onedrive\\Plugin\\Block\\SharedFilesBlock\u003A\u003A\u0024getFilesAndFoldersService",
             "name": "getFilesAndFoldersService",
-            "summary": "Drupal\\o365_onedrive\\GetFilesAndFoldersServiceInterface\u0020definition.",
+            "summary": "",
             "url": "classes/Drupal-o365-onedrive-Plugin-Block-SharedFilesBlock.html#property_getFilesAndFoldersService"
         },                {
             "fqsen": "\\Drupal\\o365_outlook_calendar\\Controller\\OutlookCalendarSaveAjaxController",
             "name": "OutlookCalendarSaveAjaxController",
-            "summary": "Returns\u0020responses\u0020for\u0020Office\u0020365\u0020\u002D\u0020Outlook\u0020Calendar\u0020routes.",
+            "summary": "Returns\u0020responses\u0020for\u0020Microsoft\u0020365\u0020\u002D\u0020Outlook\u0020Calendar\u0020routes.",
             "url": "classes/Drupal-o365-outlook-calendar-Controller-OutlookCalendarSaveAjaxController.html"
         },                {
             "fqsen": "\\Drupal\\o365_outlook_calendar\\Controller\\OutlookCalendarSaveAjaxController\u003A\u003A__construct\u0028\u0029",
@@ -1063,12 +628,12 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Drupal\\o365_outlook_calendar\\Form\\OutlookCalendarSettingsForm",
             "name": "OutlookCalendarSettingsForm",
-            "summary": "Configure\u0020Office\u0020365\u0020\u002D\u0020Outlook\u0020Calendar\u0020settings\u0020for\u0020this\u0020site.",
+            "summary": "Configure\u0020Microsoft\u0020365\u0020\u002D\u0020Outlook\u0020Calendar\u0020settings\u0020for\u0020this\u0020site.",
             "url": "classes/Drupal-o365-outlook-calendar-Form-OutlookCalendarSettingsForm.html"
         },                {
             "fqsen": "\\Drupal\\o365_outlook_calendar\\Form\\OutlookCalendarSettingsForm\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "Our\u0020class\u0020constructor.",
+            "summary": "",
             "url": "classes/Drupal-o365-outlook-calendar-Form-OutlookCalendarSettingsForm.html#method___construct"
         },                {
             "fqsen": "\\Drupal\\o365_outlook_calendar\\Form\\OutlookCalendarSettingsForm\u003A\u003Acreate\u0028\u0029",
@@ -1096,15 +661,15 @@ Search.appendIndex(
             "summary": "\u007B\u0040inheritdoc\u007D",
             "url": "classes/Drupal-o365-outlook-calendar-Form-OutlookCalendarSettingsForm.html#method_submitForm"
         },                {
-            "fqsen": "\\Drupal\\o365_outlook_calendar\\Form\\OutlookCalendarSettingsForm\u003A\u003AgetNodeTypeOptions\u0028\u0029",
-            "name": "getNodeTypeOptions",
+            "fqsen": "\\Drupal\\o365_outlook_calendar\\Form\\OutlookCalendarSettingsForm\u003A\u003AgetEntityTypeOptions\u0028\u0029",
+            "name": "getEntityTypeOptions",
             "summary": "Helper\u0020function\u0020to\u0020populate\u0020the\u0020content\u0020type\u0020dropdown.",
-            "url": "classes/Drupal-o365-outlook-calendar-Form-OutlookCalendarSettingsForm.html#method_getNodeTypeOptions"
+            "url": "classes/Drupal-o365-outlook-calendar-Form-OutlookCalendarSettingsForm.html#method_getEntityTypeOptions"
         },                {
-            "fqsen": "\\Drupal\\o365_outlook_calendar\\Form\\OutlookCalendarSettingsForm\u003A\u003AgetNodeTypeFormFieldsCheckboxes\u0028\u0029",
-            "name": "getNodeTypeFormFieldsCheckboxes",
-            "summary": "Generate\u0020the\u0020node\u0020type\u0020fields.",
-            "url": "classes/Drupal-o365-outlook-calendar-Form-OutlookCalendarSettingsForm.html#method_getNodeTypeFormFieldsCheckboxes"
+            "fqsen": "\\Drupal\\o365_outlook_calendar\\Form\\OutlookCalendarSettingsForm\u003A\u003AgetEntityTypeFormFieldsCheckboxes\u0028\u0029",
+            "name": "getEntityTypeFormFieldsCheckboxes",
+            "summary": "Generate\u0020the\u0020entity\u0020type\u0020fields.",
+            "url": "classes/Drupal-o365-outlook-calendar-Form-OutlookCalendarSettingsForm.html#method_getEntityTypeFormFieldsCheckboxes"
         },                {
             "fqsen": "\\Drupal\\o365_outlook_calendar\\Form\\OutlookCalendarSettingsForm\u003A\u003ApromptCallback\u0028\u0029",
             "name": "promptCallback",
@@ -1123,7 +688,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Drupal\\o365_outlook_calendar\\OutlookCalendarSaveEventService",
             "name": "OutlookCalendarSaveEventService",
-            "summary": "OutlookCalendarSaveEventService\u0020service.",
+            "summary": "Service\u0020that\u0020handles\u0020to\u0020saving\u0020of\u0020events\u0020in\u0020Outlook.",
             "url": "classes/Drupal-o365-outlook-calendar-OutlookCalendarSaveEventService.html"
         },                {
             "fqsen": "\\Drupal\\o365_outlook_calendar\\OutlookCalendarSaveEventService\u003A\u003A__construct\u0028\u0029",
@@ -1136,10 +701,10 @@ Search.appendIndex(
             "summary": "Generate\u0020the\u0020calendar\u0020form\u0020fields.",
             "url": "classes/Drupal-o365-outlook-calendar-OutlookCalendarSaveEventService.html#method_getCalendarFormFields"
         },                {
-            "fqsen": "\\Drupal\\o365_outlook_calendar\\OutlookCalendarSaveEventService\u003A\u003AgetNodeTypeFields\u0028\u0029",
-            "name": "getNodeTypeFields",
+            "fqsen": "\\Drupal\\o365_outlook_calendar\\OutlookCalendarSaveEventService\u003A\u003AgetEntityTypeFields\u0028\u0029",
+            "name": "getEntityTypeFields",
             "summary": "Get\u0020all\u0020fields\u0020in\u0020a\u0020certain\u0020content\u0020type.",
-            "url": "classes/Drupal-o365-outlook-calendar-OutlookCalendarSaveEventService.html#method_getNodeTypeFields"
+            "url": "classes/Drupal-o365-outlook-calendar-OutlookCalendarSaveEventService.html#method_getEntityTypeFields"
         },                {
             "fqsen": "\\Drupal\\o365_outlook_calendar\\OutlookCalendarSaveEventService\u003A\u003AaddEvent\u0028\u0029",
             "name": "addEvent",
@@ -1153,7 +718,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Drupal\\o365_outlook_calendar\\OutlookCalendarSaveEventService\u003A\u003A\u0024config",
             "name": "config",
-            "summary": "The\u0020modules\u0020config.",
+            "summary": "The\u0020module\u0020config.",
             "url": "classes/Drupal-o365-outlook-calendar-OutlookCalendarSaveEventService.html#property_config"
         },                {
             "fqsen": "\\Drupal\\o365_outlook_calendar\\OutlookCalendarSaveEventService\u003A\u003A\u0024emailValidator",
@@ -1178,7 +743,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Drupal\\o365_outlook_calendar\\Plugin\\Block\\AddToCalendarBlock\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "Constructs\u0020a\u0020new\u0020AddToCalendarBlock\u0020instance.",
+            "summary": "Construct\u0020a\u0020O365BlockBase.",
             "url": "classes/Drupal-o365-outlook-calendar-Plugin-Block-AddToCalendarBlock.html#method___construct"
         },                {
             "fqsen": "\\Drupal\\o365_outlook_calendar\\Plugin\\Block\\AddToCalendarBlock\u003A\u003Acreate\u0028\u0029",
@@ -1206,6 +771,11 @@ Search.appendIndex(
             "summary": "The\u0020current\u0020request.",
             "url": "classes/Drupal-o365-outlook-calendar-Plugin-Block-AddToCalendarBlock.html#property_request"
         },                {
+            "fqsen": "\\Drupal\\o365_outlook_calendar\\Plugin\\Block\\AddToCalendarBlock\u003A\u003A\u0024graphService",
+            "name": "graphService",
+            "summary": "",
+            "url": "classes/Drupal-o365-outlook-calendar-Plugin-Block-AddToCalendarBlock.html#property_graphService"
+        },                {
             "fqsen": "\\Drupal\\o365_outlook_calendar\\Plugin\\Block\\CalendarBlock",
             "name": "CalendarBlock",
             "summary": "Provides\u0020a\u0020\u0027Upcoming\u0020Appointments\u0027\u0020block.",
@@ -1213,7 +783,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Drupal\\o365_outlook_calendar\\Plugin\\Block\\CalendarBlock\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "Constructs\u0020a\u0020new\u0020CalendarBlock\u0020object.",
+            "summary": "Construct\u0020a\u0020O365BlockBase.",
             "url": "classes/Drupal-o365-outlook-calendar-Plugin-Block-CalendarBlock.html#method___construct"
         },                {
             "fqsen": "\\Drupal\\o365_outlook_calendar\\Plugin\\Block\\CalendarBlock\u003A\u003Acreate\u0028\u0029",
@@ -1238,27 +808,22 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Drupal\\o365_outlook_calendar\\Plugin\\Block\\CalendarBlock\u003A\u003AgetAttendees\u0028\u0029",
             "name": "getAttendees",
-            "summary": "Get\u0020the\u0020attendees\u0020for\u0020a\u0020event.",
+            "summary": "Get\u0020the\u0020attendees\u0020for\u0020an\u0020event.",
             "url": "classes/Drupal-o365-outlook-calendar-Plugin-Block-CalendarBlock.html#method_getAttendees"
-        },                {
-            "fqsen": "\\Drupal\\o365_outlook_calendar\\Plugin\\Block\\CalendarBlock\u003A\u003A\u0024o365Graph",
-            "name": "o365Graph",
-            "summary": "Drupal\\o365\\GraphService\u0020definition.",
-            "url": "classes/Drupal-o365-outlook-calendar-Plugin-Block-CalendarBlock.html#property_o365Graph"
         },                {
             "fqsen": "\\Drupal\\o365_outlook_calendar\\Plugin\\Block\\CalendarBlock\u003A\u003A\u0024helperService",
             "name": "helperService",
-            "summary": "Drupal\\o365\\HelperService\u0020definition.",
+            "summary": "",
             "url": "classes/Drupal-o365-outlook-calendar-Plugin-Block-CalendarBlock.html#property_helperService"
         },                {
             "fqsen": "\\Drupal\\o365_outlook_calendar\\Plugin\\Block\\CalendarBlock\u003A\u003A\u0024dateFormatter",
             "name": "dateFormatter",
-            "summary": "Drupal\\Core\\Datetime\\DateFormatter\u0020definition.",
+            "summary": "",
             "url": "classes/Drupal-o365-outlook-calendar-Plugin-Block-CalendarBlock.html#property_dateFormatter"
         },                {
             "fqsen": "\\Drupal\\o365_outlook_calendar\\Plugin\\Block\\CalendarBlock\u003A\u003A\u0024personaRenderService",
             "name": "personaRenderService",
-            "summary": "The\u0020persona\u0020render\u0020service.",
+            "summary": "",
             "url": "classes/Drupal-o365-outlook-calendar-Plugin-Block-CalendarBlock.html#property_personaRenderService"
         },                {
             "fqsen": "\\Drupal\\o365_outlook_mail\\Controller\\MyMailController",
@@ -1348,7 +913,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Drupal\\o365_outlook_mail\\Plugin\\Block\\LatestMailBlock\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "Constructs\u0020a\u0020new\u0020LatestMailBlock\u0020object.",
+            "summary": "Construct\u0020a\u0020O365BlockBase.",
             "url": "classes/Drupal-o365-outlook-mail-Plugin-Block-LatestMailBlock.html#method___construct"
         },                {
             "fqsen": "\\Drupal\\o365_outlook_mail\\Plugin\\Block\\LatestMailBlock\u003A\u003Acreate\u0028\u0029",
@@ -1366,9 +931,24 @@ Search.appendIndex(
             "summary": "Get\u0020and\u0020normalize\u0020a\u0020list\u0020of\u0020mails.",
             "url": "classes/Drupal-o365-outlook-mail-Plugin-Block-LatestMailBlock.html#method_getMails"
         },                {
+            "fqsen": "\\Drupal\\o365_outlook_mail\\Plugin\\Block\\LatestMailBlock\u003A\u003AblockForm\u0028\u0029",
+            "name": "blockForm",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-outlook-mail-Plugin-Block-LatestMailBlock.html#method_blockForm"
+        },                {
+            "fqsen": "\\Drupal\\o365_outlook_mail\\Plugin\\Block\\LatestMailBlock\u003A\u003AblockSubmit\u0028\u0029",
+            "name": "blockSubmit",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-outlook-mail-Plugin-Block-LatestMailBlock.html#method_blockSubmit"
+        },                {
+            "fqsen": "\\Drupal\\o365_outlook_mail\\Plugin\\Block\\LatestMailBlock\u003A\u003A\u0024graphService",
+            "name": "graphService",
+            "summary": "",
+            "url": "classes/Drupal-o365-outlook-mail-Plugin-Block-LatestMailBlock.html#property_graphService"
+        },                {
             "fqsen": "\\Drupal\\o365_outlook_mail\\Plugin\\Block\\LatestMailBlock\u003A\u003A\u0024getMailService",
             "name": "getMailService",
-            "summary": "The\u0020mail\u0020service\u0020interface.",
+            "summary": "",
             "url": "classes/Drupal-o365-outlook-mail-Plugin-Block-LatestMailBlock.html#property_getMailService"
         },                {
             "fqsen": "\\Drupal\\o365_outlook_mail\\Plugin\\Block\\LatestUnreadMailBlock",
@@ -1378,7 +958,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Drupal\\o365_outlook_mail\\Plugin\\Block\\LatestUnreadMailBlock\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "Constructs\u0020a\u0020new\u0020LatestMailBlock\u0020object.",
+            "summary": "Construct\u0020a\u0020O365BlockBase.",
             "url": "classes/Drupal-o365-outlook-mail-Plugin-Block-LatestUnreadMailBlock.html#method___construct"
         },                {
             "fqsen": "\\Drupal\\o365_outlook_mail\\Plugin\\Block\\LatestUnreadMailBlock\u003A\u003Acreate\u0028\u0029",
@@ -1396,44 +976,29 @@ Search.appendIndex(
             "summary": "Get\u0020and\u0020normalize\u0020a\u0020list\u0020of\u0020mails.",
             "url": "classes/Drupal-o365-outlook-mail-Plugin-Block-LatestUnreadMailBlock.html#method_getMails"
         },                {
+            "fqsen": "\\Drupal\\o365_outlook_mail\\Plugin\\Block\\LatestUnreadMailBlock\u003A\u003AblockForm\u0028\u0029",
+            "name": "blockForm",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-outlook-mail-Plugin-Block-LatestUnreadMailBlock.html#method_blockForm"
+        },                {
+            "fqsen": "\\Drupal\\o365_outlook_mail\\Plugin\\Block\\LatestUnreadMailBlock\u003A\u003AblockSubmit\u0028\u0029",
+            "name": "blockSubmit",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-outlook-mail-Plugin-Block-LatestUnreadMailBlock.html#method_blockSubmit"
+        },                {
+            "fqsen": "\\Drupal\\o365_outlook_mail\\Plugin\\Block\\LatestUnreadMailBlock\u003A\u003A\u0024graphService",
+            "name": "graphService",
+            "summary": "",
+            "url": "classes/Drupal-o365-outlook-mail-Plugin-Block-LatestUnreadMailBlock.html#property_graphService"
+        },                {
             "fqsen": "\\Drupal\\o365_outlook_mail\\Plugin\\Block\\LatestUnreadMailBlock\u003A\u003A\u0024getMailService",
             "name": "getMailService",
-            "summary": "The\u0020mail\u0020service\u0020interface.",
+            "summary": "",
             "url": "classes/Drupal-o365-outlook-mail-Plugin-Block-LatestUnreadMailBlock.html#property_getMailService"
-        },                {
-            "fqsen": "\\Drupal\\o365_profile\\Controller\\O365ProfileAjaxController",
-            "name": "O365ProfileAjaxController",
-            "summary": "Returns\u0020responses\u0020for\u0020Office\u0020365\u0020\u002D\u0020Profiles\u0020and\u0020Personas\u0020routes.",
-            "url": "classes/Drupal-o365-profile-Controller-O365ProfileAjaxController.html"
-        },                {
-            "fqsen": "\\Drupal\\o365_profile\\Controller\\O365ProfileAjaxController\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "The\u0020controller\u0020constructor.",
-            "url": "classes/Drupal-o365-profile-Controller-O365ProfileAjaxController.html#method___construct"
-        },                {
-            "fqsen": "\\Drupal\\o365_profile\\Controller\\O365ProfileAjaxController\u003A\u003Acreate\u0028\u0029",
-            "name": "create",
-            "summary": "\u007B\u0040inheritdoc\u007D",
-            "url": "classes/Drupal-o365-profile-Controller-O365ProfileAjaxController.html#method_create"
-        },                {
-            "fqsen": "\\Drupal\\o365_profile\\Controller\\O365ProfileAjaxController\u003A\u003AgetUserStatus\u0028\u0029",
-            "name": "getUserStatus",
-            "summary": "Generate\u0020the\u0020AJAX\u0020JSON\u0020response.",
-            "url": "classes/Drupal-o365-profile-Controller-O365ProfileAjaxController.html#method_getUserStatus"
-        },                {
-            "fqsen": "\\Drupal\\o365_profile\\Controller\\O365ProfileAjaxController\u003A\u003A\u0024authmap",
-            "name": "authmap",
-            "summary": "The\u0020externalauth\u0020authmap\u0020service.",
-            "url": "classes/Drupal-o365-profile-Controller-O365ProfileAjaxController.html#property_authmap"
-        },                {
-            "fqsen": "\\Drupal\\o365_profile\\Controller\\O365ProfileAjaxController\u003A\u003A\u0024getDataService",
-            "name": "getDataService",
-            "summary": "The\u0020service\u0020we\u0020use\u0020to\u0020get\u0020user\u0020data.",
-            "url": "classes/Drupal-o365-profile-Controller-O365ProfileAjaxController.html#property_getDataService"
         },                {
             "fqsen": "\\Drupal\\o365_profile\\Form\\O365ProfileTeamsLinksConfigForm",
             "name": "O365ProfileTeamsLinksConfigForm",
-            "summary": "Configure\u0020Office\u0020365\u0020\u002D\u0020Profiles\u0020and\u0020personas\u0020settings\u0020for\u0020this\u0020site.",
+            "summary": "Configure\u0020Microsoft\u0020365\u0020\u002D\u0020Profiles\u0020and\u0020personas\u0020settings\u0020for\u0020this\u0020site.",
             "url": "classes/Drupal-o365-profile-Form-O365ProfileTeamsLinksConfigForm.html"
         },                {
             "fqsen": "\\Drupal\\o365_profile\\Form\\O365ProfileTeamsLinksConfigForm\u003A\u003AgetFormId\u0028\u0029",
@@ -1481,15 +1046,30 @@ Search.appendIndex(
             "summary": "The\u0020o365.graph\u0020service.",
             "url": "classes/Drupal-o365-profile-O365ProfileGetDataService.html#property_o365Graph"
         },                {
+            "fqsen": "\\Drupal\\o365_profile\\O365ProfileGetDataService\u003A\u003A\u0024ssoUserConfig",
+            "name": "ssoUserConfig",
+            "summary": "The\u0020config\u0020of\u0020the\u0020SSO\u0020user\u0020module.",
+            "url": "classes/Drupal-o365-profile-O365ProfileGetDataService.html#property_ssoUserConfig"
+        },                {
             "fqsen": "\\Drupal\\o365_profile\\O365ProfileTeamsService",
             "name": "O365ProfileTeamsService",
             "summary": "The\u0020service\u0020too\u0020connect\u0020Teams\u0020with\u0020profiles.",
             "url": "classes/Drupal-o365-profile-O365ProfileTeamsService.html"
         },                {
+            "fqsen": "\\Drupal\\o365_profile\\O365ProfileTeamsService\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "Our\u0020class\u0020contructor.",
+            "url": "classes/Drupal-o365-profile-O365ProfileTeamsService.html#method___construct"
+        },                {
             "fqsen": "\\Drupal\\o365_profile\\O365ProfileTeamsService\u003A\u003AgenerateTeamsLink\u0028\u0029",
             "name": "generateTeamsLink",
             "summary": "Generate\u0020a\u0020link\u0020to\u0020interact\u0020with\u0020the\u0020user\u0020on\u0020Teams.",
             "url": "classes/Drupal-o365-profile-O365ProfileTeamsService.html#method_generateTeamsLink"
+        },                {
+            "fqsen": "\\Drupal\\o365_profile\\O365ProfileTeamsService\u003A\u003A\u0024renderer",
+            "name": "renderer",
+            "summary": "",
+            "url": "classes/Drupal-o365-profile-O365ProfileTeamsService.html#property_renderer"
         },                {
             "fqsen": "\\Drupal\\o365_profile\\Plugin\\Block\\PersonaBlock",
             "name": "PersonaBlock",
@@ -1498,7 +1078,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Drupal\\o365_profile\\Plugin\\Block\\PersonaBlock\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "Constructs\u0020a\u0020new\u0020PersonaBlock\u0020object.",
+            "summary": "Construct\u0020a\u0020O365BlockBase.",
             "url": "classes/Drupal-o365-profile-Plugin-Block-PersonaBlock.html#method___construct"
         },                {
             "fqsen": "\\Drupal\\o365_profile\\Plugin\\Block\\PersonaBlock\u003A\u003Acreate\u0028\u0029",
@@ -1531,14 +1111,19 @@ Search.appendIndex(
             "summary": "\u007B\u0040inheritdoc\u007D",
             "url": "classes/Drupal-o365-profile-Plugin-Block-PersonaBlock.html#method_getCacheContexts"
         },                {
+            "fqsen": "\\Drupal\\o365_profile\\Plugin\\Block\\PersonaBlock\u003A\u003A\u0024graphService",
+            "name": "graphService",
+            "summary": "",
+            "url": "classes/Drupal-o365-profile-Plugin-Block-PersonaBlock.html#property_graphService"
+        },                {
             "fqsen": "\\Drupal\\o365_profile\\Plugin\\Block\\PersonaBlock\u003A\u003A\u0024o365ProfileGraph",
             "name": "o365ProfileGraph",
-            "summary": "Drupal\\o365\\GraphService\u0020definition.",
+            "summary": "",
             "url": "classes/Drupal-o365-profile-Plugin-Block-PersonaBlock.html#property_o365ProfileGraph"
         },                {
             "fqsen": "\\Drupal\\o365_profile\\Plugin\\Block\\PersonaBlock\u003A\u003A\u0024personaRenderService",
             "name": "personaRenderService",
-            "summary": "The\u0020persona\u0020render\u0020service.",
+            "summary": "",
             "url": "classes/Drupal-o365-profile-Plugin-Block-PersonaBlock.html#property_personaRenderService"
         },                {
             "fqsen": "\\Drupal\\o365_profile\\Plugin\\Block\\TeamsLinksBlock",
@@ -1548,7 +1133,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Drupal\\o365_profile\\Plugin\\Block\\TeamsLinksBlock\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "Constructs\u0020a\u0020new\u0020TeamsLinksBlock\u0020instance.",
+            "summary": "Construct\u0020a\u0020O365BlockBase.",
             "url": "classes/Drupal-o365-profile-Plugin-Block-TeamsLinksBlock.html#method___construct"
         },                {
             "fqsen": "\\Drupal\\o365_profile\\Plugin\\Block\\TeamsLinksBlock\u003A\u003Acreate\u0028\u0029",
@@ -1561,14 +1146,19 @@ Search.appendIndex(
             "summary": "\u007B\u0040inheritdoc\u007D",
             "url": "classes/Drupal-o365-profile-Plugin-Block-TeamsLinksBlock.html#method_build"
         },                {
+            "fqsen": "\\Drupal\\o365_profile\\Plugin\\Block\\TeamsLinksBlock\u003A\u003A\u0024graphService",
+            "name": "graphService",
+            "summary": "",
+            "url": "classes/Drupal-o365-profile-Plugin-Block-TeamsLinksBlock.html#property_graphService"
+        },                {
             "fqsen": "\\Drupal\\o365_profile\\Plugin\\Block\\TeamsLinksBlock\u003A\u003A\u0024o365ProfileTeams",
             "name": "o365ProfileTeams",
-            "summary": "The\u0020o365_profile.teams\u0020service.",
+            "summary": "",
             "url": "classes/Drupal-o365-profile-Plugin-Block-TeamsLinksBlock.html#property_o365ProfileTeams"
         },                {
             "fqsen": "\\Drupal\\o365_profile\\Plugin\\Block\\TeamsLinksBlock\u003A\u003A\u0024authmap",
             "name": "authmap",
-            "summary": "The\u0020externalauth\u0020authmap\u0020service.",
+            "summary": "",
             "url": "classes/Drupal-o365-profile-Plugin-Block-TeamsLinksBlock.html#property_authmap"
         },                {
             "fqsen": "\\Drupal\\o365_profile\\Plugin\\views\\field\\CallViaTeamsViewsField",
@@ -1616,6 +1206,46 @@ Search.appendIndex(
             "summary": "The\u0020teams\u0020service.\u0020Used\u0020for\u0020generating\u0020links.",
             "url": "classes/Drupal-o365-profile-Plugin-views-field-CallViaTeamsViewsField.html#property_teamsService"
         },                {
+            "fqsen": "\\Drupal\\o365_profile_rest\\Plugin\\rest\\resource\\O365ProfileRestResource",
+            "name": "O365ProfileRestResource",
+            "summary": "Provides\u0020a\u0020resource\u0020for\u0020get\u0020the\u0020Microsoft\u0020365\u0020profile\u0020data.",
+            "url": "classes/Drupal-o365-profile-rest-Plugin-rest-resource-O365ProfileRestResource.html"
+        },                {
+            "fqsen": "\\Drupal\\o365_profile_rest\\Plugin\\rest\\resource\\O365ProfileRestResource\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Drupal-o365-profile-rest-Plugin-rest-resource-O365ProfileRestResource.html#method___construct"
+        },                {
+            "fqsen": "\\Drupal\\o365_profile_rest\\Plugin\\rest\\resource\\O365ProfileRestResource\u003A\u003Acreate\u0028\u0029",
+            "name": "create",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-profile-rest-Plugin-rest-resource-O365ProfileRestResource.html#method_create"
+        },                {
+            "fqsen": "\\Drupal\\o365_profile_rest\\Plugin\\rest\\resource\\O365ProfileRestResource\u003A\u003Aget\u0028\u0029",
+            "name": "get",
+            "summary": "Get\u0020the\u0020user\u0020data\u0020from\u0020Drupal\u0020and\u0020Microsoft\u0020365.",
+            "url": "classes/Drupal-o365-profile-rest-Plugin-rest-resource-O365ProfileRestResource.html#method_get"
+        },                {
+            "fqsen": "\\Drupal\\o365_profile_rest\\Plugin\\rest\\resource\\O365ProfileRestResource\u003A\u003A\u0024getDataService",
+            "name": "getDataService",
+            "summary": "The\u0020service\u0020we\u0020use\u0020to\u0020get\u0020user\u0020data.",
+            "url": "classes/Drupal-o365-profile-rest-Plugin-rest-resource-O365ProfileRestResource.html#property_getDataService"
+        },                {
+            "fqsen": "\\Drupal\\o365_profile_rest\\Plugin\\rest\\resource\\O365ProfileRestResource\u003A\u003A\u0024authService",
+            "name": "authService",
+            "summary": "The\u0020Microsoft\u0020365\u0020authentication\u0020service.",
+            "url": "classes/Drupal-o365-profile-rest-Plugin-rest-resource-O365ProfileRestResource.html#property_authService"
+        },                {
+            "fqsen": "\\Drupal\\o365_profile_rest\\Plugin\\rest\\resource\\O365ProfileRestResource\u003A\u003A\u0024request",
+            "name": "request",
+            "summary": "The\u0020page\u0020request.",
+            "url": "classes/Drupal-o365-profile-rest-Plugin-rest-resource-O365ProfileRestResource.html#property_request"
+        },                {
+            "fqsen": "\\Drupal\\o365_profile_rest\\Plugin\\rest\\resource\\O365ProfileRestResource\u003A\u003A\u0024authmap",
+            "name": "authmap",
+            "summary": "The\u0020externalauth\u0020mapping.",
+            "url": "classes/Drupal-o365-profile-rest-Plugin-rest-resource-O365ProfileRestResource.html#property_authmap"
+        },                {
             "fqsen": "\\Drupal\\o365_rest\\Plugin\\rest\\resource\\GetAccessTokenResource",
             "name": "GetAccessTokenResource",
             "summary": "Provides\u0020a\u0020resource\u0020to\u0020get\u0020view\u0020modes\u0020by\u0020entity\u0020and\u0020bundle.",
@@ -1638,7 +1268,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Drupal\\o365_sharepoint_field\\Controller\\O365SharepointFieldController",
             "name": "O365SharepointFieldController",
-            "summary": "Returns\u0020responses\u0020for\u0020Office\u0020365\u0020\u002D\u0020SharePoint\u0020Search\u0020Field\u0020routes.",
+            "summary": "Returns\u0020responses\u0020for\u0020Microsoft\u0020365\u0020\u002D\u0020SharePoint\u0020search\u0020Field\u0020routes.",
             "url": "classes/Drupal-o365-sharepoint-field-Controller-O365SharepointFieldController.html"
         },                {
             "fqsen": "\\Drupal\\o365_sharepoint_field\\Controller\\O365SharepointFieldController\u003A\u003A__construct\u0028\u0029",
@@ -1675,61 +1305,6 @@ Search.appendIndex(
             "name": "nodeStorage",
             "summary": "The\u0020node\u0020storage.",
             "url": "classes/Drupal-o365-sharepoint-field-Controller-O365SharepointFieldController.html#property_nodeStorage"
-        },                {
-            "fqsen": "\\Drupal\\o365_sharepoint_field\\Form\\CkEditorDialog",
-            "name": "CkEditorDialog",
-            "summary": "Our\u0020custom\u0020form\u0020used\u0020in\u0020the\u0020ckeditor\u0020plugin.",
-            "url": "classes/Drupal-o365-sharepoint-field-Form-CkEditorDialog.html"
-        },                {
-            "fqsen": "\\Drupal\\o365_sharepoint_field\\Form\\CkEditorDialog\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "Constructs\u0020a\u0020form\u0020object\u0020for\u0020the\u0020o365_sharepoint_field\u0020ckeditor\u0020plugin.",
-            "url": "classes/Drupal-o365-sharepoint-field-Form-CkEditorDialog.html#method___construct"
-        },                {
-            "fqsen": "\\Drupal\\o365_sharepoint_field\\Form\\CkEditorDialog\u003A\u003Acreate\u0028\u0029",
-            "name": "create",
-            "summary": "\u007B\u0040inheritdoc\u007D",
-            "url": "classes/Drupal-o365-sharepoint-field-Form-CkEditorDialog.html#method_create"
-        },                {
-            "fqsen": "\\Drupal\\o365_sharepoint_field\\Form\\CkEditorDialog\u003A\u003AgetFormId\u0028\u0029",
-            "name": "getFormId",
-            "summary": "\u007B\u0040inheritdoc\u007D",
-            "url": "classes/Drupal-o365-sharepoint-field-Form-CkEditorDialog.html#method_getFormId"
-        },                {
-            "fqsen": "\\Drupal\\o365_sharepoint_field\\Form\\CkEditorDialog\u003A\u003AbuildForm\u0028\u0029",
-            "name": "buildForm",
-            "summary": "\u007B\u0040inheritdoc\u007D",
-            "url": "classes/Drupal-o365-sharepoint-field-Form-CkEditorDialog.html#method_buildForm"
-        },                {
-            "fqsen": "\\Drupal\\o365_sharepoint_field\\Form\\CkEditorDialog\u003A\u003AsubmitForm\u0028\u0029",
-            "name": "submitForm",
-            "summary": "\u007B\u0040inheritdoc\u007D",
-            "url": "classes/Drupal-o365-sharepoint-field-Form-CkEditorDialog.html#method_submitForm"
-        },                {
-            "fqsen": "\\Drupal\\o365_sharepoint_field\\Form\\CkEditorDialog\u003A\u003A\u0024graphService",
-            "name": "graphService",
-            "summary": "The\u0020graph\u0020service.",
-            "url": "classes/Drupal-o365-sharepoint-field-Form-CkEditorDialog.html#property_graphService"
-        },                {
-            "fqsen": "\\Drupal\\o365_sharepoint_field\\Plugin\\CKEditorPlugin\\SharePoint",
-            "name": "SharePoint",
-            "summary": "Defines\u0020the\u0020\u0022SharePoint\u0020File\u0020Search\u0022\u0020plugin,\u0020with\u0020a\u0020CKEditor.",
-            "url": "classes/Drupal-o365-sharepoint-field-Plugin-CKEditorPlugin-SharePoint.html"
-        },                {
-            "fqsen": "\\Drupal\\o365_sharepoint_field\\Plugin\\CKEditorPlugin\\SharePoint\u003A\u003AgetFile\u0028\u0029",
-            "name": "getFile",
-            "summary": "\u007B\u0040inheritdoc\u007D",
-            "url": "classes/Drupal-o365-sharepoint-field-Plugin-CKEditorPlugin-SharePoint.html#method_getFile"
-        },                {
-            "fqsen": "\\Drupal\\o365_sharepoint_field\\Plugin\\CKEditorPlugin\\SharePoint\u003A\u003AgetButtons\u0028\u0029",
-            "name": "getButtons",
-            "summary": "\u007B\u0040inheritdoc\u007D",
-            "url": "classes/Drupal-o365-sharepoint-field-Plugin-CKEditorPlugin-SharePoint.html#method_getButtons"
-        },                {
-            "fqsen": "\\Drupal\\o365_sharepoint_field\\Plugin\\CKEditorPlugin\\SharePoint\u003A\u003AgetConfig\u0028\u0029",
-            "name": "getConfig",
-            "summary": "\u007B\u0040inheritdoc\u007D",
-            "url": "classes/Drupal-o365-sharepoint-field-Plugin-CKEditorPlugin-SharePoint.html#method_getConfig"
         },                {
             "fqsen": "\\Drupal\\o365_sharepoint_field\\Plugin\\Field\\FieldFormatter\\SharePointSearchDefaultFormatter",
             "name": "SharePointSearchDefaultFormatter",
@@ -1821,10 +1396,10 @@ Search.appendIndex(
             "summary": "The\u0020current\u0020request.",
             "url": "classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#property_request"
         },                {
-            "fqsen": "\\Drupal\\o365_sharepoint_file\\Controller\\O365SharepointController\u003A\u003A\u0024extensionService",
-            "name": "extensionService",
-            "summary": "Drupal\\o365\\GraphService\u0020definition.",
-            "url": "classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#property_extensionService"
+            "fqsen": "\\Drupal\\o365_sharepoint_file\\Controller\\O365SharepointController\u003A\u003A\u0024mimey",
+            "name": "mimey",
+            "summary": "The\u0020mimey\u0020object.",
+            "url": "classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#property_mimey"
         },                {
             "fqsen": "\\Drupal\\o365_sharepoint_file\\Form\\SearchSharepointForm",
             "name": "SearchSharepointForm",
@@ -1856,6 +1431,11 @@ Search.appendIndex(
             "summary": "\u007B\u0040inheritdoc\u007D",
             "url": "classes/Drupal-o365-sharepoint-file-Plugin-Block-SharepointSearchBlock.html#method_build"
         },                {
+            "fqsen": "\\o365_sso_post_update_update_default_link_text_config\u0028\u0029",
+            "name": "o365_sso_post_update_update_default_link_text_config",
+            "summary": "Update\u0020the\u0020default\u0020link\u0020text\u0020configuration.",
+            "url": "namespaces/default.html#function_o365_sso_post_update_update_default_link_text_config"
+        },                {
             "fqsen": "\\Drupal\\o365_sso\\Controller\\LoginCallbackController",
             "name": "LoginCallbackController",
             "summary": "LoginCallbackController.\u0020Call\u0020when\u0020returning\u0020from\u0020the\u0020o365\u0020service.",
@@ -1870,6 +1450,11 @@ Search.appendIndex(
             "name": "create",
             "summary": "\u007B\u0040inheritdoc\u007D",
             "url": "classes/Drupal-o365-sso-Controller-LoginCallbackController.html#method_create"
+        },                {
+            "fqsen": "\\Drupal\\o365_sso\\Controller\\LoginCallbackController\u003A\u003AdefaultCallback\u0028\u0029",
+            "name": "defaultCallback",
+            "summary": "The\u0020default\u0020login\u0020callback.",
+            "url": "classes/Drupal-o365-sso-Controller-LoginCallbackController.html#method_defaultCallback"
         },                {
             "fqsen": "\\Drupal\\o365_sso\\Controller\\LoginCallbackController\u003A\u003Acallback\u0028\u0029",
             "name": "callback",
@@ -1906,6 +1491,11 @@ Search.appendIndex(
             "summary": "\u007B\u0040inheritdoc\u007D",
             "url": "classes/Drupal-o365-sso-Controller-LoginController.html#method_create"
         },                {
+            "fqsen": "\\Drupal\\o365_sso\\Controller\\LoginController\u003A\u003AloginDefault\u0028\u0029",
+            "name": "loginDefault",
+            "summary": "Carry\u0020out\u0020the\u0020default\u0020login.",
+            "url": "classes/Drupal-o365-sso-Controller-LoginController.html#method_loginDefault"
+        },                {
             "fqsen": "\\Drupal\\o365_sso\\Controller\\LoginController\u003A\u003Alogin\u0028\u0029",
             "name": "login",
             "summary": "Login.",
@@ -1915,6 +1505,41 @@ Search.appendIndex(
             "name": "authenticationService",
             "summary": "The\u0020authentication\u0020service,\u0020used\u0020to\u0020handle\u0020all\u0020kinds\u0020of\u0020auth\u0020stuff.",
             "url": "classes/Drupal-o365-sso-Controller-LoginController.html#property_authenticationService"
+        },                {
+            "fqsen": "\\Drupal\\o365_sso\\Controller\\LogoutController",
+            "name": "LogoutController",
+            "summary": "Custom\u0020logout\u0020controller\u0020for\u0020o365_sso\u0020module.",
+            "url": "classes/Drupal-o365-sso-Controller-LogoutController.html"
+        },                {
+            "fqsen": "\\Drupal\\o365_sso\\Controller\\LogoutController\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "The\u0020controller\u0020constructor.",
+            "url": "classes/Drupal-o365-sso-Controller-LogoutController.html#method___construct"
+        },                {
+            "fqsen": "\\Drupal\\o365_sso\\Controller\\LogoutController\u003A\u003Acreate\u0028\u0029",
+            "name": "create",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-sso-Controller-LogoutController.html#method_create"
+        },                {
+            "fqsen": "\\Drupal\\o365_sso\\Controller\\LogoutController\u003A\u003Alogout\u0028\u0029",
+            "name": "logout",
+            "summary": "Logout\u0020a\u0020user\u0020and\u0020redirect\u0020to\u0020office\u0020if\u0020needed.",
+            "url": "classes/Drupal-o365-sso-Controller-LogoutController.html#method_logout"
+        },                {
+            "fqsen": "\\Drupal\\o365_sso\\Controller\\LogoutController\u003A\u003A\u0024config",
+            "name": "config",
+            "summary": "The\u0020module\u0020config.",
+            "url": "classes/Drupal-o365-sso-Controller-LogoutController.html#property_config"
+        },                {
+            "fqsen": "\\Drupal\\o365_sso\\Controller\\LogoutController\u003A\u003A\u0024graphService",
+            "name": "graphService",
+            "summary": "The\u0020o365\u0020Graph\u0020service.",
+            "url": "classes/Drupal-o365-sso-Controller-LogoutController.html#property_graphService"
+        },                {
+            "fqsen": "\\Drupal\\o365_sso\\Controller\\LogoutController\u003A\u003A\u0024account",
+            "name": "account",
+            "summary": "The\u0020current\u0020user.",
+            "url": "classes/Drupal-o365-sso-Controller-LogoutController.html#property_account"
         },                {
             "fqsen": "\\Drupal\\o365_sso\\Controller\\UserLoginController",
             "name": "UserLoginController",
@@ -1936,6 +1561,16 @@ Search.appendIndex(
             "summary": "Login\u0020a\u0020user.",
             "url": "classes/Drupal-o365-sso-Controller-UserLoginController.html#method_login"
         },                {
+            "fqsen": "\\Drupal\\o365_sso\\Controller\\UserLoginController\u003A\u003AsanitizeUsername\u0028\u0029",
+            "name": "sanitizeUsername",
+            "summary": "Sanitize\u0020username.",
+            "url": "classes/Drupal-o365-sso-Controller-UserLoginController.html#method_sanitizeUsername"
+        },                {
+            "fqsen": "\\Drupal\\o365_sso\\Controller\\UserLoginController\u003A\u003AgetFieldsForUser\u0028\u0029",
+            "name": "getFieldsForUser",
+            "summary": "Get\u0020a\u0020list\u0020of\u0020the\u0020fields\u0020we\u0020need\u0020to\u0020retrieve\u0020during\u0020login\u0020for\u0020a\u0020user.",
+            "url": "classes/Drupal-o365-sso-Controller-UserLoginController.html#method_getFieldsForUser"
+        },                {
             "fqsen": "\\Drupal\\o365_sso\\Controller\\UserLoginController\u003A\u003A\u0024graphService",
             "name": "graphService",
             "summary": "Drupal\\o365\\GraphService\u0020definition.",
@@ -1950,6 +1585,21 @@ Search.appendIndex(
             "name": "externalAuth",
             "summary": "The\u0020external\u0020auth\u0020service.",
             "url": "classes/Drupal-o365-sso-Controller-UserLoginController.html#property_externalAuth"
+        },                {
+            "fqsen": "\\Drupal\\o365_sso\\EventSubscriber\\RouteSubscriber",
+            "name": "RouteSubscriber",
+            "summary": "Route\u0020subscriber\u0020for\u0020the\u0020custom\u0020logout\u0020functionality.",
+            "url": "classes/Drupal-o365-sso-EventSubscriber-RouteSubscriber.html"
+        },                {
+            "fqsen": "\\Drupal\\o365_sso\\EventSubscriber\\RouteSubscriber\u003A\u003AgetSubscribedEvents\u0028\u0029",
+            "name": "getSubscribedEvents",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-sso-EventSubscriber-RouteSubscriber.html#method_getSubscribedEvents"
+        },                {
+            "fqsen": "\\Drupal\\o365_sso\\EventSubscriber\\RouteSubscriber\u003A\u003AalterRoutes\u0028\u0029",
+            "name": "alterRoutes",
+            "summary": "Alter\u0020the\u0020logout\u0020route.",
+            "url": "classes/Drupal-o365-sso-EventSubscriber-RouteSubscriber.html#method_alterRoutes"
         },                {
             "fqsen": "\\Drupal\\o365_sso\\Form\\SettingsForm",
             "name": "SettingsForm",
@@ -1976,15 +1626,40 @@ Search.appendIndex(
             "summary": "\u007B\u0040inheritdoc\u007D",
             "url": "classes/Drupal-o365-sso-Form-SettingsForm.html#method_submitForm"
         },                {
+            "fqsen": "\\Drupal\\o365_sso\\O365CheckLoginAccess",
+            "name": "O365CheckLoginAccess",
+            "summary": "Access\u0020checker\u0020for\u0020the\u0020login\u0020page.",
+            "url": "classes/Drupal-o365-sso-O365CheckLoginAccess.html"
+        },                {
+            "fqsen": "\\Drupal\\o365_sso\\O365CheckLoginAccess\u003A\u003AcheckAccess\u0028\u0029",
+            "name": "checkAccess",
+            "summary": "Check\u0020if\u0020a\u0020user\u0020is\u0020anonymous\u0020and\u0020grant\u0020access,\u0020else\u0020deny.",
+            "url": "classes/Drupal-o365-sso-O365CheckLoginAccess.html#method_checkAccess"
+        },                {
             "fqsen": "\\Drupal\\o365_sso\\Routing\\UserLoginFormRouteSubscriber",
             "name": "UserLoginFormRouteSubscriber",
             "summary": "Auto\u0020redirect\u0020users\u0020when\u0020the\u0020auto\u0020redirect\u0020option\u0020is\u0020enabled.",
             "url": "classes/Drupal-o365-sso-Routing-UserLoginFormRouteSubscriber.html"
         },                {
+            "fqsen": "\\Drupal\\o365_sso\\Routing\\UserLoginFormRouteSubscriber\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "The\u0020class\u0020constructor.",
+            "url": "classes/Drupal-o365-sso-Routing-UserLoginFormRouteSubscriber.html#method___construct"
+        },                {
             "fqsen": "\\Drupal\\o365_sso\\Routing\\UserLoginFormRouteSubscriber\u003A\u003AalterRoutes\u0028\u0029",
             "name": "alterRoutes",
             "summary": "\u007B\u0040inheritdoc\u007D",
             "url": "classes/Drupal-o365-sso-Routing-UserLoginFormRouteSubscriber.html#method_alterRoutes"
+        },                {
+            "fqsen": "\\Drupal\\o365_sso\\Routing\\UserLoginFormRouteSubscriber\u003A\u003A\u0024config",
+            "name": "config",
+            "summary": "The\u0020module\u0020config.",
+            "url": "classes/Drupal-o365-sso-Routing-UserLoginFormRouteSubscriber.html#property_config"
+        },                {
+            "fqsen": "\\Drupal\\o365_sso\\Routing\\UserLoginFormRouteSubscriber\u003A\u003A\u0024configFactory",
+            "name": "configFactory",
+            "summary": "",
+            "url": "classes/Drupal-o365-sso-Routing-UserLoginFormRouteSubscriber.html#property_configFactory"
         },                {
             "fqsen": "\\Drupal\\o365_sso_user\\EventSubscriber\\UserLoginEventSubscriber",
             "name": "UserLoginEventSubscriber",
@@ -2003,7 +1678,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Drupal\\o365_sso_user\\EventSubscriber\\UserLoginEventSubscriber\u003A\u003AupdateUserData\u0028\u0029",
             "name": "updateUserData",
-            "summary": "Update\u0020a\u0020users\u0020data\u0020with\u0020data\u0020dfrom\u0020the\u0020Graph\u0020API.",
+            "summary": "Update\u0020a\u0020users\u0020data\u0020with\u0020data\u0020from\u0020the\u0020Graph\u0020API.",
             "url": "classes/Drupal-o365-sso-user-EventSubscriber-UserLoginEventSubscriber.html#method_updateUserData"
         },                {
             "fqsen": "\\Drupal\\o365_sso_user\\EventSubscriber\\UserLoginEventSubscriber\u003A\u003A\u0024ssoUserSync",
@@ -2126,6 +1801,16 @@ Search.appendIndex(
             "summary": "The\u0020profile\u0020data\u0020service.",
             "url": "classes/Drupal-o365-sso-user-SsoUserSync.html#property_profileGetDataService"
         },                {
+            "fqsen": "\\Drupal\\o365_sso_user\\SsoUserSync\u003A\u003A\u0024fileRepository",
+            "name": "fileRepository",
+            "summary": "The\u0020file\u0020repository.",
+            "url": "classes/Drupal-o365-sso-user-SsoUserSync.html#property_fileRepository"
+        },                {
+            "fqsen": "\\Drupal\\o365_sso_user\\SsoUserSync\u003A\u003A\u0024fileSystem",
+            "name": "fileSystem",
+            "summary": "The\u0020file\u0020system\u0020service.",
+            "url": "classes/Drupal-o365-sso-user-SsoUserSync.html#property_fileSystem"
+        },                {
             "fqsen": "\\Drupal\\o365_teams\\Controller\\TeamsRecipientAutocompleteController",
             "name": "TeamsRecipientAutocompleteController",
             "summary": "Custom\u0020controller\u0020for\u0020the\u0020autocomplete\u0020callback.",
@@ -2153,7 +1838,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Drupal\\o365_teams\\Form\\O365TeamsSendMessageForm",
             "name": "O365TeamsSendMessageForm",
-            "summary": "Provides\u0020an\u0020Office\u0020365\u0020\u002D\u0020Teams\u0020integration\u0020form.",
+            "summary": "Provides\u0020an\u0020Microsoft\u0020365\u0020\u002D\u0020Teams\u0020integration\u0020form.",
             "url": "classes/Drupal-o365-teams-Form-O365TeamsSendMessageForm.html"
         },                {
             "fqsen": "\\Drupal\\o365_teams\\Form\\O365TeamsSendMessageForm\u003A\u003A__construct\u0028\u0029",
@@ -2241,6 +1926,916 @@ Search.appendIndex(
             "summary": "Create\u0020a\u0020list\u0020of\u0020authorization\u0020scopes.",
             "url": "namespaces/default.html#function_hook_o365_auth_scopes"
         },                {
+            "fqsen": "\\o365_post_update_remove_api_settings_config\u0028\u0029",
+            "name": "o365_post_update_remove_api_settings_config",
+            "summary": "Remove\u0020API\u0020settings\u0020configuration.",
+            "url": "namespaces/default.html#function_o365_post_update_remove_api_settings_config"
+        },                {
+            "fqsen": "\\Drupal\\o365\\AuthenticationService",
+            "name": "AuthenticationService",
+            "summary": "Service\u0020used\u0020to\u0020authenticate\u0020users\u0020between\u0020Microsoft\u0020365\u0020and\u0020Drupal.",
+            "url": "classes/Drupal-o365-AuthenticationService.html"
+        },                {
+            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "Constructs\u0020a\u0020new\u0020AuthenticationService\u0020object.",
+            "url": "classes/Drupal-o365-AuthenticationService.html#method___construct"
+        },                {
+            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003AredirectToAuthorizationUrl\u0028\u0029",
+            "name": "redirectToAuthorizationUrl",
+            "summary": "Redirect\u0020the\u0020user\u0020to\u0020the\u0020correct\u0020Microsoft\u0020pages\u0020for\u0020OAuth2.",
+            "url": "classes/Drupal-o365-AuthenticationService.html#method_redirectToAuthorizationUrl"
+        },                {
+            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003AsetAccessToken\u0028\u0029",
+            "name": "setAccessToken",
+            "summary": "Generate\u0020and\u0020save\u0020the\u0020access\u0020token.",
+            "url": "classes/Drupal-o365-AuthenticationService.html#method_setAccessToken"
+        },                {
+            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003AgetAccessToken\u0028\u0029",
+            "name": "getAccessToken",
+            "summary": "Get\u0020the\u0020access\u0020token\u0020for\u0020the\u0020user.",
+            "url": "classes/Drupal-o365-AuthenticationService.html#method_getAccessToken"
+        },                {
+            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003AsaveAuthDataFromUrl\u0028\u0029",
+            "name": "saveAuthDataFromUrl",
+            "summary": "Save\u0020the\u0020auth\u0020data\u0020from\u0020the\u0020url\u0020parameters\u0020in\u0020the\u0020user\u0020session\u0020storage.",
+            "url": "classes/Drupal-o365-AuthenticationService.html#method_saveAuthDataFromUrl"
+        },                {
+            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003AcheckForOfficeLogin\u0028\u0029",
+            "name": "checkForOfficeLogin",
+            "summary": "Check\u0020if\u0020a\u0020user\u0020is\u0020logged\u0020in\u0020via\u0020Office.",
+            "url": "classes/Drupal-o365-AuthenticationService.html#method_checkForOfficeLogin"
+        },                {
+            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003ArefreshToken\u0028\u0029",
+            "name": "refreshToken",
+            "summary": "Generate\u0020a\u0020new\u0020access\u0020token\u0020based\u0020on\u0020the\u0020refresh\u0020token.",
+            "url": "classes/Drupal-o365-AuthenticationService.html#method_refreshToken"
+        },                {
+            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003AgenerateProvider\u0028\u0029",
+            "name": "generateProvider",
+            "summary": "Generate\u0020a\u0020basic\u0020oAuth2\u0020provider.",
+            "url": "classes/Drupal-o365-AuthenticationService.html#method_generateProvider"
+        },                {
+            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003AgetAuthData\u0028\u0029",
+            "name": "getAuthData",
+            "summary": "Get\u0020the\u0020auth\u0020data\u0020from\u0020temp\u0020store\u0020or\u0020cookie.",
+            "url": "classes/Drupal-o365-AuthenticationService.html#method_getAuthData"
+        },                {
+            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003AsaveAuthData\u0028\u0029",
+            "name": "saveAuthData",
+            "summary": "Save\u0020the\u0020auth\u0020data\u0020to\u0020the\u0020temp\u0020store.",
+            "url": "classes/Drupal-o365-AuthenticationService.html#method_saveAuthData"
+        },                {
+            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003AsaveDataToTempStore\u0028\u0029",
+            "name": "saveDataToTempStore",
+            "summary": "Save\u0020data\u0020to\u0020the\u0020tempstore.",
+            "url": "classes/Drupal-o365-AuthenticationService.html#method_saveDataToTempStore"
+        },                {
+            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003AgetDataFromTempStore\u0028\u0029",
+            "name": "getDataFromTempStore",
+            "summary": "Get\u0020data\u0020from\u0020the\u0020temp\u0020store.",
+            "url": "classes/Drupal-o365-AuthenticationService.html#method_getDataFromTempStore"
+        },                {
+            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003AsaveDestination\u0028\u0029",
+            "name": "saveDestination",
+            "summary": "Save\u0020the\u0020destination\u0020that\u0020is\u0020part\u0020of\u0020the\u0020url.",
+            "url": "classes/Drupal-o365-AuthenticationService.html#method_saveDestination"
+        },                {
+            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003A\u0024configFactory",
+            "name": "configFactory",
+            "summary": "The\u0020config\u0020factory\u0020interface.",
+            "url": "classes/Drupal-o365-AuthenticationService.html#property_configFactory"
+        },                {
+            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003A\u0024moduleConfig",
+            "name": "moduleConfig",
+            "summary": "The\u0020modules\u0020base\u0020config.",
+            "url": "classes/Drupal-o365-AuthenticationService.html#property_moduleConfig"
+        },                {
+            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003A\u0024ssoConfig",
+            "name": "ssoConfig",
+            "summary": "The\u0020o365_sso\u0020config.",
+            "url": "classes/Drupal-o365-AuthenticationService.html#property_ssoConfig"
+        },                {
+            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003A\u0024tempStore",
+            "name": "tempStore",
+            "summary": "The\u0020private\u0020temp\u0020store.",
+            "url": "classes/Drupal-o365-AuthenticationService.html#property_tempStore"
+        },                {
+            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003A\u0024oauthClient",
+            "name": "oauthClient",
+            "summary": "An\u0020oauth\u0020provider.",
+            "url": "classes/Drupal-o365-AuthenticationService.html#property_oauthClient"
+        },                {
+            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003A\u0024constants",
+            "name": "constants",
+            "summary": "The\u0020ConstantsService\u0020implementation.",
+            "url": "classes/Drupal-o365-AuthenticationService.html#property_constants"
+        },                {
+            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003A\u0024loggerService",
+            "name": "loggerService",
+            "summary": "The\u0020logger\u0020service.",
+            "url": "classes/Drupal-o365-AuthenticationService.html#property_loggerService"
+        },                {
+            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003A\u0024request",
+            "name": "request",
+            "summary": "The\u0020current\u0020request.",
+            "url": "classes/Drupal-o365-AuthenticationService.html#property_request"
+        },                {
+            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003A\u0024debug",
+            "name": "debug",
+            "summary": "If\u0020we\u0020want\u0020to\u0020add\u0020debug\u0020messages.",
+            "url": "classes/Drupal-o365-AuthenticationService.html#property_debug"
+        },                {
+            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003A\u0024authValues",
+            "name": "authValues",
+            "summary": "The\u0020auth\u0020data.",
+            "url": "classes/Drupal-o365-AuthenticationService.html#property_authValues"
+        },                {
+            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003A\u0024currentUser",
+            "name": "currentUser",
+            "summary": "The\u0020current\u0020user\u0020account.",
+            "url": "classes/Drupal-o365-AuthenticationService.html#property_currentUser"
+        },                {
+            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003A\u0024authmap",
+            "name": "authmap",
+            "summary": "The\u0020auth\u0020map.",
+            "url": "classes/Drupal-o365-AuthenticationService.html#property_authmap"
+        },                {
+            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003A\u0024helperService",
+            "name": "helperService",
+            "summary": "The\u0020o365\u0020helper\u0020service.",
+            "url": "classes/Drupal-o365-AuthenticationService.html#property_helperService"
+        },                {
+            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003A\u0024messenger",
+            "name": "messenger",
+            "summary": "The\u0020messenger.",
+            "url": "classes/Drupal-o365-AuthenticationService.html#property_messenger"
+        },                {
+            "fqsen": "\\Drupal\\o365\\AuthenticationService\u003A\u003A\u0024entityTypeManager",
+            "name": "entityTypeManager",
+            "summary": "The\u0020entity\u0020type\u0020manager.",
+            "url": "classes/Drupal-o365-AuthenticationService.html#property_entityTypeManager"
+        },                {
+            "fqsen": "\\Drupal\\o365\\AuthenticationServiceInterface",
+            "name": "AuthenticationServiceInterface",
+            "summary": "The\u0020interface\u0020for\u0020the\u0020AuthenticationService.",
+            "url": "classes/Drupal-o365-AuthenticationServiceInterface.html"
+        },                {
+            "fqsen": "\\Drupal\\o365\\AuthenticationServiceInterface\u003A\u003AredirectToAuthorizationUrl\u0028\u0029",
+            "name": "redirectToAuthorizationUrl",
+            "summary": "Redirect\u0020the\u0020user\u0020to\u0020the\u0020correct\u0020Microsoft\u0020pages\u0020for\u0020OAuth2.",
+            "url": "classes/Drupal-o365-AuthenticationServiceInterface.html#method_redirectToAuthorizationUrl"
+        },                {
+            "fqsen": "\\Drupal\\o365\\AuthenticationServiceInterface\u003A\u003AsetAccessToken\u0028\u0029",
+            "name": "setAccessToken",
+            "summary": "Generate\u0020and\u0020save\u0020the\u0020access\u0020token.",
+            "url": "classes/Drupal-o365-AuthenticationServiceInterface.html#method_setAccessToken"
+        },                {
+            "fqsen": "\\Drupal\\o365\\AuthenticationServiceInterface\u003A\u003AgetAccessToken\u0028\u0029",
+            "name": "getAccessToken",
+            "summary": "Get\u0020the\u0020access\u0020token\u0020for\u0020the\u0020user.",
+            "url": "classes/Drupal-o365-AuthenticationServiceInterface.html#method_getAccessToken"
+        },                {
+            "fqsen": "\\Drupal\\o365\\AuthenticationServiceInterface\u003A\u003AsaveAuthDataFromUrl\u0028\u0029",
+            "name": "saveAuthDataFromUrl",
+            "summary": "Save\u0020the\u0020auth\u0020data\u0020from\u0020the\u0020url\u0020parameters\u0020in\u0020the\u0020user\u0020session\u0020storage.",
+            "url": "classes/Drupal-o365-AuthenticationServiceInterface.html#method_saveAuthDataFromUrl"
+        },                {
+            "fqsen": "\\Drupal\\o365\\AuthenticationServiceInterface\u003A\u003AcheckForOfficeLogin\u0028\u0029",
+            "name": "checkForOfficeLogin",
+            "summary": "Check\u0020if\u0020a\u0020user\u0020is\u0020logged\u0020in\u0020via\u0020Office.",
+            "url": "classes/Drupal-o365-AuthenticationServiceInterface.html#method_checkForOfficeLogin"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Block\\O365BlockBase",
+            "name": "O365BlockBase",
+            "summary": "Custom\u0020block\u0020base\u0020for\u0020o365\u0020for\u0020access\u0020checking.",
+            "url": "classes/Drupal-o365-Block-O365BlockBase.html"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Block\\O365BlockBase\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "Construct\u0020a\u0020O365BlockBase.",
+            "url": "classes/Drupal-o365-Block-O365BlockBase.html#method___construct"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Block\\O365BlockBase\u003A\u003Acreate\u0028\u0029",
+            "name": "create",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-Block-O365BlockBase.html#method_create"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Block\\O365BlockBase\u003A\u003Abuild\u0028\u0029",
+            "name": "build",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-Block-O365BlockBase.html#method_build"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Block\\O365BlockBase\u003A\u003Aaccess\u0028\u0029",
+            "name": "access",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-Block-O365BlockBase.html#method_access"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Block\\O365BlockBase\u003A\u003A\u0024graphService",
+            "name": "graphService",
+            "summary": "",
+            "url": "classes/Drupal-o365-Block-O365BlockBase.html#property_graphService"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Block\\O365UncachedBlockBase",
+            "name": "O365UncachedBlockBase",
+            "summary": "Extending\u0020the\u0020O365BlockBase\u0020with\u0020a\u0020non\u002Dcachable\u0020dependency.",
+            "url": "classes/Drupal-o365-Block-O365UncachedBlockBase.html"
+        },                {
+            "fqsen": "\\Drupal\\o365\\ConstantsService",
+            "name": "ConstantsService",
+            "summary": "Some\u0020constants\u0020we\u0020use\u0020in\u0020the\u0020code.",
+            "url": "classes/Drupal-o365-ConstantsService.html"
+        },                {
+            "fqsen": "\\Drupal\\o365\\ConstantsService\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "Constructs\u0020a\u0020new\u0020ConstantsService\u0020object.",
+            "url": "classes/Drupal-o365-ConstantsService.html#method___construct"
+        },                {
+            "fqsen": "\\Drupal\\o365\\ConstantsService\u003A\u003AgetRedirectUrl\u0028\u0029",
+            "name": "getRedirectUrl",
+            "summary": "Get\u0020the\u0020redirect\u0020URL.",
+            "url": "classes/Drupal-o365-ConstantsService.html#method_getRedirectUrl"
+        },                {
+            "fqsen": "\\Drupal\\o365\\ConstantsService\u003A\u003AgetAuthorizeUrl\u0028\u0029",
+            "name": "getAuthorizeUrl",
+            "summary": "Get\u0020the\u0020authorize\u0020url.",
+            "url": "classes/Drupal-o365-ConstantsService.html#method_getAuthorizeUrl"
+        },                {
+            "fqsen": "\\Drupal\\o365\\ConstantsService\u003A\u003AgetTokenUrl\u0028\u0029",
+            "name": "getTokenUrl",
+            "summary": "Get\u0020the\u0020token\u0020url.",
+            "url": "classes/Drupal-o365-ConstantsService.html#method_getTokenUrl"
+        },                {
+            "fqsen": "\\Drupal\\o365\\ConstantsService\u003A\u003AgetUserTempStoreName\u0028\u0029",
+            "name": "getUserTempStoreName",
+            "summary": "Get\u0020the\u0020user\u0020temp\u0020store\u0020name.",
+            "url": "classes/Drupal-o365-ConstantsService.html#method_getUserTempStoreName"
+        },                {
+            "fqsen": "\\Drupal\\o365\\ConstantsService\u003A\u003AgetUserTempStoreDataName\u0028\u0029",
+            "name": "getUserTempStoreDataName",
+            "summary": "Get\u0020the\u0020user\u0020temp\u0020store\u0020data\u0020name.",
+            "url": "classes/Drupal-o365-ConstantsService.html#method_getUserTempStoreDataName"
+        },                {
+            "fqsen": "\\Drupal\\o365\\ConstantsService\u003A\u003A\u0024configFactory",
+            "name": "configFactory",
+            "summary": "The\u0020config\u0020factory\u0020interface.",
+            "url": "classes/Drupal-o365-ConstantsService.html#property_configFactory"
+        },                {
+            "fqsen": "\\Drupal\\o365\\ConstantsService\u003A\u003A\u0024apiConfig",
+            "name": "apiConfig",
+            "summary": "The\u0020modules\u0020API\u0020config.",
+            "url": "classes/Drupal-o365-ConstantsService.html#property_apiConfig"
+        },                {
+            "fqsen": "\\Drupal\\o365\\ConstantsService\u003A\u003A\u0024request",
+            "name": "request",
+            "summary": "The\u0020request\u0020object.",
+            "url": "classes/Drupal-o365-ConstantsService.html#property_request"
+        },                {
+            "fqsen": "\\Drupal\\o365\\ConstantsService\u003A\u003A\u0024redirectUrl",
+            "name": "redirectUrl",
+            "summary": "The\u0020url\u0020where\u0020Microsoft\u0020will\u0020redirect\u0020us\u0020too.",
+            "url": "classes/Drupal-o365-ConstantsService.html#property_redirectUrl"
+        },                {
+            "fqsen": "\\Drupal\\o365\\ConstantsService\u003A\u003A\u0024authorizeRoot",
+            "name": "authorizeRoot",
+            "summary": "The\u0020authorize\u0020endpoint\u0020root.",
+            "url": "classes/Drupal-o365-ConstantsService.html#property_authorizeRoot"
+        },                {
+            "fqsen": "\\Drupal\\o365\\ConstantsService\u003A\u003A\u0024authorizePath",
+            "name": "authorizePath",
+            "summary": "The\u0020authorize\u0020endpoint\u0020path.",
+            "url": "classes/Drupal-o365-ConstantsService.html#property_authorizePath"
+        },                {
+            "fqsen": "\\Drupal\\o365\\ConstantsService\u003A\u003A\u0024tokenRoot",
+            "name": "tokenRoot",
+            "summary": "The\u0020token\u0020endpoint\u0020root.",
+            "url": "classes/Drupal-o365-ConstantsService.html#property_tokenRoot"
+        },                {
+            "fqsen": "\\Drupal\\o365\\ConstantsService\u003A\u003A\u0024tokenPath",
+            "name": "tokenPath",
+            "summary": "The\u0020token\u0020endpoint\u0020path.",
+            "url": "classes/Drupal-o365-ConstantsService.html#property_tokenPath"
+        },                {
+            "fqsen": "\\Drupal\\o365\\ConstantsService\u003A\u003A\u0024userTempStoreName",
+            "name": "userTempStoreName",
+            "summary": "The\u0020name\u0020of\u0020the\u0020temp\u0020store.",
+            "url": "classes/Drupal-o365-ConstantsService.html#property_userTempStoreName"
+        },                {
+            "fqsen": "\\Drupal\\o365\\ConstantsService\u003A\u003A\u0024userTempStoreDataName",
+            "name": "userTempStoreDataName",
+            "summary": "The\u0020name\u0020of\u0020the\u0020data\u0020saved\u0020in\u0020the\u0020temp\u0020store.",
+            "url": "classes/Drupal-o365-ConstantsService.html#property_userTempStoreDataName"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Controller\\O365AuthScopesController",
+            "name": "O365AuthScopesController",
+            "summary": "Returns\u0020responses\u0020for\u0020Microsoft\u0020365\u0020Connector\u0020routes.",
+            "url": "classes/Drupal-o365-Controller-O365AuthScopesController.html"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Controller\\O365AuthScopesController\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "The\u0020controller\u0020constructor.",
+            "url": "classes/Drupal-o365-Controller-O365AuthScopesController.html#method___construct"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Controller\\O365AuthScopesController\u003A\u003Acreate\u0028\u0029",
+            "name": "create",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-Controller-O365AuthScopesController.html#method_create"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Controller\\O365AuthScopesController\u003A\u003Abuild\u0028\u0029",
+            "name": "build",
+            "summary": "Builds\u0020the\u0020response.",
+            "url": "classes/Drupal-o365-Controller-O365AuthScopesController.html#method_build"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Controller\\O365AuthScopesController\u003A\u003A\u0024helperService",
+            "name": "helperService",
+            "summary": "The\u0020o365.helpers\u0020service.",
+            "url": "classes/Drupal-o365-Controller-O365AuthScopesController.html#property_helperService"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Controller\\O365ConnectorListBuilder",
+            "name": "O365ConnectorListBuilder",
+            "summary": "Defines\u0020a\u0020class\u0020to\u0020build\u0020a\u0020listing\u0020of\u0020Microsoft\u0020365\u0020connector\u0020entities.",
+            "url": "classes/Drupal-o365-Controller-O365ConnectorListBuilder.html"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Controller\\O365ConnectorListBuilder\u003A\u003AbuildHeader\u0028\u0029",
+            "name": "buildHeader",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-Controller-O365ConnectorListBuilder.html#method_buildHeader"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Controller\\O365ConnectorListBuilder\u003A\u003AbuildRow\u0028\u0029",
+            "name": "buildRow",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-Controller-O365ConnectorListBuilder.html#method_buildRow"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Entity\\O365Connector",
+            "name": "O365Connector",
+            "summary": "Defines\u0020the\u0020Microsoft\u0020365\u0020connector\u0020entity.",
+            "url": "classes/Drupal-o365-Entity-O365Connector.html"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Entity\\O365Connector\u003A\u003AgetClientId\u0028\u0029",
+            "name": "getClientId",
+            "summary": "Get\u0020the\u0020client\u0020ID.",
+            "url": "classes/Drupal-o365-Entity-O365Connector.html#method_getClientId"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Entity\\O365Connector\u003A\u003AgetClientSecret\u0028\u0029",
+            "name": "getClientSecret",
+            "summary": "Get\u0020the\u0020client\u0020secret.",
+            "url": "classes/Drupal-o365-Entity-O365Connector.html#method_getClientSecret"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Entity\\O365Connector\u003A\u003AgetTenantId\u0028\u0029",
+            "name": "getTenantId",
+            "summary": "Get\u0020the\u0020tenant\u0020ID.",
+            "url": "classes/Drupal-o365-Entity-O365Connector.html#method_getTenantId"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Entity\\O365Connector\u003A\u003AgetRedirectLogin\u0028\u0029",
+            "name": "getRedirectLogin",
+            "summary": "Get\u0020the\u0020redirect\u0020url.",
+            "url": "classes/Drupal-o365-Entity-O365Connector.html#method_getRedirectLogin"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Entity\\O365Connector\u003A\u003AgetValuesFromConfig\u0028\u0029",
+            "name": "getValuesFromConfig",
+            "summary": "Get\u0020values\u0020from\u0020the\u0020config\u0020in\u0020settings.php.",
+            "url": "classes/Drupal-o365-Entity-O365Connector.html#method_getValuesFromConfig"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Entity\\O365Connector\u003A\u003AgetAuthScopes\u0028\u0029",
+            "name": "getAuthScopes",
+            "summary": "Gets\u0020auth\u0020scopes.",
+            "url": "classes/Drupal-o365-Entity-O365Connector.html#method_getAuthScopes"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Entity\\O365Connector\u003A\u003A\u0024id",
+            "name": "id",
+            "summary": "The\u0020O365Connector\u0020ID.",
+            "url": "classes/Drupal-o365-Entity-O365Connector.html#property_id"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Entity\\O365Connector\u003A\u003A\u0024label",
+            "name": "label",
+            "summary": "The\u0020O365Connector\u0020label.",
+            "url": "classes/Drupal-o365-Entity-O365Connector.html#property_label"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Entity\\O365Connector\u003A\u003A\u0024redirect_login",
+            "name": "redirect_login",
+            "summary": "The\u0020redirect\u0020URL\u0020string.",
+            "url": "classes/Drupal-o365-Entity-O365Connector.html#property_redirect_login"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Entity\\O365Connector\u003A\u003A\u0024auth_scopes",
+            "name": "auth_scopes",
+            "summary": "The\u0020auth\u0020scopes.",
+            "url": "classes/Drupal-o365-Entity-O365Connector.html#property_auth_scopes"
+        },                {
+            "fqsen": "\\Drupal\\o365\\EventSubscriber\\RoleEventSubscriber",
+            "name": "RoleEventSubscriber",
+            "summary": "Custom\u0020event\u0020subscriber\u0020to\u0020handle\u0020roles\u0020on\u0020login.",
+            "url": "classes/Drupal-o365-EventSubscriber-RoleEventSubscriber.html"
+        },                {
+            "fqsen": "\\Drupal\\o365\\EventSubscriber\\RoleEventSubscriber\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "RoleEventSubscriber\u0020constructor.",
+            "url": "classes/Drupal-o365-EventSubscriber-RoleEventSubscriber.html#method___construct"
+        },                {
+            "fqsen": "\\Drupal\\o365\\EventSubscriber\\RoleEventSubscriber\u003A\u003AgetSubscribedEvents\u0028\u0029",
+            "name": "getSubscribedEvents",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-EventSubscriber-RoleEventSubscriber.html#method_getSubscribedEvents"
+        },                {
+            "fqsen": "\\Drupal\\o365\\EventSubscriber\\RoleEventSubscriber\u003A\u003AhandleRoles\u0028\u0029",
+            "name": "handleRoles",
+            "summary": "Handle\u0020the\u0020role\u0020logins.",
+            "url": "classes/Drupal-o365-EventSubscriber-RoleEventSubscriber.html#method_handleRoles"
+        },                {
+            "fqsen": "\\Drupal\\o365\\EventSubscriber\\RoleEventSubscriber\u003A\u003A\u0024rolesService",
+            "name": "rolesService",
+            "summary": "",
+            "url": "classes/Drupal-o365-EventSubscriber-RoleEventSubscriber.html#property_rolesService"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Form\\O365ConnectorDeleteForm",
+            "name": "O365ConnectorDeleteForm",
+            "summary": "Builds\u0020the\u0020form\u0020to\u0020delete\u0020Microsoft\u0020365\u0020connector\u0020entities.",
+            "url": "classes/Drupal-o365-Form-O365ConnectorDeleteForm.html"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Form\\O365ConnectorDeleteForm\u003A\u003AgetQuestion\u0028\u0029",
+            "name": "getQuestion",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-Form-O365ConnectorDeleteForm.html#method_getQuestion"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Form\\O365ConnectorDeleteForm\u003A\u003AgetCancelUrl\u0028\u0029",
+            "name": "getCancelUrl",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-Form-O365ConnectorDeleteForm.html#method_getCancelUrl"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Form\\O365ConnectorDeleteForm\u003A\u003AgetConfirmText\u0028\u0029",
+            "name": "getConfirmText",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-Form-O365ConnectorDeleteForm.html#method_getConfirmText"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Form\\O365ConnectorDeleteForm\u003A\u003AsubmitForm\u0028\u0029",
+            "name": "submitForm",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-Form-O365ConnectorDeleteForm.html#method_submitForm"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Form\\O365ConnectorForm",
+            "name": "O365ConnectorForm",
+            "summary": "Builds\u0020the\u0020form\u0020to\u0020create\/edit\u0020Microsoft\u0020365\u0020connector\u0020entities.",
+            "url": "classes/Drupal-o365-Form-O365ConnectorForm.html"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Form\\O365ConnectorForm\u003A\u003Aform\u0028\u0029",
+            "name": "form",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-Form-O365ConnectorForm.html#method_form"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Form\\O365ConnectorForm\u003A\u003Asave\u0028\u0029",
+            "name": "save",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-Form-O365ConnectorForm.html#method_save"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Form\\O365ConnectorForm\u003A\u003Aexist\u0028\u0029",
+            "name": "exist",
+            "summary": "Helper\u0020function\u0020to\u0020check\u0020whether\u0020a\u0020Social\u0020o365\u0020configuration\u0020entity\u0020exists.",
+            "url": "classes/Drupal-o365-Form-O365ConnectorForm.html#method_exist"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Form\\RoleSettingsForm",
+            "name": "RoleSettingsForm",
+            "summary": "Map\u0020groups\u0020in\u0020Microsoft\u0020365\u0020to\u0020Drupal\u0020roles.",
+            "url": "classes/Drupal-o365-Form-RoleSettingsForm.html"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Form\\RoleSettingsForm\u003A\u003AgetFormId\u0028\u0029",
+            "name": "getFormId",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-Form-RoleSettingsForm.html#method_getFormId"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Form\\RoleSettingsForm\u003A\u003AgetEditableConfigNames\u0028\u0029",
+            "name": "getEditableConfigNames",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-Form-RoleSettingsForm.html#method_getEditableConfigNames"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Form\\RoleSettingsForm\u003A\u003AbuildForm\u0028\u0029",
+            "name": "buildForm",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-Form-RoleSettingsForm.html#method_buildForm"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Form\\RoleSettingsForm\u003A\u003AsubmitForm\u0028\u0029",
+            "name": "submitForm",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-Form-RoleSettingsForm.html#method_submitForm"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Form\\SettingsForm",
+            "name": "SettingsForm",
+            "summary": "Settings\u0020form\u0020for\u0020the\u0020o365\u0020module.",
+            "url": "classes/Drupal-o365-Form-SettingsForm.html"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Form\\SettingsForm\u003A\u003AgetEditableConfigNames\u0028\u0029",
+            "name": "getEditableConfigNames",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-Form-SettingsForm.html#method_getEditableConfigNames"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Form\\SettingsForm\u003A\u003AgetFormId\u0028\u0029",
+            "name": "getFormId",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-Form-SettingsForm.html#method_getFormId"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Form\\SettingsForm\u003A\u003AbuildForm\u0028\u0029",
+            "name": "buildForm",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-Form-SettingsForm.html#method_buildForm"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Form\\SettingsForm\u003A\u003AsubmitForm\u0028\u0029",
+            "name": "submitForm",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-Form-SettingsForm.html#method_submitForm"
+        },                {
+            "fqsen": "\\Drupal\\o365\\GraphService",
+            "name": "GraphService",
+            "summary": "This\u0020is\u0020the\u0020GraphService.",
+            "url": "classes/Drupal-o365-GraphService.html"
+        },                {
+            "fqsen": "\\Drupal\\o365\\GraphService\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "Constructs\u0020a\u0020new\u0020GraphService\u0020object.",
+            "url": "classes/Drupal-o365-GraphService.html#method___construct"
+        },                {
+            "fqsen": "\\Drupal\\o365\\GraphService\u003A\u003AgetGraphData\u0028\u0029",
+            "name": "getGraphData",
+            "summary": "Get\u0020data\u0020from\u0020the\u0020MS\u0020GraphAPI.",
+            "url": "classes/Drupal-o365-GraphService.html#method_getGraphData"
+        },                {
+            "fqsen": "\\Drupal\\o365\\GraphService\u003A\u003AsendGraphData\u0028\u0029",
+            "name": "sendGraphData",
+            "summary": "Send\u0020data\u0020to\u0020the\u0020MS\u0020GraphAPI.",
+            "url": "classes/Drupal-o365-GraphService.html#method_sendGraphData"
+        },                {
+            "fqsen": "\\Drupal\\o365\\GraphService\u003A\u003AgetData\u0028\u0029",
+            "name": "getData",
+            "summary": "Generic\u0020method\u0020to\u0020get\u0020or\u0020send\u0020data\u0020to\u0020the\u0020Graph\u0020endpoints.",
+            "url": "classes/Drupal-o365-GraphService.html#method_getData"
+        },                {
+            "fqsen": "\\Drupal\\o365\\GraphService\u003A\u003AgetCollectionData\u0028\u0029",
+            "name": "getCollectionData",
+            "summary": "Get\u0020a\u0020collection\u0020of\u0020data.",
+            "url": "classes/Drupal-o365-GraphService.html#method_getCollectionData"
+        },                {
+            "fqsen": "\\Drupal\\o365\\GraphService\u003A\u003AgetCurrentUserId\u0028\u0029",
+            "name": "getCurrentUserId",
+            "summary": "Determine\u0020the\u0020office\u0020user\u0020ID.",
+            "url": "classes/Drupal-o365-GraphService.html#method_getCurrentUserId"
+        },                {
+            "fqsen": "\\Drupal\\o365\\GraphService\u003A\u003AgetTimeout\u0028\u0029",
+            "name": "getTimeout",
+            "summary": "Get\u0020the\u0020Graph\u0020API\u0020timeout.",
+            "url": "classes/Drupal-o365-GraphService.html#method_getTimeout"
+        },                {
+            "fqsen": "\\Drupal\\o365\\GraphService\u003A\u003AsetTimeout\u0028\u0029",
+            "name": "setTimeout",
+            "summary": "Set\u0020the\u0020Graph\u0020API\u0020timeout.",
+            "url": "classes/Drupal-o365-GraphService.html#method_setTimeout"
+        },                {
+            "fqsen": "\\Drupal\\o365\\GraphService\u003A\u003A\u0024authService",
+            "name": "authService",
+            "summary": "Drupal\\o365\\AuthenticationServiceInterface\u0020definition.",
+            "url": "classes/Drupal-o365-GraphService.html#property_authService"
+        },                {
+            "fqsen": "\\Drupal\\o365\\GraphService\u003A\u003A\u0024messenger",
+            "name": "messenger",
+            "summary": "The\u0020logger\u0020service.",
+            "url": "classes/Drupal-o365-GraphService.html#property_messenger"
+        },                {
+            "fqsen": "\\Drupal\\o365\\GraphService\u003A\u003A\u0024cacheBackend",
+            "name": "cacheBackend",
+            "summary": "The\u0020cache\u0020backend\u0020service.",
+            "url": "classes/Drupal-o365-GraphService.html#property_cacheBackend"
+        },                {
+            "fqsen": "\\Drupal\\o365\\GraphService\u003A\u003A\u0024logger",
+            "name": "logger",
+            "summary": "The\u0020modules\u0020logger.",
+            "url": "classes/Drupal-o365-GraphService.html#property_logger"
+        },                {
+            "fqsen": "\\Drupal\\o365\\GraphService\u003A\u003A\u0024authmap",
+            "name": "authmap",
+            "summary": "The\u0020externalauth\u0020authmap\u0020service.",
+            "url": "classes/Drupal-o365-GraphService.html#property_authmap"
+        },                {
+            "fqsen": "\\Drupal\\o365\\GraphService\u003A\u003A\u0024currentUser",
+            "name": "currentUser",
+            "summary": "The\u0020current\u0020user\u0020account.",
+            "url": "classes/Drupal-o365-GraphService.html#property_currentUser"
+        },                {
+            "fqsen": "\\Drupal\\o365\\GraphService\u003A\u003A\u0024timeout",
+            "name": "timeout",
+            "summary": "The\u0020timeout\u0020used\u0020in\u0020calls\u0020to\u0020the\u0020Graph\u0020API.",
+            "url": "classes/Drupal-o365-GraphService.html#property_timeout"
+        },                {
+            "fqsen": "\\Drupal\\o365\\HelperService",
+            "name": "HelperService",
+            "summary": "Service\u0020with\u0020some\u0020helpful\u0020methods\u0020that\u0020we\u0020use\u0020in\u0020different\u0020locations.",
+            "url": "classes/Drupal-o365-HelperService.html"
+        },                {
+            "fqsen": "\\Drupal\\o365\\HelperService\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "Constructs\u0020a\u0020new\u0020HelperService\u0020object.",
+            "url": "classes/Drupal-o365-HelperService.html#method___construct"
+        },                {
+            "fqsen": "\\Drupal\\o365\\HelperService\u003A\u003AcreateIsoDate\u0028\u0029",
+            "name": "createIsoDate",
+            "summary": "Create\u0020a\u0020ISO8601\u0020timestamp\u0020that\u0020Microsoft\u0020Graph\u0020API\u0020can\u0020use.",
+            "url": "classes/Drupal-o365-HelperService.html#method_createIsoDate"
+        },                {
+            "fqsen": "\\Drupal\\o365\\HelperService\u003A\u003AformatDate\u0028\u0029",
+            "name": "formatDate",
+            "summary": "Format\u0020a\u0020ISO8601\u0020date\u0020into\u0020something\u0020more\u0020readable.",
+            "url": "classes/Drupal-o365-HelperService.html#method_formatDate"
+        },                {
+            "fqsen": "\\Drupal\\o365\\HelperService\u003A\u003AgetApiConfig\u0028\u0029",
+            "name": "getApiConfig",
+            "summary": "Retrieve\u0020the\u0020API\u0020settings\u0020from\u0020the\u0020config.",
+            "url": "classes/Drupal-o365-HelperService.html#method_getApiConfig"
+        },                {
+            "fqsen": "\\Drupal\\o365\\HelperService\u003A\u003AgetAuthScopes\u0028\u0029",
+            "name": "getAuthScopes",
+            "summary": "Get\u0020the\u0020auth\u0020scopes\u0020string.",
+            "url": "classes/Drupal-o365-HelperService.html#method_getAuthScopes"
+        },                {
+            "fqsen": "\\Drupal\\o365\\HelperService\u003A\u003AgetTsFromDate\u0028\u0029",
+            "name": "getTsFromDate",
+            "summary": "Generate\u0020a\u0020unix\u0020timestamp\u0020from\u0020a\u0020date.",
+            "url": "classes/Drupal-o365-HelperService.html#method_getTsFromDate"
+        },                {
+            "fqsen": "\\Drupal\\o365\\HelperService\u003A\u003AstrStartsWith\u0028\u0029",
+            "name": "strStartsWith",
+            "summary": "Checks\u0020if\u0020a\u0020string\u0020starts\u0020with\u0020a\u0020given\u0020substring.",
+            "url": "classes/Drupal-o365-HelperService.html#method_strStartsWith"
+        },                {
+            "fqsen": "\\Drupal\\o365\\HelperService\u003A\u003A\u0024dateFormatter",
+            "name": "dateFormatter",
+            "summary": "Drupal\\Core\\Datetime\\DateFormatterInterface\u0020definition.",
+            "url": "classes/Drupal-o365-HelperService.html#property_dateFormatter"
+        },                {
+            "fqsen": "\\Drupal\\o365\\HelperService\u003A\u003A\u0024moduleHandler",
+            "name": "moduleHandler",
+            "summary": "The\u0020module\u0020handler.",
+            "url": "classes/Drupal-o365-HelperService.html#property_moduleHandler"
+        },                {
+            "fqsen": "\\Drupal\\o365\\O365ConnectorAccessControlHandler",
+            "name": "O365ConnectorAccessControlHandler",
+            "summary": "Access\u0020controller\u0020for\u0020the\u0020Microsoft\u0020365\u0020connector\u0020entity.",
+            "url": "classes/Drupal-o365-O365ConnectorAccessControlHandler.html"
+        },                {
+            "fqsen": "\\Drupal\\o365\\O365ConnectorAccessControlHandler\u003A\u003AcheckAccess\u0028\u0029",
+            "name": "checkAccess",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-O365ConnectorAccessControlHandler.html#method_checkAccess"
+        },                {
+            "fqsen": "\\Drupal\\o365\\O365ConnectorAccessControlHandler\u003A\u003AcheckCreateAccess\u0028\u0029",
+            "name": "checkCreateAccess",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-O365ConnectorAccessControlHandler.html#method_checkCreateAccess"
+        },                {
+            "fqsen": "\\Drupal\\o365\\O365ConnectorInterface",
+            "name": "O365ConnectorInterface",
+            "summary": "Provides\u0020as\u0020interface\u0020defining\u0020a\u0020SocialO365\u0020entity.",
+            "url": "classes/Drupal-o365-O365ConnectorInterface.html"
+        },                {
+            "fqsen": "\\Drupal\\o365\\O365ConnectorInterface\u003A\u003AgetClientId\u0028\u0029",
+            "name": "getClientId",
+            "summary": "Get\u0020the\u0020client\u0020ID.",
+            "url": "classes/Drupal-o365-O365ConnectorInterface.html#method_getClientId"
+        },                {
+            "fqsen": "\\Drupal\\o365\\O365ConnectorInterface\u003A\u003AgetClientSecret\u0028\u0029",
+            "name": "getClientSecret",
+            "summary": "Get\u0020the\u0020client\u0020secret.",
+            "url": "classes/Drupal-o365-O365ConnectorInterface.html#method_getClientSecret"
+        },                {
+            "fqsen": "\\Drupal\\o365\\O365ConnectorInterface\u003A\u003AgetTenantId\u0028\u0029",
+            "name": "getTenantId",
+            "summary": "Get\u0020the\u0020tenant\u0020ID.",
+            "url": "classes/Drupal-o365-O365ConnectorInterface.html#method_getTenantId"
+        },                {
+            "fqsen": "\\Drupal\\o365\\O365ConnectorInterface\u003A\u003AgetRedirectLogin\u0028\u0029",
+            "name": "getRedirectLogin",
+            "summary": "Get\u0020the\u0020redirect\u0020url.",
+            "url": "classes/Drupal-o365-O365ConnectorInterface.html#method_getRedirectLogin"
+        },                {
+            "fqsen": "\\Drupal\\o365\\O365ConnectorInterface\u003A\u003AgetAuthScopes\u0028\u0029",
+            "name": "getAuthScopes",
+            "summary": "Gets\u0020auth\u0020scopes.",
+            "url": "classes/Drupal-o365-O365ConnectorInterface.html#method_getAuthScopes"
+        },                {
+            "fqsen": "\\Drupal\\o365\\O365LoggerService",
+            "name": "O365LoggerService",
+            "summary": "Our\u0020custom\u0020Logger\u0020service.",
+            "url": "classes/Drupal-o365-O365LoggerService.html"
+        },                {
+            "fqsen": "\\Drupal\\o365\\O365LoggerService\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "Constructs\u0020a\u0020new\u0020O365LoggerService\u0020object.",
+            "url": "classes/Drupal-o365-O365LoggerService.html#method___construct"
+        },                {
+            "fqsen": "\\Drupal\\o365\\O365LoggerService\u003A\u003Alog\u0028\u0029",
+            "name": "log",
+            "summary": "Log\u0020a\u0020message\u0020into\u0020the\u0020watchdog.",
+            "url": "classes/Drupal-o365-O365LoggerService.html#method_log"
+        },                {
+            "fqsen": "\\Drupal\\o365\\O365LoggerService\u003A\u003Adebug\u0028\u0029",
+            "name": "debug",
+            "summary": "Log\u0020a\u0020debug\u0020message\u0020into\u0020the\u0020watchdog.",
+            "url": "classes/Drupal-o365-O365LoggerService.html#method_debug"
+        },                {
+            "fqsen": "\\Drupal\\o365\\O365LoggerService\u003A\u003AshowDrupalMessage\u0028\u0029",
+            "name": "showDrupalMessage",
+            "summary": "Render\u0020a\u0020drupal\u0020message.",
+            "url": "classes/Drupal-o365-O365LoggerService.html#method_showDrupalMessage"
+        },                {
+            "fqsen": "\\Drupal\\o365\\O365LoggerService\u003A\u003A\u0024loggerFactory",
+            "name": "loggerFactory",
+            "summary": "Drupal\\Core\\Logger\\LoggerChannelFactoryInterface\u0020definition.",
+            "url": "classes/Drupal-o365-O365LoggerService.html#property_loggerFactory"
+        },                {
+            "fqsen": "\\Drupal\\o365\\O365LoggerService\u003A\u003A\u0024logger",
+            "name": "logger",
+            "summary": "The\u0020logger\u0020channel.",
+            "url": "classes/Drupal-o365-O365LoggerService.html#property_logger"
+        },                {
+            "fqsen": "\\Drupal\\o365\\O365LoggerService\u003A\u003A\u0024messenger",
+            "name": "messenger",
+            "summary": "The\u0020drupal\u0020messenger.",
+            "url": "classes/Drupal-o365-O365LoggerService.html#property_messenger"
+        },                {
+            "fqsen": "\\Drupal\\o365\\O365LoggerServiceInterface",
+            "name": "O365LoggerServiceInterface",
+            "summary": "The\u0020interface\u0020for\u0020the\u0020O365LoggerService\u0020service.",
+            "url": "classes/Drupal-o365-O365LoggerServiceInterface.html"
+        },                {
+            "fqsen": "\\Drupal\\o365\\O365LoggerServiceInterface\u003A\u003Alog\u0028\u0029",
+            "name": "log",
+            "summary": "Log\u0020a\u0020message\u0020into\u0020the\u0020watchdog.",
+            "url": "classes/Drupal-o365-O365LoggerServiceInterface.html#method_log"
+        },                {
+            "fqsen": "\\Drupal\\o365\\O365LoggerServiceInterface\u003A\u003Adebug\u0028\u0029",
+            "name": "debug",
+            "summary": "Log\u0020a\u0020debug\u0020message\u0020into\u0020the\u0020watchdog.",
+            "url": "classes/Drupal-o365-O365LoggerServiceInterface.html#method_debug"
+        },                {
+            "fqsen": "\\Drupal\\o365\\PersonaRenderService",
+            "name": "PersonaRenderService",
+            "summary": "Service\u0020that\u0020renders\u0020persona\u0020information\u0020based\u0020on\u0020the\u0020type.",
+            "url": "classes/Drupal-o365-PersonaRenderService.html"
+        },                {
+            "fqsen": "\\Drupal\\o365\\PersonaRenderService\u003A\u003ArenderPersona\u0028\u0029",
+            "name": "renderPersona",
+            "summary": "Render\u0020the\u0020persona\u0020based\u0020on\u0020a\u0020type\u0020\u0028small,\u0020medium,\u0020large\u0029",
+            "url": "classes/Drupal-o365-PersonaRenderService.html#method_renderPersona"
+        },                {
+            "fqsen": "\\Drupal\\o365\\PersonaRenderService\u003A\u003AgetRandomPersonaColor\u0028\u0029",
+            "name": "getRandomPersonaColor",
+            "summary": "Return\u0020a\u0020\u0028random\u0029\u0020color.",
+            "url": "classes/Drupal-o365-PersonaRenderService.html#method_getRandomPersonaColor"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Plugin\\Oauth2Client\\O365OAuth2Client",
+            "name": "O365OAuth2Client",
+            "summary": "OAuth2\u0020Client\u0020to\u0020authenticate\u0020with\u0020Microsoft\u0020365.",
+            "url": "classes/Drupal-o365-Plugin-Oauth2Client-O365OAuth2Client.html"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Plugin\\Oauth2Client\\O365OAuth2Client\u003A\u003Acreate\u0028\u0029",
+            "name": "create",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-Plugin-Oauth2Client-O365OAuth2Client.html#method_create"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Plugin\\Oauth2Client\\O365OAuth2Client\u003A\u003AgetClientId\u0028\u0029",
+            "name": "getClientId",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-Plugin-Oauth2Client-O365OAuth2Client.html#method_getClientId"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Plugin\\Oauth2Client\\O365OAuth2Client\u003A\u003AgetClientSecret\u0028\u0029",
+            "name": "getClientSecret",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-Plugin-Oauth2Client-O365OAuth2Client.html#method_getClientSecret"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Plugin\\Oauth2Client\\O365OAuth2Client\u003A\u003AstoreAccessToken\u0028\u0029",
+            "name": "storeAccessToken",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-Plugin-Oauth2Client-O365OAuth2Client.html#method_storeAccessToken"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Plugin\\Oauth2Client\\O365OAuth2Client\u003A\u003AretrieveAccessToken\u0028\u0029",
+            "name": "retrieveAccessToken",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-Plugin-Oauth2Client-O365OAuth2Client.html#method_retrieveAccessToken"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Plugin\\Oauth2Client\\O365OAuth2Client\u003A\u003AclearAccessToken\u0028\u0029",
+            "name": "clearAccessToken",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-Plugin-Oauth2Client-O365OAuth2Client.html#method_clearAccessToken"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Plugin\\Oauth2Client\\O365OAuth2Client\u003A\u003AgetCredentialProvider\u0028\u0029",
+            "name": "getCredentialProvider",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-o365-Plugin-Oauth2Client-O365OAuth2Client.html#method_getCredentialProvider"
+        },                {
+            "fqsen": "\\Drupal\\o365\\Plugin\\Oauth2Client\\O365OAuth2Client\u003A\u003A\u0024helperService",
+            "name": "helperService",
+            "summary": "The\u0020o365\u0020helper\u0020service.",
+            "url": "classes/Drupal-o365-Plugin-Oauth2Client-O365OAuth2Client.html#property_helperService"
+        },                {
+            "fqsen": "\\Drupal\\o365\\RolesService",
+            "name": "RolesService",
+            "summary": "Service\u0020for\u0020managing\u0020user\u0020roles\u0020based\u0020on\u0020Microsoft\u0020365\u0020group\u0020membership.",
+            "url": "classes/Drupal-o365-RolesService.html"
+        },                {
+            "fqsen": "\\Drupal\\o365\\RolesService\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "Constructs\u0020a\u0020RolesService\u0020object.",
+            "url": "classes/Drupal-o365-RolesService.html#method___construct"
+        },                {
+            "fqsen": "\\Drupal\\o365\\RolesService\u003A\u003AhandleRoles\u0028\u0029",
+            "name": "handleRoles",
+            "summary": "Updates\u0020user\u0020roles\u0020based\u0020on\u0020Microsoft\u0020365\u0020group\u0020membership.",
+            "url": "classes/Drupal-o365-RolesService.html#method_handleRoles"
+        },                {
+            "fqsen": "\\Drupal\\o365\\RolesService\u003A\u003AcalculateUserRoles\u0028\u0029",
+            "name": "calculateUserRoles",
+            "summary": "Calculates\u0020the\u0020roles\u0020a\u0020user\u0020should\u0020have\u0020based\u0020on\u0020their\u0020group\u0020membership.",
+            "url": "classes/Drupal-o365-RolesService.html#method_calculateUserRoles"
+        },                {
+            "fqsen": "\\Drupal\\o365\\RolesService\u003A\u003AcreateGroupLookup\u0028\u0029",
+            "name": "createGroupLookup",
+            "summary": "Creates\u0020a\u0020lookup\u0020array\u0020for\u0020efficient\u0020group\u0020membership\u0020checking.",
+            "url": "classes/Drupal-o365-RolesService.html#method_createGroupLookup"
+        },                {
+            "fqsen": "\\Drupal\\o365\\RolesService\u003A\u003AupdateUserRoles\u0028\u0029",
+            "name": "updateUserRoles",
+            "summary": "Updates\u0020the\u0020user\u0027s\u0020roles\u0020by\u0020removing\u0020unsafe\u0020roles\u0020and\u0020adding\u0020new\u0020ones.",
+            "url": "classes/Drupal-o365-RolesService.html#method_updateUserRoles"
+        },                {
+            "fqsen": "\\Drupal\\o365\\RolesService\u003A\u003AgetConfiguredRoles\u0028\u0029",
+            "name": "getConfiguredRoles",
+            "summary": "Gets\u0020the\u0020configured\u0020roles\u0020from\u0020configuration.",
+            "url": "classes/Drupal-o365-RolesService.html#method_getConfiguredRoles"
+        },                {
+            "fqsen": "\\Drupal\\o365\\RolesService\u003A\u003AgetSafeRoles\u0028\u0029",
+            "name": "getSafeRoles",
+            "summary": "Gets\u0020the\u0020list\u0020of\u0020safe\u0020roles\u0020that\u0020should\u0020not\u0020be\u0020removed.",
+            "url": "classes/Drupal-o365-RolesService.html#method_getSafeRoles"
+        },                {
+            "fqsen": "\\Drupal\\o365\\RolesService\u003A\u003AgetUserGroups\u0028\u0029",
+            "name": "getUserGroups",
+            "summary": "Gets\u0020the\u0020user\u0027s\u0020Microsoft\u0020365\u0020groups.",
+            "url": "classes/Drupal-o365-RolesService.html#method_getUserGroups"
+        },                {
+            "fqsen": "\\Drupal\\o365\\RolesService\u003A\u003AclearCache\u0028\u0029",
+            "name": "clearCache",
+            "summary": "Clears\u0020cached\u0020data\u0020to\u0020force\u0020fresh\u0020retrieval.",
+            "url": "classes/Drupal-o365-RolesService.html#method_clearCache"
+        },                {
+            "fqsen": "\\Drupal\\o365\\RolesService\u003A\u003A\u0024logger",
+            "name": "logger",
+            "summary": "The\u0020logger\u0020service.",
+            "url": "classes/Drupal-o365-RolesService.html#property_logger"
+        },                {
+            "fqsen": "\\Drupal\\o365\\RolesService\u003A\u003A\u0024configuredRoles",
+            "name": "configuredRoles",
+            "summary": "Cached\u0020configured\u0020role\u0020mappings.",
+            "url": "classes/Drupal-o365-RolesService.html#property_configuredRoles"
+        },                {
+            "fqsen": "\\Drupal\\o365\\RolesService\u003A\u003A\u0024safeRoles",
+            "name": "safeRoles",
+            "summary": "Cached\u0020safe\u0020roles\u0020list.",
+            "url": "classes/Drupal-o365-RolesService.html#property_safeRoles"
+        },                {
+            "fqsen": "\\Drupal\\o365\\RolesService\u003A\u003A\u0024userGroups",
+            "name": "userGroups",
+            "summary": "Cached\u0020user\u0020groups\u0020from\u0020Microsoft\u0020365.",
+            "url": "classes/Drupal-o365-RolesService.html#property_userGroups"
+        },                {
+            "fqsen": "\\Drupal\\o365\\RolesService\u003A\u003A\u0024defaultRole",
+            "name": "defaultRole",
+            "summary": "The\u0020deault\u0020role\u0020to\u0020give\u0020to\u0020users\u0020if\u0020any.",
+            "url": "classes/Drupal-o365-RolesService.html#property_defaultRole"
+        },                {
+            "fqsen": "\\Drupal\\o365\\RolesService\u003A\u003A\u0024graphService",
+            "name": "graphService",
+            "summary": "",
+            "url": "classes/Drupal-o365-RolesService.html#property_graphService"
+        },                {
+            "fqsen": "\\Drupal\\o365\\RolesService\u003A\u003A\u0024configFactory",
+            "name": "configFactory",
+            "summary": "",
+            "url": "classes/Drupal-o365-RolesService.html#property_configFactory"
+        },                {
+            "fqsen": "\\Drupal\\Tests\\o365\\Functional\\InstallTest",
+            "name": "InstallTest",
+            "summary": "Test\u0020module\u0020installation.",
+            "url": "classes/Drupal-Tests-o365-Functional-InstallTest.html"
+        },                {
+            "fqsen": "\\Drupal\\Tests\\o365\\Functional\\InstallTest\u003A\u003AtestInstall\u0028\u0029",
+            "name": "testInstall",
+            "summary": "Test\u0020module\u0020install.",
+            "url": "classes/Drupal-Tests-o365-Functional-InstallTest.html#method_testInstall"
+        },                {
+            "fqsen": "\\Drupal\\Tests\\o365\\Functional\\InstallTest\u003A\u003A\u0024defaultTheme",
+            "name": "defaultTheme",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-Tests-o365-Functional-InstallTest.html#property_defaultTheme"
+        },                {
+            "fqsen": "\\Drupal\\Tests\\o365\\Functional\\InstallTest\u003A\u003A\u0024modules",
+            "name": "modules",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/Drupal-Tests-o365-Functional-InstallTest.html#property_modules"
+        },                {
             "fqsen": "\\",
             "name": "\\",
             "summary": "",
@@ -2285,6 +2880,11 @@ Search.appendIndex(
             "name": "Controller",
             "summary": "",
             "url": "namespaces/drupal-o365-groups-controller.html"
+        },                {
+            "fqsen": "\\Drupal\\o365_groups\\Form",
+            "name": "Form",
+            "summary": "",
+            "url": "namespaces/drupal-o365-groups-form.html"
         },                {
             "fqsen": "\\Drupal\\o365_groups",
             "name": "o365_groups",
@@ -2376,11 +2976,6 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/drupal-o365-outlook-mail-plugin.html"
         },                {
-            "fqsen": "\\Drupal\\o365_profile\\Controller",
-            "name": "Controller",
-            "summary": "",
-            "url": "namespaces/drupal-o365-profile-controller.html"
-        },                {
             "fqsen": "\\Drupal\\o365_profile\\Form",
             "name": "Form",
             "summary": "",
@@ -2410,6 +3005,26 @@ Search.appendIndex(
             "name": "views",
             "summary": "",
             "url": "namespaces/drupal-o365-profile-plugin-views.html"
+        },                {
+            "fqsen": "\\Drupal\\o365_profile_rest\\Plugin\\rest\\resource",
+            "name": "resource",
+            "summary": "",
+            "url": "namespaces/drupal-o365-profile-rest-plugin-rest-resource.html"
+        },                {
+            "fqsen": "\\Drupal\\o365_profile_rest\\Plugin\\rest",
+            "name": "rest",
+            "summary": "",
+            "url": "namespaces/drupal-o365-profile-rest-plugin-rest.html"
+        },                {
+            "fqsen": "\\Drupal\\o365_profile_rest\\Plugin",
+            "name": "Plugin",
+            "summary": "",
+            "url": "namespaces/drupal-o365-profile-rest-plugin.html"
+        },                {
+            "fqsen": "\\Drupal\\o365_profile_rest",
+            "name": "o365_profile_rest",
+            "summary": "",
+            "url": "namespaces/drupal-o365-profile-rest.html"
         },                {
             "fqsen": "\\Drupal\\o365_rest\\Plugin\\rest\\resource",
             "name": "resource",
@@ -2441,21 +3056,6 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/drupal-o365-sharepoint-field.html"
         },                {
-            "fqsen": "\\Drupal\\o365_sharepoint_field\\Form",
-            "name": "Form",
-            "summary": "",
-            "url": "namespaces/drupal-o365-sharepoint-field-form.html"
-        },                {
-            "fqsen": "\\Drupal\\o365_sharepoint_field\\Plugin\\CKEditorPlugin",
-            "name": "CKEditorPlugin",
-            "summary": "",
-            "url": "namespaces/drupal-o365-sharepoint-field-plugin-ckeditorplugin.html"
-        },                {
-            "fqsen": "\\Drupal\\o365_sharepoint_field\\Plugin",
-            "name": "Plugin",
-            "summary": "",
-            "url": "namespaces/drupal-o365-sharepoint-field-plugin.html"
-        },                {
             "fqsen": "\\Drupal\\o365_sharepoint_field\\Plugin\\Field\\FieldFormatter",
             "name": "FieldFormatter",
             "summary": "",
@@ -2465,6 +3065,11 @@ Search.appendIndex(
             "name": "Field",
             "summary": "",
             "url": "namespaces/drupal-o365-sharepoint-field-plugin-field.html"
+        },                {
+            "fqsen": "\\Drupal\\o365_sharepoint_field\\Plugin",
+            "name": "Plugin",
+            "summary": "",
+            "url": "namespaces/drupal-o365-sharepoint-field-plugin.html"
         },                {
             "fqsen": "\\Drupal\\o365_sharepoint_field\\Plugin\\Field\\FieldType",
             "name": "FieldType",
@@ -2506,15 +3111,20 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/drupal-o365-sso-controller.html"
         },                {
-            "fqsen": "\\Drupal\\o365_sso",
-            "name": "o365_sso",
+            "fqsen": "\\Drupal\\o365_sso\\EventSubscriber",
+            "name": "EventSubscriber",
             "summary": "",
-            "url": "namespaces/drupal-o365-sso.html"
+            "url": "namespaces/drupal-o365-sso-eventsubscriber.html"
         },                {
             "fqsen": "\\Drupal\\o365_sso\\Form",
             "name": "Form",
             "summary": "",
             "url": "namespaces/drupal-o365-sso-form.html"
+        },                {
+            "fqsen": "\\Drupal\\o365_sso",
+            "name": "o365_sso",
+            "summary": "",
+            "url": "namespaces/drupal-o365-sso.html"
         },                {
             "fqsen": "\\Drupal\\o365_sso\\Routing",
             "name": "Routing",
@@ -2566,6 +3176,16 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/drupal-o365-controller.html"
         },                {
+            "fqsen": "\\Drupal\\o365\\Entity",
+            "name": "Entity",
+            "summary": "",
+            "url": "namespaces/drupal-o365-entity.html"
+        },                {
+            "fqsen": "\\Drupal\\o365\\EventSubscriber",
+            "name": "EventSubscriber",
+            "summary": "",
+            "url": "namespaces/drupal-o365-eventsubscriber.html"
+        },                {
             "fqsen": "\\Drupal\\o365\\Form",
             "name": "Form",
             "summary": "",
@@ -2580,5 +3200,20 @@ Search.appendIndex(
             "name": "Plugin",
             "summary": "",
             "url": "namespaces/drupal-o365-plugin.html"
+        },                {
+            "fqsen": "\\Drupal\\Tests\\o365\\Functional",
+            "name": "Functional",
+            "summary": "",
+            "url": "namespaces/drupal-tests-o365-functional.html"
+        },                {
+            "fqsen": "\\Drupal\\Tests\\o365",
+            "name": "o365",
+            "summary": "",
+            "url": "namespaces/drupal-tests-o365.html"
+        },                {
+            "fqsen": "\\Drupal\\Tests",
+            "name": "Tests",
+            "summary": "",
+            "url": "namespaces/drupal-tests.html"
         }            ]
 );

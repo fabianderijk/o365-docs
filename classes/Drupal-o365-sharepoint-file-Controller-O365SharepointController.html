@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-            <title>Documentation</title>
+            <title>Microsoft 365 Connector</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <base href="../">
@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
             <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/template.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
@@ -19,12 +19,13 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.css">
                 <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
         <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+        <script src="js/template.js"></script>
         <script src="js/search.js"></script>
         <script defer src="js/searchIndex.js"></script>
     </head>
 <body id="top">
     <header class="phpdocumentor-header phpdocumentor-section">
-    <h1 class="phpdocumentor-title"><a href="" class="phpdocumentor-title__link">Documentation</a></h1>
+    <h1 class="phpdocumentor-title"><a href="" class="phpdocumentor-title__link">Microsoft 365 Connector</a></h1>
     <input class="phpdocumentor-header__menu-button" type="checkbox" id="menu-button" name="menu-button" />
     <label class="phpdocumentor-header__menu-icon" for="menu-button">
         <i class="fas fa-bars"></i>
@@ -52,8 +53,8 @@
 <label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
     Menu
 </label>
-<aside class="phpdocumentor-column -four phpdocumentor-sidebar">
-                    <section class="phpdocumentor-sidebar__category">
+<aside class="phpdocumentor-column -three phpdocumentor-sidebar">
+                    <section class="phpdocumentor-sidebar__category -namespaces">
             <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
     <a href="namespaces/drupal.html" class="">Drupal</a>
@@ -88,6 +89,10 @@
                 
             </li>
                     <li>
+                <a href="namespaces/drupal-o365-profile-rest.html" class="">o365_profile_rest</a>
+                
+            </li>
+                    <li>
                 <a href="namespaces/drupal-o365-rest.html" class="">o365_rest</a>
                 
             </li>
@@ -115,10 +120,14 @@
                 <a href="namespaces/drupal-o365.html" class="">o365</a>
                 
             </li>
+                    <li>
+                <a href="namespaces/drupal-tests.html" class="">Tests</a>
+                
+            </li>
             </ul>
 
                         </section>
-                <section class="phpdocumentor-sidebar__category">
+                <section class="phpdocumentor-sidebar__category -packages">
             <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
     <a href="packages/Application.html" class="">Application</a>
@@ -136,21 +145,22 @@
 
                         </section>
             
-    <section class="phpdocumentor-sidebar__category">
+    <section class="phpdocumentor-sidebar__category -reports">
         <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
                 <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
     </section>
 
-    <section class="phpdocumentor-sidebar__category">
+    <section class="phpdocumentor-sidebar__category -indices">
         <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
     </section>
 </aside>
 
-            <div class="phpdocumentor-column -eight phpdocumentor-content">
-                    <ul class="phpdocumentor-breadcrumbs">
+            <div class="phpdocumentor-column -nine phpdocumentor-content">
+                                <section>
+                                        <ul class="phpdocumentor-breadcrumbs">
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/drupal.html">Drupal</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/drupal-o365-sharepoint-file.html">o365_sharepoint_file</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/drupal-o365-sharepoint-file-controller.html">Controller</a></li>
@@ -174,6 +184,13 @@
     
     </h2>
 
+<div class="phpdocumentor-label-line">
+
+    <div class="phpdocumentor-label phpdocumentor-label--success"><span>Final</span><span>Yes</span></div>
+
+
+</div>
+
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="modules/o365_sharepoint_file/src/Controller/O365SharepointController.php"><a href="files/modules-o365-sharepoint-file-src-controller-o365sharepointcontroller.html"><abbr title="modules/o365_sharepoint_file/src/Controller/O365SharepointController.php">O365SharepointController.php</abbr></a></abbr>
     :
@@ -193,67 +210,89 @@
 
 <h3 id="toc">
     Table of Contents
-    <a href="#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+
 </h3>
 
+
+
+
+
+
+
+
+
+<h4 id="toc-properties">
+    Properties
+    <a href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
 <dl class="phpdocumentor-table-of-contents">
-                    <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#property_extensionService">$extensionService</a>
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#property_mimey">$mimey</a>
     <span>
-                        &nbsp;: <abbr title="\Drupal\o365\ExtensionService">ExtensionService</abbr>            </span>
+                        &nbsp;: <abbr title="\Mimey\MimeTypes">MimeTypes</abbr>            </span>
 </dt>
-<dd>Drupal\o365\GraphService definition.</dd>
+<dd>The mimey object.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#property_o365Graph">$o365Graph</a>
+    <a class="" href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#property_o365Graph">$o365Graph</a>
     <span>
                         &nbsp;: <a href="classes/Drupal-o365-GraphService.html"><abbr title="\Drupal\o365\GraphService">GraphService</abbr></a>            </span>
 </dt>
 <dd>Drupal\o365\GraphService definition.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#property_request">$request</a>
+    <a class="" href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#property_request">$request</a>
     <span>
                         &nbsp;: <abbr title="\Symfony\Component\HttpFoundation\Request">Request</abbr>|null            </span>
 </dt>
 <dd>The current request.</dd>
 
-                <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#method___construct">__construct()</a>
+    </dl>
+
+<h4 id="toc-methods">
+    Methods
+    <a href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#method___construct">__construct()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
 <dd>Constructs a new TeamsGroup object.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#method_build">build()</a>
+    <a class="" href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#method_build">build()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
 <dd>{@inheritdoc}</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#method_create">create()</a>
+    <a class="" href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#method_create">create()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
 <dd>{@inheritdoc}</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#method_getFiles">getFiles()</a>
+    <a class="" href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#method_getFiles">getFiles()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
 <dd>{@inheritdoc}</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#method_getFileUrlAndExtension">getFileUrlAndExtension()</a>
+    <a class="" href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#method_getFileUrlAndExtension">getFileUrlAndExtension()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
 <dd>{@inheritdoc}</dd>
 
-        </dl>
+    </dl>
 
 
 
@@ -264,19 +303,21 @@
         <h3 class="phpdocumentor-elements__header" id="properties">
             Properties
             <a href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+
         </h3>
                     <article
         class="
             phpdocumentor-element
             -property
             -protected
-                                                        "
+                                                                    "
 >
-    <h4 class="phpdocumentor-element__name" id="property_extensionService">
-        $extensionService
-        <a href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#property_extensionService" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_mimey">
+        $mimey
+        <a href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#property_mimey" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="modules/o365_sharepoint_file/src/Controller/O365SharepointController.php"><a href="files/modules-o365-sharepoint-file-src-controller-o365sharepointcontroller.html"><abbr title="modules/o365_sharepoint_file/src/Controller/O365SharepointController.php">O365SharepointController.php</abbr></a></abbr>
@@ -285,16 +326,21 @@
 
     </aside>
 
-        <p class="phpdocumentor-summary">Drupal\o365\GraphService definition.</p>
+        <p class="phpdocumentor-summary">The mimey object.</p>
 
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type"><abbr title="\Drupal\o365\ExtensionService">ExtensionService</abbr></span>
-    <span class="phpdocumentor-signature__name">$extensionService</span>
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type"><abbr title="\Mimey\MimeTypes">MimeTypes</abbr></span>
+    <span class="phpdocumentor-signature__name">$mimey</span>
     </code>
 
     
     
+    
+
+    
+
     
 
 </article>
@@ -303,13 +349,14 @@
             phpdocumentor-element
             -property
             -protected
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_o365Graph">
         $o365Graph
         <a href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#property_o365Graph" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="modules/o365_sharepoint_file/src/Controller/O365SharepointController.php"><a href="files/modules-o365-sharepoint-file-src-controller-o365sharepointcontroller.html"><abbr title="modules/o365_sharepoint_file/src/Controller/O365SharepointController.php">O365SharepointController.php</abbr></a></abbr>
@@ -320,14 +367,19 @@
 
         <p class="phpdocumentor-summary">Drupal\o365\GraphService definition.</p>
 
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type"><a href="classes/Drupal-o365-GraphService.html"><abbr title="\Drupal\o365\GraphService">GraphService</abbr></a></span>
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/Drupal-o365-GraphService.html"><abbr title="\Drupal\o365\GraphService">GraphService</abbr></a></span>
     <span class="phpdocumentor-signature__name">$o365Graph</span>
     </code>
 
     
     
+    
+
+    
+
     
 
 </article>
@@ -336,13 +388,14 @@
             phpdocumentor-element
             -property
             -protected
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_request">
         $request
         <a href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#property_request" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="modules/o365_sharepoint_file/src/Controller/O365SharepointController.php"><a href="files/modules-o365-sharepoint-file-src-controller-o365sharepointcontroller.html"><abbr title="modules/o365_sharepoint_file/src/Controller/O365SharepointController.php">O365SharepointController.php</abbr></a></abbr>
@@ -353,14 +406,19 @@
 
         <p class="phpdocumentor-summary">The current request.</p>
 
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type"><abbr title="\Symfony\Component\HttpFoundation\Request">Request</abbr>|null</span>
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type"><abbr title="\Symfony\Component\HttpFoundation\Request">Request</abbr>|null</span>
     <span class="phpdocumentor-signature__name">$request</span>
     </code>
 
     
     
+    
+
+    
+
     
 
 </article>
@@ -370,6 +428,7 @@
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
             <a href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+
         </h3>
                     <article
         class="phpdocumentor-element
@@ -380,11 +439,12 @@
     <h4 class="phpdocumentor-element__name" id="method___construct">
         __construct()
         <a href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="modules/o365_sharepoint_file/src/Controller/O365SharepointController.php"><a href="files/modules-o365-sharepoint-file-src-controller-o365sharepointcontroller.html"><abbr title="modules/o365_sharepoint_file/src/Controller/O365SharepointController.php">O365SharepointController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">47</span>
+    <span class="phpdocumentor-element-found-in__line">45</span>
 
     </aside>
 
@@ -392,8 +452,11 @@
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Drupal-o365-GraphService.html"><abbr title="\Drupal\o365\GraphService">GraphService</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$o365_graph</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\HttpFoundation\RequestStack">RequestStack</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$requestStack</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Drupal\o365\ExtensionService">ExtensionService</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$extensionService</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Drupal-o365-GraphService.html"><abbr title="\Drupal\o365\GraphService">GraphService</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$o365_graph</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\HttpFoundation\RequestStack">RequestStack</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$requestStack</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
+    
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -415,23 +478,12 @@
 </section>
 
             </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$extensionService</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Drupal\o365\ExtensionService">ExtensionService</abbr></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><p>The Extension service.</p>
-</section>
-
-            </dd>
             </dl>
 
     
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
+    
+
     
 </article>
                     <article
@@ -443,11 +495,12 @@
     <h4 class="phpdocumentor-element__name" id="method_build">
         build()
         <a href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#method_build" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="modules/o365_sharepoint_file/src/Controller/O365SharepointController.php"><a href="files/modules-o365-sharepoint-file-src-controller-o365sharepointcontroller.html"><abbr title="modules/o365_sharepoint_file/src/Controller/O365SharepointController.php">O365SharepointController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">63</span>
+    <span class="phpdocumentor-element-found-in__line">61</span>
 
     </aside>
 
@@ -455,16 +508,17 @@
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">build</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">build</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
 
     
-    
-    
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
     
 </article>
                     <article
@@ -476,11 +530,12 @@
     <h4 class="phpdocumentor-element__name" id="method_create">
         create()
         <a href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#method_create" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="modules/o365_sharepoint_file/src/Controller/O365SharepointController.php"><a href="files/modules-o365-sharepoint-file-src-controller-o365sharepointcontroller.html"><abbr title="modules/o365_sharepoint_file/src/Controller/O365SharepointController.php">O365SharepointController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">56</span>
+    <span class="phpdocumentor-element-found-in__line">54</span>
 
     </aside>
 
@@ -488,8 +543,11 @@
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">create</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\DependencyInjection\ContainerInterface">ContainerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$container</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">create</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\DependencyInjection\ContainerInterface">ContainerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$container</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
+    
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -498,17 +556,14 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\DependencyInjection\ContainerInterface">ContainerInterface</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
+    
+
     
 </article>
                     <article
@@ -520,11 +575,12 @@
     <h4 class="phpdocumentor-element__name" id="method_getFiles">
         getFiles()
         <a href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#method_getFiles" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="modules/o365_sharepoint_file/src/Controller/O365SharepointController.php"><a href="files/modules-o365-sharepoint-file-src-controller-o365sharepointcontroller.html"><abbr title="modules/o365_sharepoint_file/src/Controller/O365SharepointController.php">O365SharepointController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">135</span>
+    <span class="phpdocumentor-element-found-in__line">133</span>
 
     </aside>
 
@@ -532,8 +588,11 @@
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-                <span class="phpdocumentor-signature__name">getFiles</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$driveId</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$fileId</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">getFiles</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$driveId</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$fileId</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
+    
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -542,25 +601,21 @@
                 : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$fileId</span>
                 : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
+    
+
     
 </article>
                     <article
@@ -572,11 +627,12 @@
     <h4 class="phpdocumentor-element__name" id="method_getFileUrlAndExtension">
         getFileUrlAndExtension()
         <a href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#method_getFileUrlAndExtension" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="modules/o365_sharepoint_file/src/Controller/O365SharepointController.php"><a href="files/modules-o365-sharepoint-file-src-controller-o365sharepointcontroller.html"><abbr title="modules/o365_sharepoint_file/src/Controller/O365SharepointController.php">O365SharepointController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">145</span>
+    <span class="phpdocumentor-element-found-in__line">143</span>
 
     </aside>
 
@@ -584,8 +640,11 @@
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-                <span class="phpdocumentor-signature__name">getFileUrlAndExtension</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$hit</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">getFileUrlAndExtension</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$hit</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
+    
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -594,85 +653,153 @@
                 : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
+    
+
     
 </article>
             </section>
 
-        
+        <div class="phpdocumentor-modal" id="source-view">
+    <div class="phpdocumentor-modal-bg" data-exit-button></div>
+    <div class="phpdocumentor-modal-container">
+        <div class="phpdocumentor-modal-content">
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/modules/o365_sharepoint_file/src/Controller/O365SharepointController.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+        </div>
+        <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
+    </div>
+</div>
+
     <script type="text/javascript">
-        function loadExternalCodeSnippets(line) {
-            Array.prototype.slice.call(document.querySelectorAll('pre[data-src]')).forEach((pre) => {
-                var src = pre.getAttribute('data-src').replace( /\\/g, '/');
-                var extension = (src.match(/\.(\w+)$/) || [, ''])[1];
-                var language = 'php';
+        (function () {
+            function loadExternalCodeSnippet(el, url, line) {
+                Array.prototype.slice.call(el.querySelectorAll('pre[data-src]')).forEach((pre) => {
+                    const src = url || pre.getAttribute('data-src').replace(/\\/g, '/');
+                    const language = 'php';
 
-                var code = document.createElement('code');
-                code.className = 'language-' + language;
+                    const code = document.createElement('code');
+                    code.className = 'language-' + language;
+                    pre.textContent = '';
+                    pre.setAttribute('data-line', line)
+                    code.textContent = 'Loading…';
+                    pre.appendChild(code);
 
-                pre.textContent = '';
+                    var xhr = new XMLHttpRequest();
 
-                pre.setAttribute('data-line', line)
-                code.textContent = 'Loading…';
+                    xhr.open('GET', src, true);
 
-                pre.appendChild(code);
-
-                var xhr = new XMLHttpRequest();
-
-                xhr.open('GET', src, true);
-
-                xhr.onreadystatechange = function () {
-                    if (xhr.readyState == 4) {
+                    xhr.onreadystatechange = function () {
+                        if (xhr.readyState !== 4) {
+                            return;
+                        }
 
                         if (xhr.status < 400 && xhr.responseText) {
                             code.textContent = xhr.responseText;
-
                             Prism.highlightElement(code);
+                            d=document.getElementsByClassName("line-numbers");
+                            d[0].scrollTop = d[0].children[1].offsetTop;
+                            return;
                         }
-                        else if (xhr.status >= 400) {
+
+                        if (xhr.status === 404) {
+                            code.textContent = '✖ Error: File could not be found';
+                            return;
+                        }
+
+                        if (xhr.status >= 400) {
                             code.textContent = '✖ Error ' + xhr.status + ' while fetching file: ' + xhr.statusText;
+                            return;
                         }
-                        else {
-                            code.textContent = '✖ Error: File does not exist, is empty or trying to view from localhost';
-                        }
+
+                        code.textContent = '✖ Error: An unknown error occurred';
+                    };
+
+                    xhr.send(null);
+                });
+            }
+
+            const modalButtons = document.querySelectorAll("[data-modal]");
+            const openedAsLocalFile = window.location.protocol === 'file:';
+            if (modalButtons.length > 0 && openedAsLocalFile) {
+                console.warn(
+                    'Viewing the source code is unavailable because you are opening this page from the file:// scheme; ' +
+                    'browsers block XHR requests when a page is opened this way'
+                );
+            }
+
+            modalButtons.forEach(function (trigger) {
+                if (openedAsLocalFile) {
+                    trigger.setAttribute("hidden", "hidden");
+                }
+
+                trigger.addEventListener("click", function (event) {
+                    event.preventDefault();
+                    const modal = document.getElementById(trigger.dataset.modal);
+                    if (!modal) {
+                        console.error(`Modal with id "${trigger.dataset.modal}" could not be found`);
+                        return;
                     }
-                };
+                    modal.classList.add("phpdocumentor-modal__open");
 
-                xhr.send(null);
-            });
-        }
-
-        var modals = document.querySelectorAll("[data-modal]");
-
-        modals.forEach(function (trigger) {
-            trigger.addEventListener("click", function (event) {
-                //event.preventDefault();
-                const modal = document.getElementById(trigger.dataset.modal);
-                modal.classList.add("phpdocumentor-modal__open");
-                loadExternalCodeSnippets(trigger.dataset.line)
-                const exits = modal.querySelectorAll("[data-exit-button]");
-                exits.forEach(function (exit) {
-                    exit.addEventListener("click", function (event) {
-                        event.preventDefault();
-                        modal.classList.remove("phpdocumentor-modal__open");
+                    loadExternalCodeSnippet(modal, trigger.dataset.src || null, trigger.dataset.line)
+                    const exits = modal.querySelectorAll("[data-exit-button]");
+                    exits.forEach(function (exit) {
+                        exit.addEventListener("click", function (event) {
+                            event.preventDefault();
+                            modal.classList.remove("phpdocumentor-modal__open");
+                        });
                     });
                 });
             });
-        });
+        })();
     </script>
 
     </article>
-                <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+                                </section>
+                <section class="phpdocumentor-on-this-page__sidebar">
+                                
+    <section class="phpdocumentor-on-this-page__content">
+        <strong class="phpdocumentor-on-this-page__title">On this page</strong>
+
+        <ul class="phpdocumentor-list -clean">
+            <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                                            <li><a href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#toc-methods">Methods</a></li>
+                                    </ul>
+            </li>
+            
+                            <li class="phpdocumentor-on-this-page-section__title">Properties</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#property_mimey">$mimey</a></li>
+                                                    <li class=""><a href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#property_o365Graph">$o365Graph</a></li>
+                                                    <li class=""><a href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#property_request">$request</a></li>
+                                            </ul>
+                </li>
+            
+                        <li class="phpdocumentor-on-this-page-section__title">Methods</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                            <li class=""><a href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#method___construct">__construct()</a></li>
+                                            <li class=""><a href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#method_build">build()</a></li>
+                                            <li class=""><a href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#method_create">create()</a></li>
+                                            <li class=""><a href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#method_getFiles">getFiles()</a></li>
+                                            <li class=""><a href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#method_getFileUrlAndExtension">getFileUrlAndExtension()</a></li>
+                                    </ul>
+            </li>
+                    </ul>
+    </section>
+
+                </section>
+                            </div>
+            <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
     <section class="phpdocumentor-search-results__dialog">
         <header class="phpdocumentor-search-results__header">
             <h2 class="phpdocumentor-search-results__title">Search results</h2>
@@ -683,7 +810,6 @@
         </section>
     </section>
 </section>
-            </div>
         </div>
         <a href="classes/Drupal-o365-sharepoint-file-Controller-O365SharepointController.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
