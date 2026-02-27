@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="index, follow, all" />
+    <title>Drupal\o365\AuthenticationServiceInterface | Microsoft 365 Connector API</title>
+
+            <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../../css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="../../css/doctum.css">
+        <link rel="stylesheet" type="text/css" href="../../fonts/doctum-font.css">
+        <script src="../../js/jquery-3.5.1.slim.min.js"></script>
+        <script async defer src="../../doctum.js"></script>
+        <script async defer src="../../js/bootstrap.min.js"></script>
+        <script async defer src="../../js/autocomplete.min.js"></script>
+        <meta name="MobileOptimized" content="width">
+        <meta name="HandheldFriendly" content="true">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+
+    </head>
+
+    <body id="class" data-name="class:Drupal_o365_AuthenticationServiceInterface" data-root-path="../../" data-search-index-url="../../doctum-search.json">
+            <div id="content">
+        <div id="left-column">
+                <div id="control-panel">
+                <div class="search-bar hidden" id="search-progress-bar-container">
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" id="search-progress-bar"
+                    aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
+            </div>
+        </div>
+        <form id="search-form" action="../../search.html">
+            <span class="icon icon-search"></span>
+            <input name="search"
+                   id="doctum-search-auto-complete"
+                   class="typeahead form-control"
+                   type="search"
+                   placeholder="Search"
+                   spellcheck="false"
+                   autocorrect="off"
+                   autocomplete="off"
+                   autocapitalize="off">
+            <div class="auto-complete-results" id="auto-complete-results"></div>
+        </form>
+    </div>
+
+                <div id="api-tree"></div>
+
+        </div>
+        <div id="right-column">
+                <nav id="site-nav" class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-elements">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../../index.html">Microsoft 365 Connector API</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-elements">
+                <ul class="nav navbar-nav">
+                    <li><a href="../../classes.html">Classes</a></li>
+                    <li><a href="../../namespaces.html">Namespaces</a></li>
+                    <li><a href="../../interfaces.html">Interfaces</a></li>
+                    <li><a href="../../traits.html">Traits</a></li>
+                    <li><a href="../../doc-index.html">Index</a></li>
+                    <li><a href="../../search.html">Search</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+                        <div class="namespace-breadcrumbs">
+            <ol class="breadcrumb">
+                <li><span class="label label-default">interface</span></li>
+                        <li><a href="../../Drupal.html">Drupal</a></li><li class="backslash">\</li><li><a href="../../Drupal/o365.html">o365</a></li><li class="backslash">\</li><li>AuthenticationServiceInterface</li>
+            </ol>
+        </div>
+                <div id="page-content">
+    <div class="page-header">
+        <h1>AuthenticationServiceInterface    
+            </h1>
+    </div>
+
+    
+    <p>        interface
+    <strong>AuthenticationServiceInterface</strong>
+</p>
+
+        
+        
+    
+        
+
+            <div class="description">
+            <p><p>The interface for the AuthenticationService.</p></p>                    </div>
+            
+        
+    
+    
+            <h2>Methods</h2>
+
+            <div class="container-fluid underlined">
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string|bool
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_checkForOfficeLogin">checkForOfficeLogin</a>()
+        
+                                            <p><p>Check if a user is logged in via Office.</p></p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string|false
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_getAccessToken">getAccessToken</a>(bool $login = FALSE)
+        
+                                            <p><p>Get the access token for the user.</p></p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_redirectToAuthorizationUrl">redirectToAuthorizationUrl</a>(<a href="../../Drupal/o365/O365ConnectorInterface.html"><abbr title="Drupal\o365\O365ConnectorInterface">O365ConnectorInterface</abbr></a> $o365_connector)
+        
+                                            <p><p>Redirect the user to the correct Microsoft pages for OAuth2.</p></p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_saveAuthDataFromUrl">saveAuthDataFromUrl</a>()
+        
+                                            <p><p>Save the auth data from the url parameters in the user session storage.</p></p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_setAccessToken">setAccessToken</a>(string $code, <a href="../../Drupal/o365/O365ConnectorInterface.html"><abbr title="Drupal\o365\O365ConnectorInterface">O365ConnectorInterface</abbr></a> $o365_connector, string $redirect = &#039;&#039;)
+        
+                                            <p><p>Generate and save the access token.</p></p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+            </div>
+
+
+        <h2>Details</h2>
+
+            <div id="method-details">
+                    <div class="method-item">
+                    <h3 id="method_checkForOfficeLogin">
+        <div class="location">at line 63</div>
+        <code>                    string|bool
+    <strong>checkForOfficeLogin</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+            
+    
+            
+
+        <div class="method-description">
+                            <p><p>Check if a user is logged in via Office.</p></p>                        
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string|bool</td>
+            <td><p>The users ID or FALSE if not logged in via Office.</p></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getAccessToken">
+        <div class="location">at line 48</div>
+        <code>                    string|false
+    <strong>getAccessToken</strong>(bool $login = FALSE)
+        </code>
+    </h3>
+    <div class="details">    
+            
+    
+            
+
+        <div class="method-description">
+                            <p><p>Get the access token for the user.</p></p>                        
+        </div>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>bool</td>
+                <td>$login</td>
+                <td><p>If we want to log in the user if there is no token.</p></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string|false</td>
+            <td><p>The access token or false when no token is provided.</p></td>
+        </tr>
+    </table>
+
+            
+                            <h4>Exceptions</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td><abbr title="Drupal\Core\TempStore\TempStoreException">TempStoreException</abbr></td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td><abbr title="League\OAuth2\Client\Provider\Exception\IdentityProviderException">IdentityProviderException</abbr></td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_redirectToAuthorizationUrl">
+        <div class="location">at line 19</div>
+        <code>                    mixed
+    <strong>redirectToAuthorizationUrl</strong>(<a href="../../Drupal/o365/O365ConnectorInterface.html"><abbr title="Drupal\o365\O365ConnectorInterface">O365ConnectorInterface</abbr></a> $o365_connector)
+        </code>
+    </h3>
+    <div class="details">    
+            
+    
+            
+
+        <div class="method-description">
+                            <p><p>Redirect the user to the correct Microsoft pages for OAuth2.</p></p>                        
+        </div>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td><a href="../../Drupal/o365/O365ConnectorInterface.html"><abbr title="Drupal\o365\O365ConnectorInterface">O365ConnectorInterface</abbr></a></td>
+                <td>$o365_connector</td>
+                <td><p>The o365_connector entity type.</p></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed</td>
+            <td><p>The response, probably a redirect.</p></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_saveAuthDataFromUrl">
+        <div class="location">at line 55</div>
+        <code>                    void
+    <strong>saveAuthDataFromUrl</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+            
+    
+            
+
+        <div class="method-description">
+                            <p><p>Save the auth data from the url parameters in the user session storage.</p></p>                        
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+                            <h4>Exceptions</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td><abbr title="Drupal\Core\TempStore\TempStoreException">TempStoreException</abbr></td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setAccessToken">
+        <div class="location">at line 34</div>
+        <code>                    
+    <strong>setAccessToken</strong>(string $code, <a href="../../Drupal/o365/O365ConnectorInterface.html"><abbr title="Drupal\o365\O365ConnectorInterface">O365ConnectorInterface</abbr></a> $o365_connector, string $redirect = &#039;&#039;)
+        </code>
+    </h3>
+    <div class="details">    
+            
+    
+            
+
+        <div class="method-description">
+                            <p><p>Generate and save the access token.</p></p>                        
+        </div>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$code</td>
+                <td><p>The code we got from Microsoft.</p></td>
+            </tr>
+                    <tr>
+                <td><a href="../../Drupal/o365/O365ConnectorInterface.html"><abbr title="Drupal\o365\O365ConnectorInterface">O365ConnectorInterface</abbr></a></td>
+                <td>$o365_connector</td>
+                <td><p>The o365_connector entity type.</p></td>
+            </tr>
+                    <tr>
+                <td>string</td>
+                <td>$redirect</td>
+                <td><p>An url where to redirect to.</p></td>
+            </tr>
+            </table>
+
+            
+            
+                            <h4>Exceptions</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td><abbr title="Drupal\Core\TempStore\TempStoreException">TempStoreException</abbr></td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td><abbr title="League\OAuth2\Client\Provider\Exception\IdentityProviderException">IdentityProviderException</abbr></td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+            </div>
+
+    
+</div><div id="footer">
+        Generated by <a href="https://github.com/code-lts/doctum">Doctum, a API Documentation generator and fork of Sami</a>.</div></div>
+    </div>
+    </body>
+
+</html>

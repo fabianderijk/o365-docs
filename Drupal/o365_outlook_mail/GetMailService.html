@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="index, follow, all" />
+    <title>Drupal\o365_outlook_mail\GetMailService | Microsoft 365 Connector API</title>
+
+            <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../../css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="../../css/doctum.css">
+        <link rel="stylesheet" type="text/css" href="../../fonts/doctum-font.css">
+        <script src="../../js/jquery-3.5.1.slim.min.js"></script>
+        <script async defer src="../../doctum.js"></script>
+        <script async defer src="../../js/bootstrap.min.js"></script>
+        <script async defer src="../../js/autocomplete.min.js"></script>
+        <meta name="MobileOptimized" content="width">
+        <meta name="HandheldFriendly" content="true">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+
+    </head>
+
+    <body id="class" data-name="class:Drupal_o365_outlook_mail_GetMailService" data-root-path="../../" data-search-index-url="../../doctum-search.json">
+            <div id="content">
+        <div id="left-column">
+                <div id="control-panel">
+                <div class="search-bar hidden" id="search-progress-bar-container">
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" id="search-progress-bar"
+                    aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
+            </div>
+        </div>
+        <form id="search-form" action="../../search.html">
+            <span class="icon icon-search"></span>
+            <input name="search"
+                   id="doctum-search-auto-complete"
+                   class="typeahead form-control"
+                   type="search"
+                   placeholder="Search"
+                   spellcheck="false"
+                   autocorrect="off"
+                   autocomplete="off"
+                   autocapitalize="off">
+            <div class="auto-complete-results" id="auto-complete-results"></div>
+        </form>
+    </div>
+
+                <div id="api-tree"></div>
+
+        </div>
+        <div id="right-column">
+                <nav id="site-nav" class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-elements">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../../index.html">Microsoft 365 Connector API</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-elements">
+                <ul class="nav navbar-nav">
+                    <li><a href="../../classes.html">Classes</a></li>
+                    <li><a href="../../namespaces.html">Namespaces</a></li>
+                    <li><a href="../../interfaces.html">Interfaces</a></li>
+                    <li><a href="../../traits.html">Traits</a></li>
+                    <li><a href="../../doc-index.html">Index</a></li>
+                    <li><a href="../../search.html">Search</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+                        <div class="namespace-breadcrumbs">
+            <ol class="breadcrumb">
+                <li><span class="label label-default">class</span></li>
+                        <li><a href="../../Drupal.html">Drupal</a></li><li class="backslash">\</li><li><a href="../../Drupal/o365_outlook_mail.html">o365_outlook_mail</a></li><li class="backslash">\</li><li>GetMailService</li>
+            </ol>
+        </div>
+                <div id="page-content">
+    <div class="page-header">
+        <h1>GetMailService    
+            </h1>
+    </div>
+
+    
+    <p>        class
+    <strong>GetMailService</strong>        implements        <a href="../../Drupal/o365_outlook_mail/GetMailServiceInterface.html"><abbr title="Drupal\o365_outlook_mail\GetMailServiceInterface">GetMailServiceInterface</abbr></a>
+</p>
+
+        
+        
+    
+        
+
+            <div class="description">
+            <p><p>This service retrieves emails for the currently logged in user.</p></p>                    </div>
+            
+                <h2>Traits</h2>
+
+        
+    <div class="container-fluid underlined">
+                    <div class="row">
+                <div class="col-md-6">
+                    <abbr title="Drupal\Core\StringTranslation\StringTranslationTrait">StringTranslationTrait</abbr>    </div>
+                <div class="col-md-6"></div>
+            </div>
+            </div>
+    
+    
+            <h2>Properties</h2>
+
+            <table class="table table-condensed">
+                    <tr>
+                <td class="type" id="property_dateFormatter">
+                                        protected                                        <abbr title="Drupal\Core\Datetime\DateFormatterInterface">DateFormatterInterface</abbr>
+                                                                                
+                                    </td>
+                <td>$dateFormatter</td>
+                <td class="last"><p>The date formatter service.</p></td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_o365Graph">
+                                        protected                                        <a href="../../Drupal/o365/GraphService.html"><abbr title="Drupal\o365\GraphService">GraphService</abbr></a>
+                                                                                
+                                    </td>
+                <td>$o365Graph</td>
+                <td class="last"><p>Drupal\o365\GraphService definition.</p></td>
+                <td></td>
+            </tr>
+            </table>
+
+    
+            <h2>Methods</h2>
+
+            <div class="container-fluid underlined">
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8">
+                    <a href="#method___construct">__construct</a>(<a href="../../Drupal/o365/GraphService.html"><abbr title="Drupal\o365\GraphService">GraphService</abbr></a> $o365_graph, <abbr title="Drupal\Core\Datetime\DateFormatterInterface">DateFormatterInterface</abbr> $dateFormatter)
+        
+                                            <p><p>Constructs a new GetMailService object.</p></p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    array
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_generateMailList">generateMailList</a>(array $mailData, string $type = &#039;page&#039;)
+        
+                                            <p><p>Generate a rendered list of emails.</p></p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    array|bool
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_getMail">getMail</a>(int $limit = 10, array $fields = [])
+        
+                                            <p><p>Get the users mails.</p></p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    array|bool
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_getUnreadMail">getUnreadMail</a>(int $limit = 5, array $fields = [])
+        
+                                            <p><p>Get the users unread mails.</p></p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+            </div>
+
+
+        <h2>Details</h2>
+
+            <div id="method-details">
+                    <div class="method-item">
+                    <h3 id="method___construct">
+        <div class="location">at line 41</div>
+        <code>                    
+    <strong>__construct</strong>(<a href="../../Drupal/o365/GraphService.html"><abbr title="Drupal\o365\GraphService">GraphService</abbr></a> $o365_graph, <abbr title="Drupal\Core\Datetime\DateFormatterInterface">DateFormatterInterface</abbr> $dateFormatter)
+        </code>
+    </h3>
+    <div class="details">    
+            
+    
+            
+
+        <div class="method-description">
+                            <p><p>Constructs a new GetMailService object.</p></p>                        
+        </div>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td><a href="../../Drupal/o365/GraphService.html"><abbr title="Drupal\o365\GraphService">GraphService</abbr></a></td>
+                <td>$o365_graph</td>
+                <td><p>The GraphService definition.</p></td>
+            </tr>
+                    <tr>
+                <td><abbr title="Drupal\Core\Datetime\DateFormatterInterface">DateFormatterInterface</abbr></td>
+                <td>$dateFormatter</td>
+                <td><p>The date formatter service.</p></td>
+            </tr>
+            </table>
+
+            
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_generateMailList">
+        <div class="location">at line 85</div>
+        <code>                    array
+    <strong>generateMailList</strong>(array $mailData, string $type = &#039;page&#039;)
+        </code>
+    </h3>
+    <div class="details">    
+            
+    
+            
+
+        <div class="method-description">
+                            <p><p>Generate a rendered list of emails.</p></p>                        
+        </div>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>array</td>
+                <td>$mailData</td>
+                <td><p>The mail data to process.</p></td>
+            </tr>
+                    <tr>
+                <td>string</td>
+                <td>$type</td>
+                <td><p>The type of output we need so we can differentiate between pages/blocks.</p></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>array</td>
+            <td><p>The render array with the list of mails.</p></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getMail">
+        <div class="location">at line 49</div>
+        <code>                    array|bool
+    <strong>getMail</strong>(int $limit = 10, array $fields = [])
+        </code>
+    </h3>
+    <div class="details">    
+            
+    
+            
+
+        <div class="method-description">
+                            <p><p>Get the users mails.</p></p>                        
+        </div>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>int</td>
+                <td>$limit</td>
+                <td><p>The number of mails to get.</p></td>
+            </tr>
+                    <tr>
+                <td>array</td>
+                <td>$fields</td>
+                <td><p>The fields we want to get. If empty all fields will be returned.</p></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>array|bool</td>
+            <td><p>The list of mails or FALSE if no mails.</p></td>
+        </tr>
+    </table>
+
+            
+                            <h4>Exceptions</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td><abbr title="Drupal\Core\TempStore\TempStoreException">TempStoreException</abbr></td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td><abbr title="League\OAuth2\Client\Provider\Exception\IdentityProviderException">IdentityProviderException</abbr></td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td><abbr title="Microsoft\Graph\Exception\GraphException">GraphException</abbr></td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getUnreadMail">
+        <div class="location">at line 67</div>
+        <code>                    array|bool
+    <strong>getUnreadMail</strong>(int $limit = 5, array $fields = [])
+        </code>
+    </h3>
+    <div class="details">    
+            
+    
+            
+
+        <div class="method-description">
+                            <p><p>Get the users unread mails.</p></p>                        
+        </div>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>int</td>
+                <td>$limit</td>
+                <td><p>The number of mails to get.</p></td>
+            </tr>
+                    <tr>
+                <td>array</td>
+                <td>$fields</td>
+                <td><p>The fields we want to get. If empty all fields will be returned.</p></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>array|bool</td>
+            <td><p>The list of mails or FALSE if no mails.</p></td>
+        </tr>
+    </table>
+
+            
+                            <h4>Exceptions</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td><abbr title="Drupal\Core\TempStore\TempStoreException">TempStoreException</abbr></td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td><abbr title="League\OAuth2\Client\Provider\Exception\IdentityProviderException">IdentityProviderException</abbr></td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td><abbr title="Microsoft\Graph\Exception\GraphException">GraphException</abbr></td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+            </div>
+
+    
+</div><div id="footer">
+        Generated by <a href="https://github.com/code-lts/doctum">Doctum, a API Documentation generator and fork of Sami</a>.</div></div>
+    </div>
+    </body>
+
+</html>
